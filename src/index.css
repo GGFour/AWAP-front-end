@@ -4,21 +4,21 @@
  ----
 */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: #0c0c0c;
-  color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0c0c0c;
+    color: white;
 }
 
 .container {
-  display: grid;
-  grid-template-rows: 8rem 1fr;
+    display: grid;
+    grid-template-rows: 8rem 1fr;
 }
 .container a,
 h1,
 p {
-  font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 /*
  ----
@@ -26,28 +26,28 @@ p {
  ----
 */
 .navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 .navbar a {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 4px;
 }
 
 .navbar-right {
-  width: 12.5rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    width: 12.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .arrow-down {
-  color: white;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+    color: white;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 
 /*
@@ -56,28 +56,28 @@ p {
  ----
 */
 .body {
-  height: 100vh;
+    height: 100vh;
 }
 .body,
 .body-text {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .body-text {
-  height: 50%;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
 }
 
 .body-text h1,
 p {
-  text-transform: uppercase;
-  letter-spacing: 4px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 .body-text h1 {
-  font-size: 4.8rem;
+    font-size: 4.8rem;
 }
 /*
  ----
@@ -85,16 +85,16 @@ p {
  ----
 */
 @media (max-width: 650px) {
-  .navbar-left a {
-    display: none;
-  }
-  .navbar-right {
-    font-size: 2.3vw;
-  }
-  .body-text h1 {
-    font-size: 2.4rem;
-  }
-  .body-text p {
-    font-size: 2vw;
-  }
+    .navbar-left a {
+        display: none;
+    }
+    .navbar-right {
+        font-size: 2.3vw;
+    }
+    .body-text h1 {
+        font-size: 2.4rem;
+    }
+    .body-text p {
+        font-size: 2vw;
+    }
 }
