@@ -7,19 +7,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-rows: 8rem 1fr;
     background-color: #0c0c0c;
     color: white;
 }
 
-.container {
-    display: grid;
-    grid-template-rows: 8rem 1fr;
-}
-.container a,
-h1,
-p {
-    font-family: 'Open Sans', sans-serif;
-}
 /*
  ----
  NAVBAR
@@ -36,6 +32,7 @@ p {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 4px;
+    color: white;
 }
 
 .navbar-right {
@@ -48,6 +45,121 @@ p {
     color: white;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+}
+
+/*
+-------
+LOGIN & SIGNUP POPUP 
+DESGIN
+-------
+*/
+
+.main {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    transform: translate(-50%, -50%);
+    transform: scale(1.1);
+    backdrop-filter: blur(2px);
+}
+.popup {
+    display: flex;
+    flex-direction: column;
+    height: 35rem;
+    width: 20rem;
+    position: absolute;
+    top: 25%;
+    right: 40%;
+    background-color: #212529;
+    padding: 0.5rem;
+    color: white;
+    /* align-self: center; */
+    font-size: 8px;
+    border-radius: 1rem;
+}
+
+.form-container form,
+.form-container {
+    height: auto;
+}
+
+.form-container form,
+.form-container form div {
+    display: flex;
+    flex-direction: column;
+}
+.form-container form div {
+    gap: 0.3rem;
+    padding: 0.5rem;
+}
+.closing-btn {
+    align-self: flex-end;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.signup-header,
+.login-header {
+    padding-bottom: 1rem;
+    align-self: center;
+}
+
+.popup form input {
+    border: none;
+    border: 1px solid #7a76ff;
+    border-radius: 1rem;
+    outline: none;
+    height: 2rem;
+    background-color: #ddd;
+    padding-left: 1rem;
+}
+
+.popup label {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.button-div {
+    margin-top: 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.errorMes {
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+input:invalid[focused='true'] {
+    border: 1px solid red;
+}
+
+input:invalid[focused='true'] ~ .errorMes {
+    display: block;
+}
+.button-div button {
+    background-color: #7a76ff;
+    border-radius: 1rem;
+    color: black;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+    align-self: center;
+}
+
+.popup a {
+    font-size: 10px;
+    font-weight: bold;
+    color: #7a76ff;
 }
 
 /*
@@ -78,6 +190,9 @@ p {
 }
 .body-text h1 {
     font-size: 4.8rem;
+}
+.body-text p {
+    color: #a2aab8;
 }
 /*
  ----
