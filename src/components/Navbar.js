@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Signup from './Signup'
 import Login from './Login'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   const [signupStatus, setSignupStatus] = useState(false)
@@ -19,7 +20,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className=" navbar-left">
-        <a href="">visualization</a>
+        <Link to="/visualizations">Visualizations</Link>
       </div>
       <div className="hidden"></div>
       <div></div>
