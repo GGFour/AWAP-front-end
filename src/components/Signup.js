@@ -12,7 +12,6 @@ function Signup() {
       </div>
       <Form signUp={true} handleSubmit={handleSubmit}></Form>
       <div className="button-div">
-        <button>Submit</button>
         <p>
           Already have an account? <a href="#">Login</a>
         </p>
