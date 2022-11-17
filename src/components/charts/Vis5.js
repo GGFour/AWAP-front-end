@@ -67,7 +67,7 @@ function Vis5() {
   }, [data])
 
   function generateCo2Data(data) {
-    const CO2Datasets = [
+    const cO2Datasets = [
       {
         label: 'Vostok Ice Core CO2 measurements',
         data: data.filter((item) => item['CO2 concentration']),
@@ -76,7 +76,7 @@ function Vis5() {
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
       },
     ]
-    return CO2Datasets
+    return cO2Datasets
   }
 
   return (

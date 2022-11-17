@@ -67,7 +67,7 @@ function Vis6() {
   }, [data])
 
   function generateIceCoreData(data) {
-    const IceCoreDatasets = [
+    const iceCoreDatasets = [
       {
         label: 'Ice core 800k year composite study CO2 measurements',
         data: data.filter((item) => item['CO2 concentration (ppm)']),
@@ -76,7 +76,7 @@ function Vis6() {
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
       },
     ]
-    return IceCoreDatasets
+    return iceCoreDatasets
   }
 
   return (

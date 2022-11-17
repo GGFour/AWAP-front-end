@@ -25,63 +25,6 @@ ChartJS.register(
   zoomPlugin
 )
 
-export const options = {
-  type: 'line',
-  responsive: true,
-  parsing: {
-    xAxisKey: 'decimal date',
-    yAxisKey: 'monthly average',
-  },
-  plugins: {
-    legend: {
-      position: 'top',
-    },
-    title: {
-      display: true,
-      text: 'Chart.js Line Chart',
-    },
-    zoom: {
-      zoom: {
-        wheel: {
-          enabled: true,
-        },
-        pinch: {
-          enabled: true,
-        },
-        mode: 'x',
-      },
-    },
-  },
-}
-export const options2 = {
-  type: 'line',
-  responsive: true,
-  parsing: {
-    xAxisKey: 'year',
-    yAxisKey: 'mean',
-  },
-  plugins: {
-    legend: {
-      position: 'top',
-    },
-    title: {
-      display: true,
-      text: 'Chart.js Line Chart',
-    },
-    zoom: {
-      zoom: {
-        wheel: {
-          enabled: true,
-        },
-        pinch: {
-          enabled: true,
-        },
-        mode: 'x',
-      },
-    },
-  },
-}
-
 function Vis3() {
   const [show, setShow] = useState(true)
   const [data, setData] = useState([])
@@ -89,49 +32,97 @@ function Vis3() {
 
   useEffect(() => {
     {
-      show ? setData(DATA) : setData(DATA2)
-      show
-        ? setDatasets(generateAnnualData(data))
-        : setDatasets(generateMonthyData(data))
+      generateAnnualData()
     }
-  }, [show, datasets, data])
+  }, [data])
 
-  function generateAnnualData(data) {
-    const MeanDatasets = [
-      {
-        label: 'Mauna Loa CO2 annual mean data',
-        data: data.filter((item) => item['mean']),
-        showLine: true,
-        borderColor: 'rgb(99, 255, 132)',
-        backgroundColor: 'rgba(255, 99, 132, 0.5)',
-      },
-    ]
-    return MeanDatasets
+  function toggleData() {
+    setShow(!show)
+    generateAnnualData()
+    setData(show ? DATA : DATA2)
   }
-  function generateMonthyData(data) {
+
+  function generateAnnualData() {
     const datasets = [
       {
-        label: 'Mauna Loa CO2 monthly mean data',
-        data: data.filter((item) => item['monthly average']),
+        label: `${
+          show
+            ? 'Mauna Loa CO2 annual mean data'
+            : 'Mauna Loa CO2 monthly mean data'
+        }`,
+        data: data,
         showLine: true,
-        borderColor: 'rgb(255, 99, 132)',
+        borderColor: `${show ? 'rgb(99, 255, 132)' : 'rgb(255, 99, 132)'}`,
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
       },
     ]
-    return datasets
+    setDatasets(datasets)
+  }
+
+  const options = {
+    type: 'line',
+    responsive: true,
+
+    parsing: {
+      xAxisKey: `${show ? 'decimal date' : 'year'}`,
+      yAxisKey: `${show ? 'monthly average' : 'mean'}`,
+    },
+
+    scales: {
+      x: {
+        title: {
+          display: true,
+          text: `${show ? 'decimal date' : 'year'}`,
+        },
+      },
+      y: {
+        title: {
+          display: true,
+          text: `${show ? 'monthly average' : 'mean'}`,
+        },
+      },
+    },
+    plugins: {
+      legend: {
+        position: 'top',
+      },
+      title: {
+        display: true,
+        text: `${
+          show
+            ? 'Mauna Loa CO2 monthy mean data'
+            : 'Mauna Loa CO2 annual mean data'
+        }`,
+      },
+      zoom: {
+        zoom: {
+          wheel: {
+            enabled: true,
+          },
+          pan: {
+            enabled: true,
+            mode: 'x',
+          },
+          pinch: {
+            enabled: true,
+          },
+          mode: 'x',
+        },
+      },
+    },
   }
 
   return (
     <>
       <div>Vis3</div>
       <div>Data length: {data.length}</div>
-      <button onClick={() => setShow(!show)}>
+      <button onClick={() => toggleData()}>
         {' '}
-        {show ? 'Annual' : 'Monthly'}
+        {show ? 'Show Monthly Data' : 'Show Annual Data'}
       </button>
       <Scatter
         data={{ datasets: datasets }}
-        options={show ? options : options2}
+        options={show ? options : options}
       />
     </>
   )

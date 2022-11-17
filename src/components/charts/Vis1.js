@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { Line } from 'react-chartjs-2'
+import { Scatter } from 'react-chartjs-2'
 import DATA from '../../data/vis1/vis1.json'
 import zoomPlugin from 'chartjs-plugin-zoom'
-import 'chartjs-adapter-luxon'
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -10,7 +9,6 @@ import {
   PointElement,
   LineElement,
   Title,
-  TimeScale,
   Tooltip,
   Legend,
 } from 'chart.js'
@@ -21,32 +19,16 @@ ChartJS.register(
   PointElement,
   LineElement,
   Title,
-  TimeScale,
   Tooltip,
   Legend,
   zoomPlugin
 )
-
 export const options = {
+  type: 'line',
   responsive: true,
   parsing: {
     xAxisKey: 'Time',
     yAxisKey: 'Anomaly (deg C)',
-  },
-  scales: {
-    x: {
-      type: 'time',
-      title: {
-        display: true,
-        text: 'Date',
-      },
-    },
-    y: {
-      title: {
-        display: true,
-        text: 'Temperature ℃',
-      },
-    },
   },
   plugins: {
     legend: {
@@ -54,13 +36,9 @@ export const options = {
     },
     title: {
       display: true,
-      text: 'Temperature in hemisphere',
+      text: 'Chart.js Line Chart',
     },
     zoom: {
-      pan: {
-        enabled: true,
-        mode: 'x',
-      },
       zoom: {
         wheel: {
           enabled: true,
@@ -77,25 +55,19 @@ export const options = {
 function Vis1() {
   const [data, setData] = useState([])
   const [datasets, setDatasets] = useState([])
-  const [annual, setAnnual] = useState(true)
 
   useEffect(() => {
     setData(DATA)
-    generateDatasets()
+    setDatasets(generateAnnualData(data))
   }, [data])
 
-  function toggleAnnual() {
-    setAnnual(!annual)
-    generateDatasets()
-  }
-
-  function generateDatasets() {
+  function generateAnnualData(data) {
     const tempDatasets = [
       {
         label: 'Northern Hemisphere Temperature',
         data: data.filter(
           (item) =>
-            item['Hemisphere'] === 'Northern' && item['Annual'] === annual
+            item['Hemisphere'] === 'Northen' && item['Annual'] === 'TRUE'
         ),
         showLine: true,
         borderColor: 'rgb(255, 99, 132)',
@@ -105,32 +77,22 @@ function Vis1() {
         label: 'Southern Hemisphere Temperature',
         data: data.filter(
           (item) =>
-            item['Hemisphere'] === 'Southern' && item['Annual'] === annual
+            item['Hemisphere'] === 'Southern' && item['Annual'] === 'TRUE'
         ),
         showLine: true,
         borderColor: 'rgb(99, 255, 132)',
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
       },
-      {
-        label: 'Global Temperature',
-        data: data.filter(
-          (item) => item['Hemisphere'] === 'Global' && item['Annual'] === annual
-        ),
-        showLine: true,
-        borderColor: 'rgb(99, 99, 255)',
-        backgroundColor: 'rgba(255, 99, 132, 0.5)',
-      },
     ]
-    setDatasets(tempDatasets)
+    // console.log(tempDatasets[0].data.length)
+    return tempDatasets
   }
 
   return (
     <>
-      <h2>Vis1</h2>
-      <button onClick={() => toggleAnnual()}>
-        {annual ? 'Annual' : 'Monthly'}
-      </button>
-      <Line data={{ datasets: datasets }} options={options} />
+      <div>Vis1</div>
+      <div>Data length: {data.length}</div>
+      <Scatter data={{ datasets: datasets }} options={options} />
     </>
   )
 }

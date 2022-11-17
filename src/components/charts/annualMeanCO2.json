@@ -1,0 +1,317 @@
+[
+  {
+    "year": 1959,
+    "mean": 315.98,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1960,
+    "mean": 316.91,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1961,
+    "mean": 317.64,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1962,
+    "mean": 318.45,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1963,
+    "mean": 318.99,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1964,
+    "mean": 319.62,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1965,
+    "mean": 320.04,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1966,
+    "mean": 321.37,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1967,
+    "mean": 322.18,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1968,
+    "mean": 323.05,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1969,
+    "mean": 324.62,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1970,
+    "mean": 325.68,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1971,
+    "mean": 326.32,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1972,
+    "mean": 327.46,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1973,
+    "mean": 329.68,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1974,
+    "mean": 330.19,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1975,
+    "mean": 331.13,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1976,
+    "mean": 332.03,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1977,
+    "mean": 333.84,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1978,
+    "mean": 335.41,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1979,
+    "mean": 336.84,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1980,
+    "mean": 338.76,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1981,
+    "mean": 340.12,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1982,
+    "mean": 341.48,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1983,
+    "mean": 343.15,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1984,
+    "mean": 344.87,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1985,
+    "mean": 346.35,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1986,
+    "mean": 347.61,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1987,
+    "mean": 349.31,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1988,
+    "mean": 351.69,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1989,
+    "mean": 353.2,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1990,
+    "mean": 354.45,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1991,
+    "mean": 355.7,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1992,
+    "mean": 356.54,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1993,
+    "mean": 357.21,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1994,
+    "mean": 358.96,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1995,
+    "mean": 360.97,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1996,
+    "mean": 362.74,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1997,
+    "mean": 363.88,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1998,
+    "mean": 366.84,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 1999,
+    "mean": 368.54,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2000,
+    "mean": 369.71,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2001,
+    "mean": 371.32,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2002,
+    "mean": 373.45,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2003,
+    "mean": 375.98,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2004,
+    "mean": 377.7,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2005,
+    "mean": 379.98,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2006,
+    "mean": 382.09,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2007,
+    "mean": 384.02,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2008,
+    "mean": 385.83,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2009,
+    "mean": 387.64,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2010,
+    "mean": 390.1,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2011,
+    "mean": 391.85,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2012,
+    "mean": 394.06,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2013,
+    "mean": 396.74,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2014,
+    "mean": 398.81,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2015,
+    "mean": 401.01,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2016,
+    "mean": 404.41,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2017,
+    "mean": 406.76,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2018,
+    "mean": 408.72,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2019,
+    "mean": 411.66,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2020,
+    "mean": 414.24,
+    "uncertainty": 0.12
+  },
+  {
+    "year": 2021,
+    "mean": 416.45,
+    "uncertainty": 0.12
+  }
+]

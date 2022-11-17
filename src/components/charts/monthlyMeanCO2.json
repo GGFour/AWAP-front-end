@@ -1,0 +1,7762 @@
+[
+  {
+    "year": 1958,
+    "month": 3,
+    "decimal date": 1958.2027,
+    "monthly average": 315.7,
+    "de-seasonalized": 314.43,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1958,
+    "month": 4,
+    "decimal date": 1958.2877,
+    "monthly average": 317.45,
+    "de-seasonalized": 315.16,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1958,
+    "month": 5,
+    "decimal date": 1958.3699,
+    "monthly average": 317.51,
+    "de-seasonalized": 314.71,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1958,
+    "month": 6,
+    "decimal date": 1958.4548,
+    "monthly average": 317.24,
+    "de-seasonalized": 315.14,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1958,
+    "month": 7,
+    "decimal date": 1958.537,
+    "monthly average": 315.86,
+    "de-seasonalized": 315.18,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1958,
+    "month": 8,
+    "decimal date": 1958.6219,
+    "monthly average": 314.93,
+    "de-seasonalized": 316.18,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1958,
+    "month": 9,
+    "decimal date": 1958.7068,
+    "monthly average": 313.2,
+    "de-seasonalized": 316.08,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1958,
+    "month": 10,
+    "decimal date": 1958.789,
+    "monthly average": 312.43,
+    "de-seasonalized": 315.41,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1958,
+    "month": 11,
+    "decimal date": 1958.874,
+    "monthly average": 313.33,
+    "de-seasonalized": 315.2,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1958,
+    "month": 12,
+    "decimal date": 1958.9562,
+    "monthly average": 314.67,
+    "de-seasonalized": 315.43,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1959,
+    "month": 1,
+    "decimal date": 1959.0411,
+    "monthly average": 315.58,
+    "de-seasonalized": 315.55,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1959,
+    "month": 2,
+    "decimal date": 1959.126,
+    "monthly average": 316.48,
+    "de-seasonalized": 315.86,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1959,
+    "month": 3,
+    "decimal date": 1959.2027,
+    "monthly average": 316.65,
+    "de-seasonalized": 315.38,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1959,
+    "month": 4,
+    "decimal date": 1959.2877,
+    "monthly average": 317.72,
+    "de-seasonalized": 315.41,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1959,
+    "month": 5,
+    "decimal date": 1959.3699,
+    "monthly average": 318.29,
+    "de-seasonalized": 315.49,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1959,
+    "month": 6,
+    "decimal date": 1959.4548,
+    "monthly average": 318.15,
+    "de-seasonalized": 316.03,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1959,
+    "month": 7,
+    "decimal date": 1959.537,
+    "monthly average": 316.54,
+    "de-seasonalized": 315.86,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1959,
+    "month": 8,
+    "decimal date": 1959.6219,
+    "monthly average": 314.8,
+    "de-seasonalized": 316.06,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1959,
+    "month": 9,
+    "decimal date": 1959.7068,
+    "monthly average": 313.84,
+    "de-seasonalized": 316.73,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1959,
+    "month": 10,
+    "decimal date": 1959.789,
+    "monthly average": 313.33,
+    "de-seasonalized": 316.33,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1959,
+    "month": 11,
+    "decimal date": 1959.874,
+    "monthly average": 314.81,
+    "de-seasonalized": 316.68,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1959,
+    "month": 12,
+    "decimal date": 1959.9562,
+    "monthly average": 315.58,
+    "de-seasonalized": 316.35,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1960,
+    "month": 1,
+    "decimal date": 1960.041,
+    "monthly average": 316.43,
+    "de-seasonalized": 316.4,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1960,
+    "month": 2,
+    "decimal date": 1960.1257,
+    "monthly average": 316.98,
+    "de-seasonalized": 316.36,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1960,
+    "month": 3,
+    "decimal date": 1960.2049,
+    "monthly average": 317.58,
+    "de-seasonalized": 316.28,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1960,
+    "month": 4,
+    "decimal date": 1960.2896,
+    "monthly average": 319.03,
+    "de-seasonalized": 316.7,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1960,
+    "month": 5,
+    "decimal date": 1960.3716,
+    "monthly average": 320.04,
+    "de-seasonalized": 317.22,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1960,
+    "month": 6,
+    "decimal date": 1960.4563,
+    "monthly average": 319.59,
+    "de-seasonalized": 317.47,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1960,
+    "month": 7,
+    "decimal date": 1960.5383,
+    "monthly average": 318.18,
+    "de-seasonalized": 317.52,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1960,
+    "month": 8,
+    "decimal date": 1960.623,
+    "monthly average": 315.9,
+    "de-seasonalized": 317.19,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1960,
+    "month": 9,
+    "decimal date": 1960.7077,
+    "monthly average": 314.17,
+    "de-seasonalized": 317.08,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1960,
+    "month": 10,
+    "decimal date": 1960.7896,
+    "monthly average": 313.83,
+    "de-seasonalized": 316.83,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1960,
+    "month": 11,
+    "decimal date": 1960.8743,
+    "monthly average": 315,
+    "de-seasonalized": 316.88,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1960,
+    "month": 12,
+    "decimal date": 1960.9563,
+    "monthly average": 316.19,
+    "de-seasonalized": 316.96,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1961,
+    "month": 1,
+    "decimal date": 1961.0411,
+    "monthly average": 316.89,
+    "de-seasonalized": 316.86,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1961,
+    "month": 2,
+    "decimal date": 1961.126,
+    "monthly average": 317.7,
+    "de-seasonalized": 317.08,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1961,
+    "month": 3,
+    "decimal date": 1961.2027,
+    "monthly average": 318.54,
+    "de-seasonalized": 317.26,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1961,
+    "month": 4,
+    "decimal date": 1961.2877,
+    "monthly average": 319.48,
+    "de-seasonalized": 317.16,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1961,
+    "month": 5,
+    "decimal date": 1961.3699,
+    "monthly average": 320.58,
+    "de-seasonalized": 317.76,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1961,
+    "month": 6,
+    "decimal date": 1961.4548,
+    "monthly average": 319.77,
+    "de-seasonalized": 317.63,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1961,
+    "month": 7,
+    "decimal date": 1961.537,
+    "monthly average": 318.57,
+    "de-seasonalized": 317.88,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1961,
+    "month": 8,
+    "decimal date": 1961.6219,
+    "monthly average": 316.79,
+    "de-seasonalized": 318.06,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1961,
+    "month": 9,
+    "decimal date": 1961.7068,
+    "monthly average": 314.99,
+    "de-seasonalized": 317.9,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1961,
+    "month": 10,
+    "decimal date": 1961.789,
+    "monthly average": 315.31,
+    "de-seasonalized": 318.32,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1961,
+    "month": 11,
+    "decimal date": 1961.874,
+    "monthly average": 316.1,
+    "de-seasonalized": 317.99,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1961,
+    "month": 12,
+    "decimal date": 1961.9562,
+    "monthly average": 317.01,
+    "de-seasonalized": 317.79,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1962,
+    "month": 1,
+    "decimal date": 1962.0411,
+    "monthly average": 317.94,
+    "de-seasonalized": 317.91,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1962,
+    "month": 2,
+    "decimal date": 1962.126,
+    "monthly average": 318.55,
+    "de-seasonalized": 317.92,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1962,
+    "month": 3,
+    "decimal date": 1962.2027,
+    "monthly average": 319.68,
+    "de-seasonalized": 318.39,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1962,
+    "month": 4,
+    "decimal date": 1962.2877,
+    "monthly average": 320.57,
+    "de-seasonalized": 318.24,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1962,
+    "month": 5,
+    "decimal date": 1962.3699,
+    "monthly average": 321.02,
+    "de-seasonalized": 318.18,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1962,
+    "month": 6,
+    "decimal date": 1962.4548,
+    "monthly average": 320.62,
+    "de-seasonalized": 318.47,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1962,
+    "month": 7,
+    "decimal date": 1962.537,
+    "monthly average": 319.61,
+    "de-seasonalized": 318.92,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1962,
+    "month": 8,
+    "decimal date": 1962.6219,
+    "monthly average": 317.4,
+    "de-seasonalized": 318.68,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1962,
+    "month": 9,
+    "decimal date": 1962.7068,
+    "monthly average": 316.25,
+    "de-seasonalized": 319.17,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1962,
+    "month": 10,
+    "decimal date": 1962.789,
+    "monthly average": 315.42,
+    "de-seasonalized": 318.45,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1962,
+    "month": 11,
+    "decimal date": 1962.874,
+    "monthly average": 316.69,
+    "de-seasonalized": 318.58,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1962,
+    "month": 12,
+    "decimal date": 1962.9562,
+    "monthly average": 317.7,
+    "de-seasonalized": 318.47,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1963,
+    "month": 1,
+    "decimal date": 1963.0411,
+    "monthly average": 318.74,
+    "de-seasonalized": 318.7,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1963,
+    "month": 2,
+    "decimal date": 1963.126,
+    "monthly average": 319.07,
+    "de-seasonalized": 318.44,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1963,
+    "month": 3,
+    "decimal date": 1963.2027,
+    "monthly average": 319.86,
+    "de-seasonalized": 318.57,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1963,
+    "month": 4,
+    "decimal date": 1963.2877,
+    "monthly average": 321.38,
+    "de-seasonalized": 319.05,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1963,
+    "month": 5,
+    "decimal date": 1963.3699,
+    "monthly average": 322.25,
+    "de-seasonalized": 319.4,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1963,
+    "month": 6,
+    "decimal date": 1963.4548,
+    "monthly average": 321.48,
+    "de-seasonalized": 319.32,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1963,
+    "month": 7,
+    "decimal date": 1963.537,
+    "monthly average": 319.74,
+    "de-seasonalized": 319.05,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1963,
+    "month": 8,
+    "decimal date": 1963.6219,
+    "monthly average": 317.77,
+    "de-seasonalized": 319.05,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1963,
+    "month": 9,
+    "decimal date": 1963.7068,
+    "monthly average": 316.21,
+    "de-seasonalized": 319.14,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1963,
+    "month": 10,
+    "decimal date": 1963.789,
+    "monthly average": 315.99,
+    "de-seasonalized": 319.02,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1963,
+    "month": 11,
+    "decimal date": 1963.874,
+    "monthly average": 317.07,
+    "de-seasonalized": 318.97,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1963,
+    "month": 12,
+    "decimal date": 1963.9562,
+    "monthly average": 318.35,
+    "de-seasonalized": 319.13,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1964,
+    "month": 1,
+    "decimal date": 1964.041,
+    "monthly average": 319.57,
+    "de-seasonalized": 319.54,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1964,
+    "month": 2,
+    "decimal date": 1964.1257,
+    "monthly average": 320.01,
+    "de-seasonalized": 319.37,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1964,
+    "month": 3,
+    "decimal date": 1964.2049,
+    "monthly average": 320.74,
+    "de-seasonalized": 319.41,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1964,
+    "month": 4,
+    "decimal date": 1964.2896,
+    "monthly average": 321.84,
+    "de-seasonalized": 319.45,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1964,
+    "month": 5,
+    "decimal date": 1964.3716,
+    "monthly average": 322.26,
+    "de-seasonalized": 319.4,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1964,
+    "month": 6,
+    "decimal date": 1964.4563,
+    "monthly average": 321.89,
+    "de-seasonalized": 319.75,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1964,
+    "month": 7,
+    "decimal date": 1964.5383,
+    "monthly average": 320.44,
+    "de-seasonalized": 319.77,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1964,
+    "month": 8,
+    "decimal date": 1964.623,
+    "monthly average": 318.69,
+    "de-seasonalized": 320,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1964,
+    "month": 9,
+    "decimal date": 1964.7077,
+    "monthly average": 316.7,
+    "de-seasonalized": 319.66,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1964,
+    "month": 10,
+    "decimal date": 1964.7896,
+    "monthly average": 316.87,
+    "de-seasonalized": 319.91,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1964,
+    "month": 11,
+    "decimal date": 1964.8743,
+    "monthly average": 317.68,
+    "de-seasonalized": 319.58,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1964,
+    "month": 12,
+    "decimal date": 1964.9563,
+    "monthly average": 318.71,
+    "de-seasonalized": 319.49,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1965,
+    "month": 1,
+    "decimal date": 1965.0411,
+    "monthly average": 319.44,
+    "de-seasonalized": 319.4,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1965,
+    "month": 2,
+    "decimal date": 1965.126,
+    "monthly average": 320.44,
+    "de-seasonalized": 319.81,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1965,
+    "month": 3,
+    "decimal date": 1965.2027,
+    "monthly average": 320.89,
+    "de-seasonalized": 319.59,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1965,
+    "month": 4,
+    "decimal date": 1965.2877,
+    "monthly average": 322.14,
+    "de-seasonalized": 319.78,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1965,
+    "month": 5,
+    "decimal date": 1965.3699,
+    "monthly average": 322.17,
+    "de-seasonalized": 319.3,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1965,
+    "month": 6,
+    "decimal date": 1965.4548,
+    "monthly average": 321.87,
+    "de-seasonalized": 319.7,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1965,
+    "month": 7,
+    "decimal date": 1965.537,
+    "monthly average": 321.21,
+    "de-seasonalized": 320.51,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1965,
+    "month": 8,
+    "decimal date": 1965.6219,
+    "monthly average": 318.87,
+    "de-seasonalized": 320.15,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1965,
+    "month": 9,
+    "decimal date": 1965.7068,
+    "monthly average": 317.81,
+    "de-seasonalized": 320.77,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1965,
+    "month": 10,
+    "decimal date": 1965.789,
+    "monthly average": 317.3,
+    "de-seasonalized": 320.36,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1965,
+    "month": 11,
+    "decimal date": 1965.874,
+    "monthly average": 318.87,
+    "de-seasonalized": 320.78,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1965,
+    "month": 12,
+    "decimal date": 1965.9562,
+    "monthly average": 319.42,
+    "de-seasonalized": 320.2,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1966,
+    "month": 1,
+    "decimal date": 1966.0411,
+    "monthly average": 320.62,
+    "de-seasonalized": 320.59,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1966,
+    "month": 2,
+    "decimal date": 1966.126,
+    "monthly average": 321.6,
+    "de-seasonalized": 320.96,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1966,
+    "month": 3,
+    "decimal date": 1966.2027,
+    "monthly average": 322.39,
+    "de-seasonalized": 321.08,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1966,
+    "month": 4,
+    "decimal date": 1966.2877,
+    "monthly average": 323.7,
+    "de-seasonalized": 321.34,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1966,
+    "month": 5,
+    "decimal date": 1966.3699,
+    "monthly average": 324.08,
+    "de-seasonalized": 321.2,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1966,
+    "month": 6,
+    "decimal date": 1966.4548,
+    "monthly average": 323.75,
+    "de-seasonalized": 321.57,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1966,
+    "month": 7,
+    "decimal date": 1966.537,
+    "monthly average": 322.38,
+    "de-seasonalized": 321.68,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1966,
+    "month": 8,
+    "decimal date": 1966.6219,
+    "monthly average": 320.36,
+    "de-seasonalized": 321.65,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1966,
+    "month": 9,
+    "decimal date": 1966.7068,
+    "monthly average": 318.64,
+    "de-seasonalized": 321.6,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1966,
+    "month": 10,
+    "decimal date": 1966.789,
+    "monthly average": 318.1,
+    "de-seasonalized": 321.17,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1966,
+    "month": 11,
+    "decimal date": 1966.874,
+    "monthly average": 319.78,
+    "de-seasonalized": 321.7,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1966,
+    "month": 12,
+    "decimal date": 1966.9562,
+    "monthly average": 321.03,
+    "de-seasonalized": 321.81,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1967,
+    "month": 1,
+    "decimal date": 1967.0411,
+    "monthly average": 322.33,
+    "de-seasonalized": 322.29,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1967,
+    "month": 2,
+    "decimal date": 1967.126,
+    "monthly average": 322.5,
+    "de-seasonalized": 321.86,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1967,
+    "month": 3,
+    "decimal date": 1967.2027,
+    "monthly average": 323.04,
+    "de-seasonalized": 321.73,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1967,
+    "month": 4,
+    "decimal date": 1967.2877,
+    "monthly average": 324.42,
+    "de-seasonalized": 322.04,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1967,
+    "month": 5,
+    "decimal date": 1967.3699,
+    "monthly average": 325,
+    "de-seasonalized": 322.12,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1967,
+    "month": 6,
+    "decimal date": 1967.4548,
+    "monthly average": 324.09,
+    "de-seasonalized": 321.91,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1967,
+    "month": 7,
+    "decimal date": 1967.537,
+    "monthly average": 322.54,
+    "de-seasonalized": 321.84,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1967,
+    "month": 8,
+    "decimal date": 1967.6219,
+    "monthly average": 320.92,
+    "de-seasonalized": 322.21,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1967,
+    "month": 9,
+    "decimal date": 1967.7068,
+    "monthly average": 319.25,
+    "de-seasonalized": 322.23,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1967,
+    "month": 10,
+    "decimal date": 1967.789,
+    "monthly average": 319.39,
+    "de-seasonalized": 322.47,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1967,
+    "month": 11,
+    "decimal date": 1967.874,
+    "monthly average": 320.73,
+    "de-seasonalized": 322.65,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1967,
+    "month": 12,
+    "decimal date": 1967.9562,
+    "monthly average": 321.96,
+    "de-seasonalized": 322.75,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1968,
+    "month": 1,
+    "decimal date": 1968.041,
+    "monthly average": 322.57,
+    "de-seasonalized": 322.54,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1968,
+    "month": 2,
+    "decimal date": 1968.1257,
+    "monthly average": 323.15,
+    "de-seasonalized": 322.51,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1968,
+    "month": 3,
+    "decimal date": 1968.2049,
+    "monthly average": 323.89,
+    "de-seasonalized": 322.55,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1968,
+    "month": 4,
+    "decimal date": 1968.2896,
+    "monthly average": 325.02,
+    "de-seasonalized": 322.62,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1968,
+    "month": 5,
+    "decimal date": 1968.3716,
+    "monthly average": 325.57,
+    "de-seasonalized": 322.68,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1968,
+    "month": 6,
+    "decimal date": 1968.4563,
+    "monthly average": 325.36,
+    "de-seasonalized": 323.19,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1968,
+    "month": 7,
+    "decimal date": 1968.5383,
+    "monthly average": 324.14,
+    "de-seasonalized": 323.46,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1968,
+    "month": 8,
+    "decimal date": 1968.623,
+    "monthly average": 322.11,
+    "de-seasonalized": 323.43,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1968,
+    "month": 9,
+    "decimal date": 1968.7077,
+    "monthly average": 320.33,
+    "de-seasonalized": 323.32,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1968,
+    "month": 10,
+    "decimal date": 1968.7896,
+    "monthly average": 320.25,
+    "de-seasonalized": 323.33,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1968,
+    "month": 11,
+    "decimal date": 1968.8743,
+    "monthly average": 321.32,
+    "de-seasonalized": 323.25,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1968,
+    "month": 12,
+    "decimal date": 1968.9563,
+    "monthly average": 322.89,
+    "de-seasonalized": 323.69,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1969,
+    "month": 1,
+    "decimal date": 1969.0411,
+    "monthly average": 324,
+    "de-seasonalized": 323.97,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1969,
+    "month": 2,
+    "decimal date": 1969.126,
+    "monthly average": 324.42,
+    "de-seasonalized": 323.77,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1969,
+    "month": 3,
+    "decimal date": 1969.2027,
+    "monthly average": 325.63,
+    "de-seasonalized": 324.31,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1969,
+    "month": 4,
+    "decimal date": 1969.2877,
+    "monthly average": 326.66,
+    "de-seasonalized": 324.27,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1969,
+    "month": 5,
+    "decimal date": 1969.3699,
+    "monthly average": 327.38,
+    "de-seasonalized": 324.48,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1969,
+    "month": 6,
+    "decimal date": 1969.4548,
+    "monthly average": 326.71,
+    "de-seasonalized": 324.51,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1969,
+    "month": 7,
+    "decimal date": 1969.537,
+    "monthly average": 325.88,
+    "de-seasonalized": 325.17,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1969,
+    "month": 8,
+    "decimal date": 1969.6219,
+    "monthly average": 323.66,
+    "de-seasonalized": 324.97,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1969,
+    "month": 9,
+    "decimal date": 1969.7068,
+    "monthly average": 322.38,
+    "de-seasonalized": 325.37,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1969,
+    "month": 10,
+    "decimal date": 1969.789,
+    "monthly average": 321.78,
+    "de-seasonalized": 324.88,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1969,
+    "month": 11,
+    "decimal date": 1969.874,
+    "monthly average": 322.86,
+    "de-seasonalized": 324.79,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1969,
+    "month": 12,
+    "decimal date": 1969.9562,
+    "monthly average": 324.12,
+    "de-seasonalized": 324.91,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1970,
+    "month": 1,
+    "decimal date": 1970.0411,
+    "monthly average": 325.06,
+    "de-seasonalized": 325.03,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1970,
+    "month": 2,
+    "decimal date": 1970.126,
+    "monthly average": 325.98,
+    "de-seasonalized": 325.34,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1970,
+    "month": 3,
+    "decimal date": 1970.2027,
+    "monthly average": 326.93,
+    "de-seasonalized": 325.61,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1970,
+    "month": 4,
+    "decimal date": 1970.2877,
+    "monthly average": 328.13,
+    "de-seasonalized": 325.74,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1970,
+    "month": 5,
+    "decimal date": 1970.3699,
+    "monthly average": 328.08,
+    "de-seasonalized": 325.16,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1970,
+    "month": 6,
+    "decimal date": 1970.4548,
+    "monthly average": 327.67,
+    "de-seasonalized": 325.46,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1970,
+    "month": 7,
+    "decimal date": 1970.537,
+    "monthly average": 326.34,
+    "de-seasonalized": 325.63,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1970,
+    "month": 8,
+    "decimal date": 1970.6219,
+    "monthly average": 324.69,
+    "de-seasonalized": 325.99,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1970,
+    "month": 9,
+    "decimal date": 1970.7068,
+    "monthly average": 323.1,
+    "de-seasonalized": 326.1,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1970,
+    "month": 10,
+    "decimal date": 1970.789,
+    "monthly average": 323.06,
+    "de-seasonalized": 326.18,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1970,
+    "month": 11,
+    "decimal date": 1970.874,
+    "monthly average": 324.01,
+    "de-seasonalized": 325.95,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1970,
+    "month": 12,
+    "decimal date": 1970.9562,
+    "monthly average": 325.13,
+    "de-seasonalized": 325.93,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1971,
+    "month": 1,
+    "decimal date": 1971.0411,
+    "monthly average": 326.17,
+    "de-seasonalized": 326.14,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1971,
+    "month": 2,
+    "decimal date": 1971.126,
+    "monthly average": 326.68,
+    "de-seasonalized": 326.03,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1971,
+    "month": 3,
+    "decimal date": 1971.2027,
+    "monthly average": 327.17,
+    "de-seasonalized": 325.85,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1971,
+    "month": 4,
+    "decimal date": 1971.2877,
+    "monthly average": 327.79,
+    "de-seasonalized": 325.38,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1971,
+    "month": 5,
+    "decimal date": 1971.3699,
+    "monthly average": 328.93,
+    "de-seasonalized": 326,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1971,
+    "month": 6,
+    "decimal date": 1971.4548,
+    "monthly average": 328.57,
+    "de-seasonalized": 326.36,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1971,
+    "month": 7,
+    "decimal date": 1971.537,
+    "monthly average": 327.36,
+    "de-seasonalized": 326.65,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1971,
+    "month": 8,
+    "decimal date": 1971.6219,
+    "monthly average": 325.43,
+    "de-seasonalized": 326.74,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1971,
+    "month": 9,
+    "decimal date": 1971.7068,
+    "monthly average": 323.36,
+    "de-seasonalized": 326.37,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1971,
+    "month": 10,
+    "decimal date": 1971.789,
+    "monthly average": 323.56,
+    "de-seasonalized": 326.69,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1971,
+    "month": 11,
+    "decimal date": 1971.874,
+    "monthly average": 324.8,
+    "de-seasonalized": 326.75,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1971,
+    "month": 12,
+    "decimal date": 1971.9562,
+    "monthly average": 326.01,
+    "de-seasonalized": 326.82,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1972,
+    "month": 1,
+    "decimal date": 1972.041,
+    "monthly average": 326.77,
+    "de-seasonalized": 326.73,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1972,
+    "month": 2,
+    "decimal date": 1972.1257,
+    "monthly average": 327.63,
+    "de-seasonalized": 326.98,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1972,
+    "month": 3,
+    "decimal date": 1972.2049,
+    "monthly average": 327.75,
+    "de-seasonalized": 326.39,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1972,
+    "month": 4,
+    "decimal date": 1972.2896,
+    "monthly average": 329.72,
+    "de-seasonalized": 327.29,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1972,
+    "month": 5,
+    "decimal date": 1972.3716,
+    "monthly average": 330.07,
+    "de-seasonalized": 327.14,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1972,
+    "month": 6,
+    "decimal date": 1972.4563,
+    "monthly average": 329.09,
+    "de-seasonalized": 326.88,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1972,
+    "month": 7,
+    "decimal date": 1972.5383,
+    "monthly average": 328.04,
+    "de-seasonalized": 327.36,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1972,
+    "month": 8,
+    "decimal date": 1972.623,
+    "monthly average": 326.32,
+    "de-seasonalized": 327.67,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1972,
+    "month": 9,
+    "decimal date": 1972.7077,
+    "monthly average": 324.84,
+    "de-seasonalized": 327.87,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1972,
+    "month": 10,
+    "decimal date": 1972.7896,
+    "monthly average": 325.2,
+    "de-seasonalized": 328.33,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1972,
+    "month": 11,
+    "decimal date": 1972.8743,
+    "monthly average": 326.5,
+    "de-seasonalized": 328.45,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1972,
+    "month": 12,
+    "decimal date": 1972.9563,
+    "monthly average": 327.55,
+    "de-seasonalized": 328.36,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1973,
+    "month": 1,
+    "decimal date": 1973.0411,
+    "monthly average": 328.55,
+    "de-seasonalized": 328.51,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1973,
+    "month": 2,
+    "decimal date": 1973.126,
+    "monthly average": 329.56,
+    "de-seasonalized": 328.91,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1973,
+    "month": 3,
+    "decimal date": 1973.2027,
+    "monthly average": 330.3,
+    "de-seasonalized": 328.96,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1973,
+    "month": 4,
+    "decimal date": 1973.2877,
+    "monthly average": 331.5,
+    "de-seasonalized": 329.08,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1973,
+    "month": 5,
+    "decimal date": 1973.3699,
+    "monthly average": 332.48,
+    "de-seasonalized": 329.54,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1973,
+    "month": 6,
+    "decimal date": 1973.4548,
+    "monthly average": 332.07,
+    "de-seasonalized": 329.84,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1973,
+    "month": 7,
+    "decimal date": 1973.537,
+    "monthly average": 330.87,
+    "de-seasonalized": 330.15,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1973,
+    "month": 8,
+    "decimal date": 1973.6219,
+    "monthly average": 329.31,
+    "de-seasonalized": 330.63,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1973,
+    "month": 9,
+    "decimal date": 1973.7068,
+    "monthly average": 327.51,
+    "de-seasonalized": 330.55,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1973,
+    "month": 10,
+    "decimal date": 1973.789,
+    "monthly average": 327.18,
+    "de-seasonalized": 330.32,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1973,
+    "month": 11,
+    "decimal date": 1973.874,
+    "monthly average": 328.16,
+    "de-seasonalized": 330.13,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1973,
+    "month": 12,
+    "decimal date": 1973.9562,
+    "monthly average": 328.64,
+    "de-seasonalized": 329.45,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1974,
+    "month": 1,
+    "decimal date": 1974.0411,
+    "monthly average": 329.35,
+    "de-seasonalized": 329.32,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1974,
+    "month": 2,
+    "decimal date": 1974.126,
+    "monthly average": 330.71,
+    "de-seasonalized": 330.05,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1974,
+    "month": 3,
+    "decimal date": 1974.2027,
+    "monthly average": 331.48,
+    "de-seasonalized": 330.14,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1974,
+    "month": 4,
+    "decimal date": 1974.2877,
+    "monthly average": 332.65,
+    "de-seasonalized": 330.22,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": -0.99
+  },
+  {
+    "year": 1974,
+    "month": 5,
+    "decimal date": 1974.375,
+    "monthly average": 333.19,
+    "de-seasonalized": 330.22,
+    "#days": 13,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 1974,
+    "month": 6,
+    "decimal date": 1974.4583,
+    "monthly average": 332.2,
+    "de-seasonalized": 329.79,
+    "#days": 25,
+    "st.dev of days": 0.37,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1974,
+    "month": 7,
+    "decimal date": 1974.5417,
+    "monthly average": 331.07,
+    "de-seasonalized": 330.21,
+    "#days": 24,
+    "st.dev of days": 0.24,
+    "uncertainty of mon mean": 0.09
+  },
+  {
+    "year": 1974,
+    "month": 8,
+    "decimal date": 1974.625,
+    "monthly average": 329.15,
+    "de-seasonalized": 330.54,
+    "#days": 26,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 1974,
+    "month": 9,
+    "decimal date": 1974.7083,
+    "monthly average": 327.33,
+    "de-seasonalized": 330.44,
+    "#days": 22,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 1974,
+    "month": 10,
+    "decimal date": 1974.7917,
+    "monthly average": 327.28,
+    "de-seasonalized": 330.53,
+    "#days": 24,
+    "st.dev of days": 0.22,
+    "uncertainty of mon mean": 0.09
+  },
+  {
+    "year": 1974,
+    "month": 11,
+    "decimal date": 1974.875,
+    "monthly average": 328.31,
+    "de-seasonalized": 330.5,
+    "#days": 26,
+    "st.dev of days": 0.43,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 1974,
+    "month": 12,
+    "decimal date": 1974.9583,
+    "monthly average": 329.58,
+    "de-seasonalized": 330.54,
+    "#days": 29,
+    "st.dev of days": 0.29,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 1975,
+    "month": 1,
+    "decimal date": 1975.0417,
+    "monthly average": 330.73,
+    "de-seasonalized": 330.84,
+    "#days": 29,
+    "st.dev of days": 0.43,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 1975,
+    "month": 2,
+    "decimal date": 1975.125,
+    "monthly average": 331.46,
+    "de-seasonalized": 330.85,
+    "#days": 26,
+    "st.dev of days": 0.46,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 1975,
+    "month": 3,
+    "decimal date": 1975.2083,
+    "monthly average": 331.94,
+    "de-seasonalized": 330.37,
+    "#days": 17,
+    "st.dev of days": 0.33,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 1975,
+    "month": 4,
+    "decimal date": 1975.2917,
+    "monthly average": 333.11,
+    "de-seasonalized": 330.53,
+    "#days": 23,
+    "st.dev of days": 0.59,
+    "uncertainty of mon mean": 0.24
+  },
+  {
+    "year": 1975,
+    "month": 5,
+    "decimal date": 1975.375,
+    "monthly average": 333.95,
+    "de-seasonalized": 330.98,
+    "#days": 28,
+    "st.dev of days": 0.35,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1975,
+    "month": 6,
+    "decimal date": 1975.4583,
+    "monthly average": 333.42,
+    "de-seasonalized": 331.01,
+    "#days": 27,
+    "st.dev of days": 0.48,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1975,
+    "month": 7,
+    "decimal date": 1975.5417,
+    "monthly average": 331.97,
+    "de-seasonalized": 331.12,
+    "#days": 24,
+    "st.dev of days": 0.45,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1975,
+    "month": 8,
+    "decimal date": 1975.625,
+    "monthly average": 329.95,
+    "de-seasonalized": 331.34,
+    "#days": 24,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1975,
+    "month": 9,
+    "decimal date": 1975.7083,
+    "monthly average": 328.5,
+    "de-seasonalized": 331.6,
+    "#days": 22,
+    "st.dev of days": 0.53,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 1975,
+    "month": 10,
+    "decimal date": 1975.7917,
+    "monthly average": 328.36,
+    "de-seasonalized": 331.62,
+    "#days": 11,
+    "st.dev of days": 0.21,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 1975,
+    "month": 11,
+    "decimal date": 1975.875,
+    "monthly average": 329.38,
+    "de-seasonalized": 331.57,
+    "#days": 18,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1975,
+    "month": 12,
+    "decimal date": 1975.9583,
+    "monthly average": 330.78,
+    "de-seasonalized": 331.75,
+    "#days": -1,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": 0
+  },
+  {
+    "year": 1976,
+    "month": 1,
+    "decimal date": 1976.0417,
+    "monthly average": 331.56,
+    "de-seasonalized": 331.67,
+    "#days": 19,
+    "st.dev of days": 0.23,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 1976,
+    "month": 2,
+    "decimal date": 1976.125,
+    "monthly average": 332.74,
+    "de-seasonalized": 332.14,
+    "#days": 22,
+    "st.dev of days": 0.49,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 1976,
+    "month": 3,
+    "decimal date": 1976.2083,
+    "monthly average": 333.36,
+    "de-seasonalized": 331.78,
+    "#days": 18,
+    "st.dev of days": 0.52,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 1976,
+    "month": 4,
+    "decimal date": 1976.2917,
+    "monthly average": 334.74,
+    "de-seasonalized": 332.16,
+    "#days": 18,
+    "st.dev of days": 0.77,
+    "uncertainty of mon mean": 0.35
+  },
+  {
+    "year": 1976,
+    "month": 5,
+    "decimal date": 1976.375,
+    "monthly average": 334.72,
+    "de-seasonalized": 331.75,
+    "#days": 21,
+    "st.dev of days": 0.56,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 1976,
+    "month": 6,
+    "decimal date": 1976.4583,
+    "monthly average": 333.98,
+    "de-seasonalized": 331.56,
+    "#days": 15,
+    "st.dev of days": 0.21,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 1976,
+    "month": 7,
+    "decimal date": 1976.5417,
+    "monthly average": 333.08,
+    "de-seasonalized": 332.23,
+    "#days": 15,
+    "st.dev of days": 0.24,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 1976,
+    "month": 8,
+    "decimal date": 1976.625,
+    "monthly average": 330.68,
+    "de-seasonalized": 332.07,
+    "#days": 23,
+    "st.dev of days": 0.51,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 1976,
+    "month": 9,
+    "decimal date": 1976.7083,
+    "monthly average": 328.96,
+    "de-seasonalized": 332.07,
+    "#days": 13,
+    "st.dev of days": 0.69,
+    "uncertainty of mon mean": 0.37
+  },
+  {
+    "year": 1976,
+    "month": 10,
+    "decimal date": 1976.7917,
+    "monthly average": 328.72,
+    "de-seasonalized": 331.98,
+    "#days": 19,
+    "st.dev of days": 0.57,
+    "uncertainty of mon mean": 0.25
+  },
+  {
+    "year": 1976,
+    "month": 11,
+    "decimal date": 1976.875,
+    "monthly average": 330.16,
+    "de-seasonalized": 332.35,
+    "#days": 25,
+    "st.dev of days": 0.36,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1976,
+    "month": 12,
+    "decimal date": 1976.9583,
+    "monthly average": 331.62,
+    "de-seasonalized": 332.59,
+    "#days": 20,
+    "st.dev of days": 0.38,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 1977,
+    "month": 1,
+    "decimal date": 1977.0417,
+    "monthly average": 332.68,
+    "de-seasonalized": 332.77,
+    "#days": 23,
+    "st.dev of days": 0.4,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 1977,
+    "month": 2,
+    "decimal date": 1977.125,
+    "monthly average": 333.17,
+    "de-seasonalized": 332.58,
+    "#days": 20,
+    "st.dev of days": 0.34,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 1977,
+    "month": 3,
+    "decimal date": 1977.2083,
+    "monthly average": 334.96,
+    "de-seasonalized": 333.4,
+    "#days": 23,
+    "st.dev of days": 0.51,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 1977,
+    "month": 4,
+    "decimal date": 1977.2917,
+    "monthly average": 336.14,
+    "de-seasonalized": 333.54,
+    "#days": 20,
+    "st.dev of days": 0.5,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 1977,
+    "month": 5,
+    "decimal date": 1977.375,
+    "monthly average": 336.93,
+    "de-seasonalized": 333.99,
+    "#days": 20,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1977,
+    "month": 6,
+    "decimal date": 1977.4583,
+    "monthly average": 336.17,
+    "de-seasonalized": 333.79,
+    "#days": 22,
+    "st.dev of days": 0.4,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 1977,
+    "month": 7,
+    "decimal date": 1977.5417,
+    "monthly average": 334.89,
+    "de-seasonalized": 334.01,
+    "#days": 20,
+    "st.dev of days": 0.23,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 1977,
+    "month": 8,
+    "decimal date": 1977.625,
+    "monthly average": 332.56,
+    "de-seasonalized": 333.91,
+    "#days": 18,
+    "st.dev of days": 0.46,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 1977,
+    "month": 9,
+    "decimal date": 1977.7083,
+    "monthly average": 331.29,
+    "de-seasonalized": 334.36,
+    "#days": 19,
+    "st.dev of days": 0.46,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 1977,
+    "month": 10,
+    "decimal date": 1977.7917,
+    "monthly average": 331.28,
+    "de-seasonalized": 334.51,
+    "#days": 23,
+    "st.dev of days": 0.29,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 1977,
+    "month": 11,
+    "decimal date": 1977.875,
+    "monthly average": 332.46,
+    "de-seasonalized": 334.68,
+    "#days": 21,
+    "st.dev of days": 0.43,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1977,
+    "month": 12,
+    "decimal date": 1977.9583,
+    "monthly average": 333.6,
+    "de-seasonalized": 334.58,
+    "#days": 25,
+    "st.dev of days": 0.36,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1978,
+    "month": 1,
+    "decimal date": 1978.0417,
+    "monthly average": 334.94,
+    "de-seasonalized": 335.01,
+    "#days": 22,
+    "st.dev of days": 0.52,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 1978,
+    "month": 2,
+    "decimal date": 1978.125,
+    "monthly average": 335.26,
+    "de-seasonalized": 334.6,
+    "#days": 25,
+    "st.dev of days": 0.5,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 1978,
+    "month": 3,
+    "decimal date": 1978.2083,
+    "monthly average": 336.66,
+    "de-seasonalized": 335,
+    "#days": 28,
+    "st.dev of days": 0.59,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 1978,
+    "month": 4,
+    "decimal date": 1978.2917,
+    "monthly average": 337.69,
+    "de-seasonalized": 335.07,
+    "#days": 18,
+    "st.dev of days": 0.44,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 1978,
+    "month": 5,
+    "decimal date": 1978.375,
+    "monthly average": 338.02,
+    "de-seasonalized": 335.08,
+    "#days": 26,
+    "st.dev of days": 0.46,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 1978,
+    "month": 6,
+    "decimal date": 1978.4583,
+    "monthly average": 338.01,
+    "de-seasonalized": 335.59,
+    "#days": 17,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 1978,
+    "month": 7,
+    "decimal date": 1978.5417,
+    "monthly average": 336.5,
+    "de-seasonalized": 335.65,
+    "#days": 20,
+    "st.dev of days": 0.32,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1978,
+    "month": 8,
+    "decimal date": 1978.625,
+    "monthly average": 334.42,
+    "de-seasonalized": 335.87,
+    "#days": 19,
+    "st.dev of days": 0.32,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1978,
+    "month": 9,
+    "decimal date": 1978.7083,
+    "monthly average": 332.36,
+    "de-seasonalized": 335.51,
+    "#days": 17,
+    "st.dev of days": 0.75,
+    "uncertainty of mon mean": 0.35
+  },
+  {
+    "year": 1978,
+    "month": 10,
+    "decimal date": 1978.7917,
+    "monthly average": 332.45,
+    "de-seasonalized": 335.72,
+    "#days": 21,
+    "st.dev of days": 0.34,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1978,
+    "month": 11,
+    "decimal date": 1978.875,
+    "monthly average": 333.76,
+    "de-seasonalized": 335.99,
+    "#days": 24,
+    "st.dev of days": 0.25,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 1978,
+    "month": 12,
+    "decimal date": 1978.9583,
+    "monthly average": 334.91,
+    "de-seasonalized": 335.87,
+    "#days": 26,
+    "st.dev of days": 0.33,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 1979,
+    "month": 1,
+    "decimal date": 1979.0417,
+    "monthly average": 336.14,
+    "de-seasonalized": 336.22,
+    "#days": 27,
+    "st.dev of days": 0.55,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 1979,
+    "month": 2,
+    "decimal date": 1979.125,
+    "monthly average": 336.69,
+    "de-seasonalized": 336,
+    "#days": 25,
+    "st.dev of days": 0.3,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 1979,
+    "month": 3,
+    "decimal date": 1979.2083,
+    "monthly average": 338.27,
+    "de-seasonalized": 336.56,
+    "#days": 21,
+    "st.dev of days": 0.63,
+    "uncertainty of mon mean": 0.26
+  },
+  {
+    "year": 1979,
+    "month": 4,
+    "decimal date": 1979.2917,
+    "monthly average": 338.82,
+    "de-seasonalized": 336.11,
+    "#days": 24,
+    "st.dev of days": 0.67,
+    "uncertainty of mon mean": 0.26
+  },
+  {
+    "year": 1979,
+    "month": 5,
+    "decimal date": 1979.375,
+    "monthly average": 339.24,
+    "de-seasonalized": 336.24,
+    "#days": 20,
+    "st.dev of days": 0.5,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 1979,
+    "month": 6,
+    "decimal date": 1979.4583,
+    "monthly average": 339.26,
+    "de-seasonalized": 336.83,
+    "#days": 19,
+    "st.dev of days": 0.35,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 1979,
+    "month": 7,
+    "decimal date": 1979.5417,
+    "monthly average": 337.54,
+    "de-seasonalized": 336.69,
+    "#days": 26,
+    "st.dev of days": 0.59,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 1979,
+    "month": 8,
+    "decimal date": 1979.625,
+    "monthly average": 335.72,
+    "de-seasonalized": 337.2,
+    "#days": 24,
+    "st.dev of days": 0.6,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 1979,
+    "month": 9,
+    "decimal date": 1979.7083,
+    "monthly average": 333.97,
+    "de-seasonalized": 337.19,
+    "#days": 19,
+    "st.dev of days": 0.65,
+    "uncertainty of mon mean": 0.29
+  },
+  {
+    "year": 1979,
+    "month": 10,
+    "decimal date": 1979.7917,
+    "monthly average": 334.24,
+    "de-seasonalized": 337.57,
+    "#days": 25,
+    "st.dev of days": 0.42,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 1979,
+    "month": 11,
+    "decimal date": 1979.875,
+    "monthly average": 335.32,
+    "de-seasonalized": 337.59,
+    "#days": 27,
+    "st.dev of days": 0.3,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 1979,
+    "month": 12,
+    "decimal date": 1979.9583,
+    "monthly average": 336.82,
+    "de-seasonalized": 337.83,
+    "#days": 22,
+    "st.dev of days": 0.23,
+    "uncertainty of mon mean": 0.09
+  },
+  {
+    "year": 1980,
+    "month": 1,
+    "decimal date": 1980.0417,
+    "monthly average": 337.9,
+    "de-seasonalized": 338.13,
+    "#days": 29,
+    "st.dev of days": 0.57,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 1980,
+    "month": 2,
+    "decimal date": 1980.125,
+    "monthly average": 338.34,
+    "de-seasonalized": 337.85,
+    "#days": 26,
+    "st.dev of days": 0.49,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1980,
+    "month": 3,
+    "decimal date": 1980.2083,
+    "monthly average": 340.07,
+    "de-seasonalized": 338.51,
+    "#days": 23,
+    "st.dev of days": 0.54,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 1980,
+    "month": 4,
+    "decimal date": 1980.2917,
+    "monthly average": 340.93,
+    "de-seasonalized": 338.31,
+    "#days": 24,
+    "st.dev of days": 0.29,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 1980,
+    "month": 5,
+    "decimal date": 1980.375,
+    "monthly average": 341.45,
+    "de-seasonalized": 338.4,
+    "#days": 24,
+    "st.dev of days": 0.54,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 1980,
+    "month": 6,
+    "decimal date": 1980.4583,
+    "monthly average": 341.36,
+    "de-seasonalized": 338.85,
+    "#days": 20,
+    "st.dev of days": 0.39,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 1980,
+    "month": 7,
+    "decimal date": 1980.5417,
+    "monthly average": 339.45,
+    "de-seasonalized": 338.56,
+    "#days": 26,
+    "st.dev of days": 0.6,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 1980,
+    "month": 8,
+    "decimal date": 1980.625,
+    "monthly average": 337.67,
+    "de-seasonalized": 339.07,
+    "#days": 16,
+    "st.dev of days": 1.05,
+    "uncertainty of mon mean": 0.5
+  },
+  {
+    "year": 1980,
+    "month": 9,
+    "decimal date": 1980.7083,
+    "monthly average": 336.25,
+    "de-seasonalized": 339.38,
+    "#days": 15,
+    "st.dev of days": 0.69,
+    "uncertainty of mon mean": 0.34
+  },
+  {
+    "year": 1980,
+    "month": 10,
+    "decimal date": 1980.7917,
+    "monthly average": 336.14,
+    "de-seasonalized": 339.4,
+    "#days": 26,
+    "st.dev of days": 0.26,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 1980,
+    "month": 11,
+    "decimal date": 1980.875,
+    "monthly average": 337.3,
+    "de-seasonalized": 339.46,
+    "#days": 27,
+    "st.dev of days": 0.26,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 1980,
+    "month": 12,
+    "decimal date": 1980.9583,
+    "monthly average": 338.29,
+    "de-seasonalized": 339.26,
+    "#days": 24,
+    "st.dev of days": 0.25,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 1981,
+    "month": 1,
+    "decimal date": 1981.0417,
+    "monthly average": 339.29,
+    "de-seasonalized": 339.42,
+    "#days": 28,
+    "st.dev of days": 0.39,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1981,
+    "month": 2,
+    "decimal date": 1981.125,
+    "monthly average": 340.55,
+    "de-seasonalized": 339.98,
+    "#days": 25,
+    "st.dev of days": 0.65,
+    "uncertainty of mon mean": 0.25
+  },
+  {
+    "year": 1981,
+    "month": 3,
+    "decimal date": 1981.2083,
+    "monthly average": 341.63,
+    "de-seasonalized": 340.08,
+    "#days": 25,
+    "st.dev of days": 0.48,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 1981,
+    "month": 4,
+    "decimal date": 1981.2917,
+    "monthly average": 342.6,
+    "de-seasonalized": 339.98,
+    "#days": 26,
+    "st.dev of days": 0.46,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 1981,
+    "month": 5,
+    "decimal date": 1981.375,
+    "monthly average": 343.04,
+    "de-seasonalized": 339.97,
+    "#days": 30,
+    "st.dev of days": 0.19,
+    "uncertainty of mon mean": 0.07
+  },
+  {
+    "year": 1981,
+    "month": 6,
+    "decimal date": 1981.4583,
+    "monthly average": 342.54,
+    "de-seasonalized": 340.06,
+    "#days": 25,
+    "st.dev of days": 0.29,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 1981,
+    "month": 7,
+    "decimal date": 1981.5417,
+    "monthly average": 340.82,
+    "de-seasonalized": 339.92,
+    "#days": 24,
+    "st.dev of days": 0.46,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1981,
+    "month": 8,
+    "decimal date": 1981.625,
+    "monthly average": 338.48,
+    "de-seasonalized": 339.87,
+    "#days": 25,
+    "st.dev of days": 0.48,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1981,
+    "month": 9,
+    "decimal date": 1981.7083,
+    "monthly average": 336.95,
+    "de-seasonalized": 340.17,
+    "#days": 27,
+    "st.dev of days": 0.55,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 1981,
+    "month": 10,
+    "decimal date": 1981.7917,
+    "monthly average": 337.05,
+    "de-seasonalized": 340.39,
+    "#days": 25,
+    "st.dev of days": 0.39,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 1981,
+    "month": 11,
+    "decimal date": 1981.875,
+    "monthly average": 338.57,
+    "de-seasonalized": 340.75,
+    "#days": 26,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 1981,
+    "month": 12,
+    "decimal date": 1981.9583,
+    "monthly average": 339.91,
+    "de-seasonalized": 340.85,
+    "#days": 20,
+    "st.dev of days": 0.28,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 1982,
+    "month": 1,
+    "decimal date": 1982.0417,
+    "monthly average": 340.93,
+    "de-seasonalized": 341.09,
+    "#days": 28,
+    "st.dev of days": 0.3,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 1982,
+    "month": 2,
+    "decimal date": 1982.125,
+    "monthly average": 341.76,
+    "de-seasonalized": 341.16,
+    "#days": 24,
+    "st.dev of days": 0.49,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 1982,
+    "month": 3,
+    "decimal date": 1982.2083,
+    "monthly average": 342.77,
+    "de-seasonalized": 341.17,
+    "#days": 17,
+    "st.dev of days": 0.41,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 1982,
+    "month": 4,
+    "decimal date": 1982.2917,
+    "monthly average": 343.96,
+    "de-seasonalized": 341.32,
+    "#days": 7,
+    "st.dev of days": 0.42,
+    "uncertainty of mon mean": 0.31
+  },
+  {
+    "year": 1982,
+    "month": 5,
+    "decimal date": 1982.375,
+    "monthly average": 344.77,
+    "de-seasonalized": 341.67,
+    "#days": 27,
+    "st.dev of days": 0.37,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1982,
+    "month": 6,
+    "decimal date": 1982.4583,
+    "monthly average": 343.88,
+    "de-seasonalized": 341.43,
+    "#days": 27,
+    "st.dev of days": 0.37,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1982,
+    "month": 7,
+    "decimal date": 1982.5417,
+    "monthly average": 342.42,
+    "de-seasonalized": 341.61,
+    "#days": 28,
+    "st.dev of days": 0.35,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1982,
+    "month": 8,
+    "decimal date": 1982.625,
+    "monthly average": 340.24,
+    "de-seasonalized": 341.64,
+    "#days": 25,
+    "st.dev of days": 0.61,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 1982,
+    "month": 9,
+    "decimal date": 1982.7083,
+    "monthly average": 338.38,
+    "de-seasonalized": 341.56,
+    "#days": 21,
+    "st.dev of days": 0.59,
+    "uncertainty of mon mean": 0.25
+  },
+  {
+    "year": 1982,
+    "month": 10,
+    "decimal date": 1982.7917,
+    "monthly average": 338.41,
+    "de-seasonalized": 341.77,
+    "#days": 26,
+    "st.dev of days": 0.5,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 1982,
+    "month": 11,
+    "decimal date": 1982.875,
+    "monthly average": 339.44,
+    "de-seasonalized": 341.59,
+    "#days": 24,
+    "st.dev of days": 0.39,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 1982,
+    "month": 12,
+    "decimal date": 1982.9583,
+    "monthly average": 340.78,
+    "de-seasonalized": 341.71,
+    "#days": 26,
+    "st.dev of days": 0.3,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 1983,
+    "month": 1,
+    "decimal date": 1983.0417,
+    "monthly average": 341.57,
+    "de-seasonalized": 341.75,
+    "#days": 28,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 1983,
+    "month": 2,
+    "decimal date": 1983.125,
+    "monthly average": 342.79,
+    "de-seasonalized": 342.25,
+    "#days": 24,
+    "st.dev of days": 0.37,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 1983,
+    "month": 3,
+    "decimal date": 1983.2083,
+    "monthly average": 343.37,
+    "de-seasonalized": 341.85,
+    "#days": 27,
+    "st.dev of days": 0.88,
+    "uncertainty of mon mean": 0.32
+  },
+  {
+    "year": 1983,
+    "month": 4,
+    "decimal date": 1983.2917,
+    "monthly average": 345.4,
+    "de-seasonalized": 342.76,
+    "#days": 23,
+    "st.dev of days": 0.29,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 1983,
+    "month": 5,
+    "decimal date": 1983.375,
+    "monthly average": 346.14,
+    "de-seasonalized": 342.97,
+    "#days": 28,
+    "st.dev of days": 0.51,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 1983,
+    "month": 6,
+    "decimal date": 1983.4583,
+    "monthly average": 345.76,
+    "de-seasonalized": 343.3,
+    "#days": 20,
+    "st.dev of days": 0.3,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1983,
+    "month": 7,
+    "decimal date": 1983.5417,
+    "monthly average": 344.32,
+    "de-seasonalized": 343.56,
+    "#days": 22,
+    "st.dev of days": 0.57,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 1983,
+    "month": 8,
+    "decimal date": 1983.625,
+    "monthly average": 342.51,
+    "de-seasonalized": 343.89,
+    "#days": 16,
+    "st.dev of days": 0.73,
+    "uncertainty of mon mean": 0.35
+  },
+  {
+    "year": 1983,
+    "month": 9,
+    "decimal date": 1983.7083,
+    "monthly average": 340.46,
+    "de-seasonalized": 343.59,
+    "#days": 15,
+    "st.dev of days": 0.5,
+    "uncertainty of mon mean": 0.25
+  },
+  {
+    "year": 1983,
+    "month": 10,
+    "decimal date": 1983.7917,
+    "monthly average": 340.53,
+    "de-seasonalized": 343.86,
+    "#days": 20,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1983,
+    "month": 11,
+    "decimal date": 1983.875,
+    "monthly average": 341.79,
+    "de-seasonalized": 343.92,
+    "#days": 27,
+    "st.dev of days": 0.33,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 1983,
+    "month": 12,
+    "decimal date": 1983.9583,
+    "monthly average": 343.2,
+    "de-seasonalized": 344.12,
+    "#days": 21,
+    "st.dev of days": 0.25,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 1984,
+    "month": 1,
+    "decimal date": 1984.0417,
+    "monthly average": 344.21,
+    "de-seasonalized": 344.32,
+    "#days": 23,
+    "st.dev of days": 0.4,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 1984,
+    "month": 2,
+    "decimal date": 1984.125,
+    "monthly average": 344.92,
+    "de-seasonalized": 344.39,
+    "#days": 23,
+    "st.dev of days": 0.32,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1984,
+    "month": 3,
+    "decimal date": 1984.2083,
+    "monthly average": 345.68,
+    "de-seasonalized": 344.26,
+    "#days": 19,
+    "st.dev of days": 0.3,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1984,
+    "month": 4,
+    "decimal date": 1984.2917,
+    "monthly average": 347.37,
+    "de-seasonalized": 344.75,
+    "#days": 2,
+    "st.dev of days": -9.99,
+    "uncertainty of mon mean": 0
+  },
+  {
+    "year": 1984,
+    "month": 5,
+    "decimal date": 1984.375,
+    "monthly average": 347.78,
+    "de-seasonalized": 344.59,
+    "#days": 20,
+    "st.dev of days": 0.42,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1984,
+    "month": 6,
+    "decimal date": 1984.4583,
+    "monthly average": 347.16,
+    "de-seasonalized": 344.73,
+    "#days": 20,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1984,
+    "month": 7,
+    "decimal date": 1984.5417,
+    "monthly average": 345.79,
+    "de-seasonalized": 345.02,
+    "#days": 18,
+    "st.dev of days": 0.33,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 1984,
+    "month": 8,
+    "decimal date": 1984.625,
+    "monthly average": 343.74,
+    "de-seasonalized": 345.12,
+    "#days": 12,
+    "st.dev of days": 0.45,
+    "uncertainty of mon mean": 0.25
+  },
+  {
+    "year": 1984,
+    "month": 9,
+    "decimal date": 1984.7083,
+    "monthly average": 341.59,
+    "de-seasonalized": 344.76,
+    "#days": 14,
+    "st.dev of days": 0.72,
+    "uncertainty of mon mean": 0.37
+  },
+  {
+    "year": 1984,
+    "month": 10,
+    "decimal date": 1984.7917,
+    "monthly average": 341.86,
+    "de-seasonalized": 345.19,
+    "#days": 12,
+    "st.dev of days": 0.36,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 1984,
+    "month": 11,
+    "decimal date": 1984.875,
+    "monthly average": 343.31,
+    "de-seasonalized": 345.41,
+    "#days": 18,
+    "st.dev of days": 0.41,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 1984,
+    "month": 12,
+    "decimal date": 1984.9583,
+    "monthly average": 345,
+    "de-seasonalized": 345.88,
+    "#days": 14,
+    "st.dev of days": 0.53,
+    "uncertainty of mon mean": 0.27
+  },
+  {
+    "year": 1985,
+    "month": 1,
+    "decimal date": 1985.0417,
+    "monthly average": 345.48,
+    "de-seasonalized": 345.59,
+    "#days": 25,
+    "st.dev of days": 0.38,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1985,
+    "month": 2,
+    "decimal date": 1985.125,
+    "monthly average": 346.41,
+    "de-seasonalized": 345.92,
+    "#days": 15,
+    "st.dev of days": 0.37,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1985,
+    "month": 3,
+    "decimal date": 1985.2083,
+    "monthly average": 347.91,
+    "de-seasonalized": 346.56,
+    "#days": 17,
+    "st.dev of days": 0.34,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 1985,
+    "month": 4,
+    "decimal date": 1985.2917,
+    "monthly average": 348.66,
+    "de-seasonalized": 346.08,
+    "#days": 21,
+    "st.dev of days": 0.61,
+    "uncertainty of mon mean": 0.25
+  },
+  {
+    "year": 1985,
+    "month": 5,
+    "decimal date": 1985.375,
+    "monthly average": 349.28,
+    "de-seasonalized": 346.12,
+    "#days": 20,
+    "st.dev of days": 0.51,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 1985,
+    "month": 6,
+    "decimal date": 1985.4583,
+    "monthly average": 348.65,
+    "de-seasonalized": 346.23,
+    "#days": 21,
+    "st.dev of days": 0.34,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1985,
+    "month": 7,
+    "decimal date": 1985.5417,
+    "monthly average": 346.9,
+    "de-seasonalized": 346.08,
+    "#days": 17,
+    "st.dev of days": 0.36,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 1985,
+    "month": 8,
+    "decimal date": 1985.625,
+    "monthly average": 345.26,
+    "de-seasonalized": 346.57,
+    "#days": 16,
+    "st.dev of days": 0.57,
+    "uncertainty of mon mean": 0.27
+  },
+  {
+    "year": 1985,
+    "month": 9,
+    "decimal date": 1985.7083,
+    "monthly average": 343.47,
+    "de-seasonalized": 346.59,
+    "#days": 24,
+    "st.dev of days": 0.57,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 1985,
+    "month": 10,
+    "decimal date": 1985.7917,
+    "monthly average": 343.35,
+    "de-seasonalized": 346.6,
+    "#days": 20,
+    "st.dev of days": 0.29,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1985,
+    "month": 11,
+    "decimal date": 1985.875,
+    "monthly average": 344.73,
+    "de-seasonalized": 346.82,
+    "#days": 21,
+    "st.dev of days": 0.4,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 1985,
+    "month": 12,
+    "decimal date": 1985.9583,
+    "monthly average": 346.12,
+    "de-seasonalized": 347.04,
+    "#days": 26,
+    "st.dev of days": 0.62,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 1986,
+    "month": 1,
+    "decimal date": 1986.0417,
+    "monthly average": 346.78,
+    "de-seasonalized": 346.82,
+    "#days": 25,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 1986,
+    "month": 2,
+    "decimal date": 1986.125,
+    "monthly average": 347.48,
+    "de-seasonalized": 346.98,
+    "#days": 25,
+    "st.dev of days": 0.45,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 1986,
+    "month": 3,
+    "decimal date": 1986.2083,
+    "monthly average": 348.25,
+    "de-seasonalized": 346.93,
+    "#days": 16,
+    "st.dev of days": 0.7,
+    "uncertainty of mon mean": 0.34
+  },
+  {
+    "year": 1986,
+    "month": 4,
+    "decimal date": 1986.2917,
+    "monthly average": 349.86,
+    "de-seasonalized": 347.29,
+    "#days": 19,
+    "st.dev of days": 0.38,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 1986,
+    "month": 5,
+    "decimal date": 1986.375,
+    "monthly average": 350.52,
+    "de-seasonalized": 347.41,
+    "#days": 18,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1986,
+    "month": 6,
+    "decimal date": 1986.4583,
+    "monthly average": 349.98,
+    "de-seasonalized": 347.61,
+    "#days": 17,
+    "st.dev of days": 0.25,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 1986,
+    "month": 7,
+    "decimal date": 1986.5417,
+    "monthly average": 348.25,
+    "de-seasonalized": 347.43,
+    "#days": 20,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 1986,
+    "month": 8,
+    "decimal date": 1986.625,
+    "monthly average": 346.17,
+    "de-seasonalized": 347.51,
+    "#days": 18,
+    "st.dev of days": 0.48,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 1986,
+    "month": 9,
+    "decimal date": 1986.7083,
+    "monthly average": 345.48,
+    "de-seasonalized": 348.62,
+    "#days": 17,
+    "st.dev of days": 0.63,
+    "uncertainty of mon mean": 0.29
+  },
+  {
+    "year": 1986,
+    "month": 10,
+    "decimal date": 1986.7917,
+    "monthly average": 344.82,
+    "de-seasonalized": 348.04,
+    "#days": 25,
+    "st.dev of days": 0.32,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 1986,
+    "month": 11,
+    "decimal date": 1986.875,
+    "monthly average": 346.22,
+    "de-seasonalized": 348.28,
+    "#days": 21,
+    "st.dev of days": 0.3,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1986,
+    "month": 12,
+    "decimal date": 1986.9583,
+    "monthly average": 347.49,
+    "de-seasonalized": 348.36,
+    "#days": 24,
+    "st.dev of days": 0.35,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1987,
+    "month": 1,
+    "decimal date": 1987.0417,
+    "monthly average": 348.73,
+    "de-seasonalized": 348.66,
+    "#days": 25,
+    "st.dev of days": 0.46,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 1987,
+    "month": 2,
+    "decimal date": 1987.125,
+    "monthly average": 348.92,
+    "de-seasonalized": 348.24,
+    "#days": 25,
+    "st.dev of days": 0.58,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 1987,
+    "month": 3,
+    "decimal date": 1987.2083,
+    "monthly average": 349.81,
+    "de-seasonalized": 348.39,
+    "#days": 21,
+    "st.dev of days": 0.35,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 1987,
+    "month": 4,
+    "decimal date": 1987.2917,
+    "monthly average": 351.4,
+    "de-seasonalized": 348.84,
+    "#days": 26,
+    "st.dev of days": 0.68,
+    "uncertainty of mon mean": 0.25
+  },
+  {
+    "year": 1987,
+    "month": 5,
+    "decimal date": 1987.375,
+    "monthly average": 352.15,
+    "de-seasonalized": 349.09,
+    "#days": 28,
+    "st.dev of days": 0.37,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1987,
+    "month": 6,
+    "decimal date": 1987.4583,
+    "monthly average": 351.58,
+    "de-seasonalized": 349.29,
+    "#days": 22,
+    "st.dev of days": 0.21,
+    "uncertainty of mon mean": 0.09
+  },
+  {
+    "year": 1987,
+    "month": 7,
+    "decimal date": 1987.5417,
+    "monthly average": 350.21,
+    "de-seasonalized": 349.51,
+    "#days": 17,
+    "st.dev of days": 0.73,
+    "uncertainty of mon mean": 0.34
+  },
+  {
+    "year": 1987,
+    "month": 8,
+    "decimal date": 1987.625,
+    "monthly average": 348.2,
+    "de-seasonalized": 349.65,
+    "#days": 15,
+    "st.dev of days": 0.85,
+    "uncertainty of mon mean": 0.42
+  },
+  {
+    "year": 1987,
+    "month": 9,
+    "decimal date": 1987.7083,
+    "monthly average": 346.66,
+    "de-seasonalized": 349.85,
+    "#days": 23,
+    "st.dev of days": 0.61,
+    "uncertainty of mon mean": 0.24
+  },
+  {
+    "year": 1987,
+    "month": 10,
+    "decimal date": 1987.7917,
+    "monthly average": 346.72,
+    "de-seasonalized": 349.96,
+    "#days": 22,
+    "st.dev of days": 0.41,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 1987,
+    "month": 11,
+    "decimal date": 1987.875,
+    "monthly average": 348.08,
+    "de-seasonalized": 350.15,
+    "#days": 23,
+    "st.dev of days": 0.33,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1987,
+    "month": 12,
+    "decimal date": 1987.9583,
+    "monthly average": 349.28,
+    "de-seasonalized": 350.14,
+    "#days": 27,
+    "st.dev of days": 0.2,
+    "uncertainty of mon mean": 0.08
+  },
+  {
+    "year": 1988,
+    "month": 1,
+    "decimal date": 1988.0417,
+    "monthly average": 350.51,
+    "de-seasonalized": 350.49,
+    "#days": 24,
+    "st.dev of days": 0.21,
+    "uncertainty of mon mean": 0.08
+  },
+  {
+    "year": 1988,
+    "month": 2,
+    "decimal date": 1988.125,
+    "monthly average": 351.7,
+    "de-seasonalized": 350.99,
+    "#days": 23,
+    "st.dev of days": 0.57,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 1988,
+    "month": 3,
+    "decimal date": 1988.2083,
+    "monthly average": 352.5,
+    "de-seasonalized": 350.99,
+    "#days": 25,
+    "st.dev of days": 0.78,
+    "uncertainty of mon mean": 0.3
+  },
+  {
+    "year": 1988,
+    "month": 4,
+    "decimal date": 1988.2917,
+    "monthly average": 353.67,
+    "de-seasonalized": 351.03,
+    "#days": 27,
+    "st.dev of days": 0.48,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1988,
+    "month": 5,
+    "decimal date": 1988.375,
+    "monthly average": 354.35,
+    "de-seasonalized": 351.22,
+    "#days": 28,
+    "st.dev of days": 0.37,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1988,
+    "month": 6,
+    "decimal date": 1988.4583,
+    "monthly average": 353.88,
+    "de-seasonalized": 351.55,
+    "#days": 26,
+    "st.dev of days": 0.3,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 1988,
+    "month": 7,
+    "decimal date": 1988.5417,
+    "monthly average": 352.8,
+    "de-seasonalized": 352.15,
+    "#days": 27,
+    "st.dev of days": 0.49,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1988,
+    "month": 8,
+    "decimal date": 1988.625,
+    "monthly average": 350.49,
+    "de-seasonalized": 352.01,
+    "#days": 26,
+    "st.dev of days": 0.62,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 1988,
+    "month": 9,
+    "decimal date": 1988.7083,
+    "monthly average": 348.97,
+    "de-seasonalized": 352.18,
+    "#days": 26,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1988,
+    "month": 10,
+    "decimal date": 1988.7917,
+    "monthly average": 349.37,
+    "de-seasonalized": 352.62,
+    "#days": 26,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 1988,
+    "month": 11,
+    "decimal date": 1988.875,
+    "monthly average": 350.42,
+    "de-seasonalized": 352.53,
+    "#days": 25,
+    "st.dev of days": 0.2,
+    "uncertainty of mon mean": 0.08
+  },
+  {
+    "year": 1988,
+    "month": 12,
+    "decimal date": 1988.9583,
+    "monthly average": 351.62,
+    "de-seasonalized": 352.52,
+    "#days": 28,
+    "st.dev of days": 0.36,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1989,
+    "month": 1,
+    "decimal date": 1989.0417,
+    "monthly average": 353.07,
+    "de-seasonalized": 352.99,
+    "#days": 28,
+    "st.dev of days": 0.45,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 1989,
+    "month": 2,
+    "decimal date": 1989.125,
+    "monthly average": 353.43,
+    "de-seasonalized": 352.69,
+    "#days": 25,
+    "st.dev of days": 0.38,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 1989,
+    "month": 3,
+    "decimal date": 1989.2083,
+    "monthly average": 354.08,
+    "de-seasonalized": 352.6,
+    "#days": 29,
+    "st.dev of days": 0.53,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 1989,
+    "month": 4,
+    "decimal date": 1989.2917,
+    "monthly average": 355.72,
+    "de-seasonalized": 353.07,
+    "#days": 28,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 1989,
+    "month": 5,
+    "decimal date": 1989.375,
+    "monthly average": 355.95,
+    "de-seasonalized": 352.78,
+    "#days": 27,
+    "st.dev of days": 0.49,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1989,
+    "month": 6,
+    "decimal date": 1989.4583,
+    "monthly average": 355.44,
+    "de-seasonalized": 353.06,
+    "#days": 26,
+    "st.dev of days": 0.42,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 1989,
+    "month": 7,
+    "decimal date": 1989.5417,
+    "monthly average": 354.05,
+    "de-seasonalized": 353.38,
+    "#days": 26,
+    "st.dev of days": 0.41,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 1989,
+    "month": 8,
+    "decimal date": 1989.625,
+    "monthly average": 351.84,
+    "de-seasonalized": 353.43,
+    "#days": 25,
+    "st.dev of days": 0.48,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1989,
+    "month": 9,
+    "decimal date": 1989.7083,
+    "monthly average": 350.09,
+    "de-seasonalized": 353.37,
+    "#days": 24,
+    "st.dev of days": 0.69,
+    "uncertainty of mon mean": 0.27
+  },
+  {
+    "year": 1989,
+    "month": 10,
+    "decimal date": 1989.7917,
+    "monthly average": 350.33,
+    "de-seasonalized": 353.57,
+    "#days": 25,
+    "st.dev of days": 0.34,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1989,
+    "month": 11,
+    "decimal date": 1989.875,
+    "monthly average": 351.55,
+    "de-seasonalized": 353.68,
+    "#days": 27,
+    "st.dev of days": 0.36,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1989,
+    "month": 12,
+    "decimal date": 1989.9583,
+    "monthly average": 352.91,
+    "de-seasonalized": 353.84,
+    "#days": 27,
+    "st.dev of days": 0.48,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1990,
+    "month": 1,
+    "decimal date": 1990.0417,
+    "monthly average": 353.86,
+    "de-seasonalized": 353.78,
+    "#days": 25,
+    "st.dev of days": 0.34,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1990,
+    "month": 2,
+    "decimal date": 1990.125,
+    "monthly average": 355.1,
+    "de-seasonalized": 354.37,
+    "#days": 28,
+    "st.dev of days": 0.66,
+    "uncertainty of mon mean": 0.24
+  },
+  {
+    "year": 1990,
+    "month": 3,
+    "decimal date": 1990.2083,
+    "monthly average": 355.75,
+    "de-seasonalized": 354.27,
+    "#days": 27,
+    "st.dev of days": 0.57,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 1990,
+    "month": 4,
+    "decimal date": 1990.2917,
+    "monthly average": 356.38,
+    "de-seasonalized": 353.76,
+    "#days": 28,
+    "st.dev of days": 0.55,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 1990,
+    "month": 5,
+    "decimal date": 1990.375,
+    "monthly average": 357.38,
+    "de-seasonalized": 354.23,
+    "#days": 28,
+    "st.dev of days": 0.3,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 1990,
+    "month": 6,
+    "decimal date": 1990.4583,
+    "monthly average": 356.39,
+    "de-seasonalized": 354.02,
+    "#days": 29,
+    "st.dev of days": 0.4,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1990,
+    "month": 7,
+    "decimal date": 1990.5417,
+    "monthly average": 354.89,
+    "de-seasonalized": 354.24,
+    "#days": 30,
+    "st.dev of days": 0.89,
+    "uncertainty of mon mean": 0.31
+  },
+  {
+    "year": 1990,
+    "month": 8,
+    "decimal date": 1990.625,
+    "monthly average": 353.06,
+    "de-seasonalized": 354.68,
+    "#days": 22,
+    "st.dev of days": 0.62,
+    "uncertainty of mon mean": 0.25
+  },
+  {
+    "year": 1990,
+    "month": 9,
+    "decimal date": 1990.7083,
+    "monthly average": 351.38,
+    "de-seasonalized": 354.69,
+    "#days": 27,
+    "st.dev of days": 0.72,
+    "uncertainty of mon mean": 0.26
+  },
+  {
+    "year": 1990,
+    "month": 10,
+    "decimal date": 1990.7917,
+    "monthly average": 351.69,
+    "de-seasonalized": 354.94,
+    "#days": 28,
+    "st.dev of days": 0.3,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 1990,
+    "month": 11,
+    "decimal date": 1990.875,
+    "monthly average": 353.14,
+    "de-seasonalized": 355.18,
+    "#days": 24,
+    "st.dev of days": 0.2,
+    "uncertainty of mon mean": 0.08
+  },
+  {
+    "year": 1990,
+    "month": 12,
+    "decimal date": 1990.9583,
+    "monthly average": 354.41,
+    "de-seasonalized": 355.26,
+    "#days": 28,
+    "st.dev of days": 0.51,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 1991,
+    "month": 1,
+    "decimal date": 1991.0417,
+    "monthly average": 354.93,
+    "de-seasonalized": 354.9,
+    "#days": 28,
+    "st.dev of days": 0.51,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1991,
+    "month": 2,
+    "decimal date": 1991.125,
+    "monthly average": 355.82,
+    "de-seasonalized": 355.11,
+    "#days": 26,
+    "st.dev of days": 0.54,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 1991,
+    "month": 3,
+    "decimal date": 1991.2083,
+    "monthly average": 357.33,
+    "de-seasonalized": 355.79,
+    "#days": 30,
+    "st.dev of days": 0.73,
+    "uncertainty of mon mean": 0.25
+  },
+  {
+    "year": 1991,
+    "month": 4,
+    "decimal date": 1991.2917,
+    "monthly average": 358.77,
+    "de-seasonalized": 356.13,
+    "#days": 30,
+    "st.dev of days": 0.66,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 1991,
+    "month": 5,
+    "decimal date": 1991.375,
+    "monthly average": 359.23,
+    "de-seasonalized": 356.1,
+    "#days": 29,
+    "st.dev of days": 0.52,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 1991,
+    "month": 6,
+    "decimal date": 1991.4583,
+    "monthly average": 358.23,
+    "de-seasonalized": 355.88,
+    "#days": 29,
+    "st.dev of days": 0.3,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 1991,
+    "month": 7,
+    "decimal date": 1991.5417,
+    "monthly average": 356.3,
+    "de-seasonalized": 355.69,
+    "#days": 24,
+    "st.dev of days": 0.46,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1991,
+    "month": 8,
+    "decimal date": 1991.625,
+    "monthly average": 353.97,
+    "de-seasonalized": 355.59,
+    "#days": 23,
+    "st.dev of days": 0.39,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 1991,
+    "month": 9,
+    "decimal date": 1991.7083,
+    "monthly average": 352.34,
+    "de-seasonalized": 355.66,
+    "#days": 27,
+    "st.dev of days": 0.37,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1991,
+    "month": 10,
+    "decimal date": 1991.7917,
+    "monthly average": 352.43,
+    "de-seasonalized": 355.69,
+    "#days": 27,
+    "st.dev of days": 0.25,
+    "uncertainty of mon mean": 0.09
+  },
+  {
+    "year": 1991,
+    "month": 11,
+    "decimal date": 1991.875,
+    "monthly average": 353.89,
+    "de-seasonalized": 355.87,
+    "#days": 28,
+    "st.dev of days": 0.25,
+    "uncertainty of mon mean": 0.09
+  },
+  {
+    "year": 1991,
+    "month": 12,
+    "decimal date": 1991.9583,
+    "monthly average": 355.21,
+    "de-seasonalized": 356.02,
+    "#days": 30,
+    "st.dev of days": 0.34,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 1992,
+    "month": 1,
+    "decimal date": 1992.0417,
+    "monthly average": 356.34,
+    "de-seasonalized": 356.29,
+    "#days": 31,
+    "st.dev of days": 0.6,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 1992,
+    "month": 2,
+    "decimal date": 1992.125,
+    "monthly average": 357.21,
+    "de-seasonalized": 356.47,
+    "#days": 27,
+    "st.dev of days": 0.56,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 1992,
+    "month": 3,
+    "decimal date": 1992.2083,
+    "monthly average": 357.97,
+    "de-seasonalized": 356.38,
+    "#days": 24,
+    "st.dev of days": 0.72,
+    "uncertainty of mon mean": 0.28
+  },
+  {
+    "year": 1992,
+    "month": 4,
+    "decimal date": 1992.2917,
+    "monthly average": 359.22,
+    "de-seasonalized": 356.51,
+    "#days": 27,
+    "st.dev of days": 0.53,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 1992,
+    "month": 5,
+    "decimal date": 1992.375,
+    "monthly average": 359.71,
+    "de-seasonalized": 356.52,
+    "#days": 26,
+    "st.dev of days": 0.74,
+    "uncertainty of mon mean": 0.28
+  },
+  {
+    "year": 1992,
+    "month": 6,
+    "decimal date": 1992.4583,
+    "monthly average": 359.44,
+    "de-seasonalized": 357.07,
+    "#days": 30,
+    "st.dev of days": 0.49,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 1992,
+    "month": 7,
+    "decimal date": 1992.5417,
+    "monthly average": 357.15,
+    "de-seasonalized": 356.58,
+    "#days": 25,
+    "st.dev of days": 0.63,
+    "uncertainty of mon mean": 0.24
+  },
+  {
+    "year": 1992,
+    "month": 8,
+    "decimal date": 1992.625,
+    "monthly average": 354.99,
+    "de-seasonalized": 356.67,
+    "#days": 24,
+    "st.dev of days": 0.62,
+    "uncertainty of mon mean": 0.24
+  },
+  {
+    "year": 1992,
+    "month": 9,
+    "decimal date": 1992.7083,
+    "monthly average": 353.01,
+    "de-seasonalized": 356.36,
+    "#days": 25,
+    "st.dev of days": 0.98,
+    "uncertainty of mon mean": 0.38
+  },
+  {
+    "year": 1992,
+    "month": 10,
+    "decimal date": 1992.7917,
+    "monthly average": 353.41,
+    "de-seasonalized": 356.72,
+    "#days": 29,
+    "st.dev of days": 0.56,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 1992,
+    "month": 11,
+    "decimal date": 1992.875,
+    "monthly average": 354.42,
+    "de-seasonalized": 356.48,
+    "#days": 29,
+    "st.dev of days": 0.34,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 1992,
+    "month": 12,
+    "decimal date": 1992.9583,
+    "monthly average": 355.68,
+    "de-seasonalized": 356.5,
+    "#days": 31,
+    "st.dev of days": 0.32,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 1993,
+    "month": 1,
+    "decimal date": 1993.0417,
+    "monthly average": 357.1,
+    "de-seasonalized": 357.06,
+    "#days": 28,
+    "st.dev of days": 0.58,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 1993,
+    "month": 2,
+    "decimal date": 1993.125,
+    "monthly average": 357.42,
+    "de-seasonalized": 356.54,
+    "#days": 28,
+    "st.dev of days": 0.49,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1993,
+    "month": 3,
+    "decimal date": 1993.2083,
+    "monthly average": 358.59,
+    "de-seasonalized": 356.88,
+    "#days": 30,
+    "st.dev of days": 0.72,
+    "uncertainty of mon mean": 0.25
+  },
+  {
+    "year": 1993,
+    "month": 4,
+    "decimal date": 1993.2917,
+    "monthly average": 359.39,
+    "de-seasonalized": 356.71,
+    "#days": 25,
+    "st.dev of days": 0.53,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 1993,
+    "month": 5,
+    "decimal date": 1993.375,
+    "monthly average": 360.3,
+    "de-seasonalized": 357.14,
+    "#days": 30,
+    "st.dev of days": 0.45,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 1993,
+    "month": 6,
+    "decimal date": 1993.4583,
+    "monthly average": 359.64,
+    "de-seasonalized": 357.24,
+    "#days": 28,
+    "st.dev of days": 0.35,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1993,
+    "month": 7,
+    "decimal date": 1993.5417,
+    "monthly average": 357.45,
+    "de-seasonalized": 356.87,
+    "#days": 25,
+    "st.dev of days": 0.78,
+    "uncertainty of mon mean": 0.3
+  },
+  {
+    "year": 1993,
+    "month": 8,
+    "decimal date": 1993.625,
+    "monthly average": 355.76,
+    "de-seasonalized": 357.44,
+    "#days": 27,
+    "st.dev of days": 0.62,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 1993,
+    "month": 9,
+    "decimal date": 1993.7083,
+    "monthly average": 354.14,
+    "de-seasonalized": 357.51,
+    "#days": 23,
+    "st.dev of days": 0.73,
+    "uncertainty of mon mean": 0.29
+  },
+  {
+    "year": 1993,
+    "month": 10,
+    "decimal date": 1993.7917,
+    "monthly average": 354.23,
+    "de-seasonalized": 357.61,
+    "#days": 28,
+    "st.dev of days": 0.29,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 1993,
+    "month": 11,
+    "decimal date": 1993.875,
+    "monthly average": 355.53,
+    "de-seasonalized": 357.65,
+    "#days": 29,
+    "st.dev of days": 0.26,
+    "uncertainty of mon mean": 0.09
+  },
+  {
+    "year": 1993,
+    "month": 12,
+    "decimal date": 1993.9583,
+    "monthly average": 357.03,
+    "de-seasonalized": 357.92,
+    "#days": 29,
+    "st.dev of days": 0.28,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 1994,
+    "month": 1,
+    "decimal date": 1994.0417,
+    "monthly average": 358.36,
+    "de-seasonalized": 358.25,
+    "#days": 27,
+    "st.dev of days": 0.33,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 1994,
+    "month": 2,
+    "decimal date": 1994.125,
+    "monthly average": 359.04,
+    "de-seasonalized": 358.21,
+    "#days": 25,
+    "st.dev of days": 0.5,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 1994,
+    "month": 3,
+    "decimal date": 1994.2083,
+    "monthly average": 360.11,
+    "de-seasonalized": 358.41,
+    "#days": 29,
+    "st.dev of days": 0.82,
+    "uncertainty of mon mean": 0.29
+  },
+  {
+    "year": 1994,
+    "month": 4,
+    "decimal date": 1994.2917,
+    "monthly average": 361.36,
+    "de-seasonalized": 358.59,
+    "#days": 28,
+    "st.dev of days": 0.5,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1994,
+    "month": 5,
+    "decimal date": 1994.375,
+    "monthly average": 361.78,
+    "de-seasonalized": 358.59,
+    "#days": 30,
+    "st.dev of days": 0.45,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 1994,
+    "month": 6,
+    "decimal date": 1994.4583,
+    "monthly average": 360.94,
+    "de-seasonalized": 358.57,
+    "#days": 27,
+    "st.dev of days": 0.3,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 1994,
+    "month": 7,
+    "decimal date": 1994.5417,
+    "monthly average": 359.51,
+    "de-seasonalized": 358.91,
+    "#days": 31,
+    "st.dev of days": 0.41,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1994,
+    "month": 8,
+    "decimal date": 1994.625,
+    "monthly average": 357.59,
+    "de-seasonalized": 359.29,
+    "#days": 24,
+    "st.dev of days": 0.43,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 1994,
+    "month": 9,
+    "decimal date": 1994.7083,
+    "monthly average": 355.86,
+    "de-seasonalized": 359.31,
+    "#days": 24,
+    "st.dev of days": 0.58,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 1994,
+    "month": 10,
+    "decimal date": 1994.7917,
+    "monthly average": 356.21,
+    "de-seasonalized": 359.63,
+    "#days": 28,
+    "st.dev of days": 0.28,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 1994,
+    "month": 11,
+    "decimal date": 1994.875,
+    "monthly average": 357.65,
+    "de-seasonalized": 359.8,
+    "#days": 28,
+    "st.dev of days": 0.51,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1994,
+    "month": 12,
+    "decimal date": 1994.9583,
+    "monthly average": 359.1,
+    "de-seasonalized": 359.96,
+    "#days": 28,
+    "st.dev of days": 0.46,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 1995,
+    "month": 1,
+    "decimal date": 1995.0417,
+    "monthly average": 360.04,
+    "de-seasonalized": 359.91,
+    "#days": 30,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 1995,
+    "month": 2,
+    "decimal date": 1995.125,
+    "monthly average": 361,
+    "de-seasonalized": 360.18,
+    "#days": 28,
+    "st.dev of days": 0.52,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 1995,
+    "month": 3,
+    "decimal date": 1995.2083,
+    "monthly average": 361.98,
+    "de-seasonalized": 360.37,
+    "#days": 29,
+    "st.dev of days": 0.78,
+    "uncertainty of mon mean": 0.28
+  },
+  {
+    "year": 1995,
+    "month": 4,
+    "decimal date": 1995.2917,
+    "monthly average": 363.44,
+    "de-seasonalized": 360.76,
+    "#days": 29,
+    "st.dev of days": 0.65,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 1995,
+    "month": 5,
+    "decimal date": 1995.375,
+    "monthly average": 363.83,
+    "de-seasonalized": 360.72,
+    "#days": 29,
+    "st.dev of days": 0.66,
+    "uncertainty of mon mean": 0.24
+  },
+  {
+    "year": 1995,
+    "month": 6,
+    "decimal date": 1995.4583,
+    "monthly average": 363.33,
+    "de-seasonalized": 360.98,
+    "#days": 27,
+    "st.dev of days": 0.37,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1995,
+    "month": 7,
+    "decimal date": 1995.5417,
+    "monthly average": 361.78,
+    "de-seasonalized": 361.1,
+    "#days": 28,
+    "st.dev of days": 0.36,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1995,
+    "month": 8,
+    "decimal date": 1995.625,
+    "monthly average": 359.33,
+    "de-seasonalized": 360.93,
+    "#days": 24,
+    "st.dev of days": 0.7,
+    "uncertainty of mon mean": 0.28
+  },
+  {
+    "year": 1995,
+    "month": 9,
+    "decimal date": 1995.7083,
+    "monthly average": 358.32,
+    "de-seasonalized": 361.7,
+    "#days": 24,
+    "st.dev of days": 0.68,
+    "uncertainty of mon mean": 0.26
+  },
+  {
+    "year": 1995,
+    "month": 10,
+    "decimal date": 1995.7917,
+    "monthly average": 358.14,
+    "de-seasonalized": 361.52,
+    "#days": 29,
+    "st.dev of days": 0.26,
+    "uncertainty of mon mean": 0.09
+  },
+  {
+    "year": 1995,
+    "month": 11,
+    "decimal date": 1995.875,
+    "monthly average": 359.61,
+    "de-seasonalized": 361.75,
+    "#days": 26,
+    "st.dev of days": 0.24,
+    "uncertainty of mon mean": 0.09
+  },
+  {
+    "year": 1995,
+    "month": 12,
+    "decimal date": 1995.9583,
+    "monthly average": 360.82,
+    "de-seasonalized": 361.67,
+    "#days": 30,
+    "st.dev of days": 0.36,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 1996,
+    "month": 1,
+    "decimal date": 1996.0417,
+    "monthly average": 362.2,
+    "de-seasonalized": 361.98,
+    "#days": 29,
+    "st.dev of days": 0.38,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1996,
+    "month": 2,
+    "decimal date": 1996.125,
+    "monthly average": 363.36,
+    "de-seasonalized": 362.47,
+    "#days": 28,
+    "st.dev of days": 0.55,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 1996,
+    "month": 3,
+    "decimal date": 1996.2083,
+    "monthly average": 364.28,
+    "de-seasonalized": 362.64,
+    "#days": 28,
+    "st.dev of days": 0.67,
+    "uncertainty of mon mean": 0.24
+  },
+  {
+    "year": 1996,
+    "month": 4,
+    "decimal date": 1996.2917,
+    "monthly average": 364.69,
+    "de-seasonalized": 361.99,
+    "#days": 29,
+    "st.dev of days": 0.59,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 1996,
+    "month": 5,
+    "decimal date": 1996.375,
+    "monthly average": 365.25,
+    "de-seasonalized": 362.23,
+    "#days": 30,
+    "st.dev of days": 0.57,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 1996,
+    "month": 6,
+    "decimal date": 1996.4583,
+    "monthly average": 365.06,
+    "de-seasonalized": 362.82,
+    "#days": 30,
+    "st.dev of days": 0.38,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1996,
+    "month": 7,
+    "decimal date": 1996.5417,
+    "monthly average": 363.69,
+    "de-seasonalized": 362.98,
+    "#days": 31,
+    "st.dev of days": 0.32,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 1996,
+    "month": 8,
+    "decimal date": 1996.625,
+    "monthly average": 361.55,
+    "de-seasonalized": 363.13,
+    "#days": 27,
+    "st.dev of days": 0.49,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1996,
+    "month": 9,
+    "decimal date": 1996.7083,
+    "monthly average": 359.69,
+    "de-seasonalized": 363.14,
+    "#days": 25,
+    "st.dev of days": 0.75,
+    "uncertainty of mon mean": 0.29
+  },
+  {
+    "year": 1996,
+    "month": 10,
+    "decimal date": 1996.7917,
+    "monthly average": 359.72,
+    "de-seasonalized": 363.12,
+    "#days": 29,
+    "st.dev of days": 0.32,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 1996,
+    "month": 11,
+    "decimal date": 1996.875,
+    "monthly average": 361.04,
+    "de-seasonalized": 363.18,
+    "#days": 29,
+    "st.dev of days": 0.29,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 1996,
+    "month": 12,
+    "decimal date": 1996.9583,
+    "monthly average": 362.39,
+    "de-seasonalized": 363.23,
+    "#days": 29,
+    "st.dev of days": 0.36,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 1997,
+    "month": 1,
+    "decimal date": 1997.0417,
+    "monthly average": 363.24,
+    "de-seasonalized": 363.03,
+    "#days": 31,
+    "st.dev of days": 0.4,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1997,
+    "month": 2,
+    "decimal date": 1997.125,
+    "monthly average": 364.21,
+    "de-seasonalized": 363.4,
+    "#days": 28,
+    "st.dev of days": 0.62,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 1997,
+    "month": 3,
+    "decimal date": 1997.2083,
+    "monthly average": 364.65,
+    "de-seasonalized": 363.02,
+    "#days": 31,
+    "st.dev of days": 0.4,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1997,
+    "month": 4,
+    "decimal date": 1997.2917,
+    "monthly average": 366.49,
+    "de-seasonalized": 363.82,
+    "#days": 21,
+    "st.dev of days": 0.46,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 1997,
+    "month": 5,
+    "decimal date": 1997.375,
+    "monthly average": 366.77,
+    "de-seasonalized": 363.87,
+    "#days": 29,
+    "st.dev of days": 0.53,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 1997,
+    "month": 6,
+    "decimal date": 1997.4583,
+    "monthly average": 365.73,
+    "de-seasonalized": 363.56,
+    "#days": 27,
+    "st.dev of days": 0.23,
+    "uncertainty of mon mean": 0.09
+  },
+  {
+    "year": 1997,
+    "month": 7,
+    "decimal date": 1997.5417,
+    "monthly average": 364.46,
+    "de-seasonalized": 363.74,
+    "#days": 24,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 1997,
+    "month": 8,
+    "decimal date": 1997.625,
+    "monthly average": 362.4,
+    "de-seasonalized": 363.98,
+    "#days": 25,
+    "st.dev of days": 0.57,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 1997,
+    "month": 9,
+    "decimal date": 1997.7083,
+    "monthly average": 360.44,
+    "de-seasonalized": 363.83,
+    "#days": 26,
+    "st.dev of days": 0.63,
+    "uncertainty of mon mean": 0.24
+  },
+  {
+    "year": 1997,
+    "month": 10,
+    "decimal date": 1997.7917,
+    "monthly average": 360.98,
+    "de-seasonalized": 364.28,
+    "#days": 27,
+    "st.dev of days": 0.32,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 1997,
+    "month": 11,
+    "decimal date": 1997.875,
+    "monthly average": 362.65,
+    "de-seasonalized": 364.71,
+    "#days": 30,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 1997,
+    "month": 12,
+    "decimal date": 1997.9583,
+    "monthly average": 364.51,
+    "de-seasonalized": 365.28,
+    "#days": 30,
+    "st.dev of days": 0.41,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1998,
+    "month": 1,
+    "decimal date": 1998.0417,
+    "monthly average": 365.39,
+    "de-seasonalized": 365.19,
+    "#days": 30,
+    "st.dev of days": 0.43,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 1998,
+    "month": 2,
+    "decimal date": 1998.125,
+    "monthly average": 366.1,
+    "de-seasonalized": 365.29,
+    "#days": 28,
+    "st.dev of days": 0.62,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 1998,
+    "month": 3,
+    "decimal date": 1998.2083,
+    "monthly average": 367.36,
+    "de-seasonalized": 365.73,
+    "#days": 31,
+    "st.dev of days": 0.82,
+    "uncertainty of mon mean": 0.28
+  },
+  {
+    "year": 1998,
+    "month": 4,
+    "decimal date": 1998.2917,
+    "monthly average": 368.79,
+    "de-seasonalized": 366.17,
+    "#days": 29,
+    "st.dev of days": 0.63,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 1998,
+    "month": 5,
+    "decimal date": 1998.375,
+    "monthly average": 369.56,
+    "de-seasonalized": 366.68,
+    "#days": 30,
+    "st.dev of days": 0.77,
+    "uncertainty of mon mean": 0.27
+  },
+  {
+    "year": 1998,
+    "month": 6,
+    "decimal date": 1998.4583,
+    "monthly average": 369.13,
+    "de-seasonalized": 366.95,
+    "#days": 28,
+    "st.dev of days": 0.24,
+    "uncertainty of mon mean": 0.09
+  },
+  {
+    "year": 1998,
+    "month": 7,
+    "decimal date": 1998.5417,
+    "monthly average": 367.98,
+    "de-seasonalized": 367.29,
+    "#days": 23,
+    "st.dev of days": 0.65,
+    "uncertainty of mon mean": 0.26
+  },
+  {
+    "year": 1998,
+    "month": 8,
+    "decimal date": 1998.625,
+    "monthly average": 366.1,
+    "de-seasonalized": 367.69,
+    "#days": 30,
+    "st.dev of days": 0.3,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 1998,
+    "month": 9,
+    "decimal date": 1998.7083,
+    "monthly average": 364.16,
+    "de-seasonalized": 367.51,
+    "#days": 28,
+    "st.dev of days": 0.4,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1998,
+    "month": 10,
+    "decimal date": 1998.7917,
+    "monthly average": 364.54,
+    "de-seasonalized": 367.82,
+    "#days": 30,
+    "st.dev of days": 0.26,
+    "uncertainty of mon mean": 0.09
+  },
+  {
+    "year": 1998,
+    "month": 11,
+    "decimal date": 1998.875,
+    "monthly average": 365.67,
+    "de-seasonalized": 367.7,
+    "#days": 23,
+    "st.dev of days": 0.25,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 1998,
+    "month": 12,
+    "decimal date": 1998.9583,
+    "monthly average": 367.3,
+    "de-seasonalized": 368.05,
+    "#days": 26,
+    "st.dev of days": 0.36,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1999,
+    "month": 1,
+    "decimal date": 1999.0417,
+    "monthly average": 368.35,
+    "de-seasonalized": 368.13,
+    "#days": 27,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 1999,
+    "month": 2,
+    "decimal date": 1999.125,
+    "monthly average": 369.28,
+    "de-seasonalized": 368.46,
+    "#days": 21,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 1999,
+    "month": 3,
+    "decimal date": 1999.2083,
+    "monthly average": 369.84,
+    "de-seasonalized": 368.24,
+    "#days": 25,
+    "st.dev of days": 0.81,
+    "uncertainty of mon mean": 0.31
+  },
+  {
+    "year": 1999,
+    "month": 4,
+    "decimal date": 1999.2917,
+    "monthly average": 371.15,
+    "de-seasonalized": 368.62,
+    "#days": 29,
+    "st.dev of days": 0.67,
+    "uncertainty of mon mean": 0.24
+  },
+  {
+    "year": 1999,
+    "month": 5,
+    "decimal date": 1999.375,
+    "monthly average": 371.12,
+    "de-seasonalized": 368.31,
+    "#days": 26,
+    "st.dev of days": 0.59,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 1999,
+    "month": 6,
+    "decimal date": 1999.4583,
+    "monthly average": 370.46,
+    "de-seasonalized": 368.3,
+    "#days": 26,
+    "st.dev of days": 0.44,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 1999,
+    "month": 7,
+    "decimal date": 1999.5417,
+    "monthly average": 369.61,
+    "de-seasonalized": 368.93,
+    "#days": 27,
+    "st.dev of days": 0.63,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 1999,
+    "month": 8,
+    "decimal date": 1999.625,
+    "monthly average": 367.06,
+    "de-seasonalized": 368.63,
+    "#days": 25,
+    "st.dev of days": 0.38,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 1999,
+    "month": 9,
+    "decimal date": 1999.7083,
+    "monthly average": 364.95,
+    "de-seasonalized": 368.28,
+    "#days": 28,
+    "st.dev of days": 0.74,
+    "uncertainty of mon mean": 0.27
+  },
+  {
+    "year": 1999,
+    "month": 10,
+    "decimal date": 1999.7917,
+    "monthly average": 365.52,
+    "de-seasonalized": 368.8,
+    "#days": 31,
+    "st.dev of days": 0.28,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 1999,
+    "month": 11,
+    "decimal date": 1999.875,
+    "monthly average": 366.88,
+    "de-seasonalized": 368.86,
+    "#days": 28,
+    "st.dev of days": 0.25,
+    "uncertainty of mon mean": 0.09
+  },
+  {
+    "year": 1999,
+    "month": 12,
+    "decimal date": 1999.9583,
+    "monthly average": 368.26,
+    "de-seasonalized": 368.93,
+    "#days": 26,
+    "st.dev of days": 0.29,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 2000,
+    "month": 1,
+    "decimal date": 2000.0417,
+    "monthly average": 369.45,
+    "de-seasonalized": 369.24,
+    "#days": 26,
+    "st.dev of days": 0.48,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 2000,
+    "month": 2,
+    "decimal date": 2000.125,
+    "monthly average": 369.71,
+    "de-seasonalized": 368.99,
+    "#days": 19,
+    "st.dev of days": 0.48,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 2000,
+    "month": 3,
+    "decimal date": 2000.2083,
+    "monthly average": 370.75,
+    "de-seasonalized": 369.24,
+    "#days": 30,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 2000,
+    "month": 4,
+    "decimal date": 2000.2917,
+    "monthly average": 371.98,
+    "de-seasonalized": 369.44,
+    "#days": 27,
+    "st.dev of days": 0.58,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 2000,
+    "month": 5,
+    "decimal date": 2000.375,
+    "monthly average": 371.75,
+    "de-seasonalized": 368.87,
+    "#days": 28,
+    "st.dev of days": 0.53,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 2000,
+    "month": 6,
+    "decimal date": 2000.4583,
+    "monthly average": 371.87,
+    "de-seasonalized": 369.66,
+    "#days": 28,
+    "st.dev of days": 0.24,
+    "uncertainty of mon mean": 0.09
+  },
+  {
+    "year": 2000,
+    "month": 7,
+    "decimal date": 2000.5417,
+    "monthly average": 370.02,
+    "de-seasonalized": 369.36,
+    "#days": 25,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 2000,
+    "month": 8,
+    "decimal date": 2000.625,
+    "monthly average": 368.27,
+    "de-seasonalized": 369.87,
+    "#days": 27,
+    "st.dev of days": 0.42,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 2000,
+    "month": 9,
+    "decimal date": 2000.7083,
+    "monthly average": 367.15,
+    "de-seasonalized": 370.46,
+    "#days": 25,
+    "st.dev of days": 0.36,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 2000,
+    "month": 10,
+    "decimal date": 2000.7917,
+    "monthly average": 367.18,
+    "de-seasonalized": 370.42,
+    "#days": 30,
+    "st.dev of days": 0.27,
+    "uncertainty of mon mean": 0.09
+  },
+  {
+    "year": 2000,
+    "month": 11,
+    "decimal date": 2000.875,
+    "monthly average": 368.53,
+    "de-seasonalized": 370.48,
+    "#days": 25,
+    "st.dev of days": 0.3,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 2000,
+    "month": 12,
+    "decimal date": 2000.9583,
+    "monthly average": 369.83,
+    "de-seasonalized": 370.46,
+    "#days": 30,
+    "st.dev of days": 0.38,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 2001,
+    "month": 1,
+    "decimal date": 2001.0417,
+    "monthly average": 370.76,
+    "de-seasonalized": 370.6,
+    "#days": 30,
+    "st.dev of days": 0.56,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 2001,
+    "month": 2,
+    "decimal date": 2001.125,
+    "monthly average": 371.69,
+    "de-seasonalized": 370.95,
+    "#days": 26,
+    "st.dev of days": 0.61,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 2001,
+    "month": 3,
+    "decimal date": 2001.2083,
+    "monthly average": 372.63,
+    "de-seasonalized": 371.06,
+    "#days": 26,
+    "st.dev of days": 0.46,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 2001,
+    "month": 4,
+    "decimal date": 2001.2917,
+    "monthly average": 373.55,
+    "de-seasonalized": 370.99,
+    "#days": 29,
+    "st.dev of days": 0.56,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 2001,
+    "month": 5,
+    "decimal date": 2001.375,
+    "monthly average": 374.03,
+    "de-seasonalized": 371.11,
+    "#days": 24,
+    "st.dev of days": 0.41,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 2001,
+    "month": 6,
+    "decimal date": 2001.4583,
+    "monthly average": 373.4,
+    "de-seasonalized": 371.17,
+    "#days": 26,
+    "st.dev of days": 0.37,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 2001,
+    "month": 7,
+    "decimal date": 2001.5417,
+    "monthly average": 371.68,
+    "de-seasonalized": 371.08,
+    "#days": 25,
+    "st.dev of days": 0.62,
+    "uncertainty of mon mean": 0.24
+  },
+  {
+    "year": 2001,
+    "month": 8,
+    "decimal date": 2001.625,
+    "monthly average": 369.78,
+    "de-seasonalized": 371.39,
+    "#days": 27,
+    "st.dev of days": 0.6,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 2001,
+    "month": 9,
+    "decimal date": 2001.7083,
+    "monthly average": 368.34,
+    "de-seasonalized": 371.61,
+    "#days": 28,
+    "st.dev of days": 0.49,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 2001,
+    "month": 10,
+    "decimal date": 2001.7917,
+    "monthly average": 368.61,
+    "de-seasonalized": 371.85,
+    "#days": 31,
+    "st.dev of days": 0.33,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 2001,
+    "month": 11,
+    "decimal date": 2001.875,
+    "monthly average": 369.94,
+    "de-seasonalized": 371.92,
+    "#days": 24,
+    "st.dev of days": 0.24,
+    "uncertainty of mon mean": 0.09
+  },
+  {
+    "year": 2001,
+    "month": 12,
+    "decimal date": 2001.9583,
+    "monthly average": 371.42,
+    "de-seasonalized": 372.09,
+    "#days": 29,
+    "st.dev of days": 0.4,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 2002,
+    "month": 1,
+    "decimal date": 2002.0417,
+    "monthly average": 372.7,
+    "de-seasonalized": 372.48,
+    "#days": 28,
+    "st.dev of days": 0.52,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 2002,
+    "month": 2,
+    "decimal date": 2002.125,
+    "monthly average": 373.37,
+    "de-seasonalized": 372.49,
+    "#days": 28,
+    "st.dev of days": 0.66,
+    "uncertainty of mon mean": 0.24
+  },
+  {
+    "year": 2002,
+    "month": 3,
+    "decimal date": 2002.2083,
+    "monthly average": 374.3,
+    "de-seasonalized": 372.61,
+    "#days": 24,
+    "st.dev of days": 0.62,
+    "uncertainty of mon mean": 0.24
+  },
+  {
+    "year": 2002,
+    "month": 4,
+    "decimal date": 2002.2917,
+    "monthly average": 375.19,
+    "de-seasonalized": 372.54,
+    "#days": 29,
+    "st.dev of days": 0.55,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 2002,
+    "month": 5,
+    "decimal date": 2002.375,
+    "monthly average": 375.93,
+    "de-seasonalized": 372.98,
+    "#days": 29,
+    "st.dev of days": 0.57,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 2002,
+    "month": 6,
+    "decimal date": 2002.4583,
+    "monthly average": 375.69,
+    "de-seasonalized": 373.46,
+    "#days": 28,
+    "st.dev of days": 0.46,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 2002,
+    "month": 7,
+    "decimal date": 2002.5417,
+    "monthly average": 374.16,
+    "de-seasonalized": 373.58,
+    "#days": 25,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 2002,
+    "month": 8,
+    "decimal date": 2002.625,
+    "monthly average": 372.03,
+    "de-seasonalized": 373.7,
+    "#days": 28,
+    "st.dev of days": 0.65,
+    "uncertainty of mon mean": 0.24
+  },
+  {
+    "year": 2002,
+    "month": 9,
+    "decimal date": 2002.7083,
+    "monthly average": 370.92,
+    "de-seasonalized": 374.29,
+    "#days": 23,
+    "st.dev of days": 0.74,
+    "uncertainty of mon mean": 0.3
+  },
+  {
+    "year": 2002,
+    "month": 10,
+    "decimal date": 2002.7917,
+    "monthly average": 370.73,
+    "de-seasonalized": 374.06,
+    "#days": 31,
+    "st.dev of days": 0.62,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 2002,
+    "month": 11,
+    "decimal date": 2002.875,
+    "monthly average": 372.43,
+    "de-seasonalized": 374.52,
+    "#days": 29,
+    "st.dev of days": 0.43,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 2002,
+    "month": 12,
+    "decimal date": 2002.9583,
+    "monthly average": 373.98,
+    "de-seasonalized": 374.72,
+    "#days": 31,
+    "st.dev of days": 0.46,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 2003,
+    "month": 1,
+    "decimal date": 2003.0417,
+    "monthly average": 375.07,
+    "de-seasonalized": 374.82,
+    "#days": 30,
+    "st.dev of days": 0.51,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 2003,
+    "month": 2,
+    "decimal date": 2003.125,
+    "monthly average": 375.82,
+    "de-seasonalized": 374.95,
+    "#days": 27,
+    "st.dev of days": 0.58,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 2003,
+    "month": 3,
+    "decimal date": 2003.2083,
+    "monthly average": 376.64,
+    "de-seasonalized": 374.99,
+    "#days": 28,
+    "st.dev of days": 0.63,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 2003,
+    "month": 4,
+    "decimal date": 2003.2917,
+    "monthly average": 377.92,
+    "de-seasonalized": 375.24,
+    "#days": 27,
+    "st.dev of days": 0.37,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 2003,
+    "month": 5,
+    "decimal date": 2003.375,
+    "monthly average": 378.78,
+    "de-seasonalized": 375.73,
+    "#days": 30,
+    "st.dev of days": 0.78,
+    "uncertainty of mon mean": 0.27
+  },
+  {
+    "year": 2003,
+    "month": 6,
+    "decimal date": 2003.4583,
+    "monthly average": 378.46,
+    "de-seasonalized": 376.21,
+    "#days": 25,
+    "st.dev of days": 0.39,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 2003,
+    "month": 7,
+    "decimal date": 2003.5417,
+    "monthly average": 376.88,
+    "de-seasonalized": 376.37,
+    "#days": 29,
+    "st.dev of days": 0.7,
+    "uncertainty of mon mean": 0.25
+  },
+  {
+    "year": 2003,
+    "month": 8,
+    "decimal date": 2003.625,
+    "monthly average": 374.57,
+    "de-seasonalized": 376.27,
+    "#days": 23,
+    "st.dev of days": 0.57,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 2003,
+    "month": 9,
+    "decimal date": 2003.7083,
+    "monthly average": 373.34,
+    "de-seasonalized": 376.65,
+    "#days": 25,
+    "st.dev of days": 0.37,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 2003,
+    "month": 10,
+    "decimal date": 2003.7917,
+    "monthly average": 373.31,
+    "de-seasonalized": 376.65,
+    "#days": 30,
+    "st.dev of days": 0.33,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 2003,
+    "month": 11,
+    "decimal date": 2003.875,
+    "monthly average": 374.84,
+    "de-seasonalized": 376.99,
+    "#days": 26,
+    "st.dev of days": 0.45,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 2003,
+    "month": 12,
+    "decimal date": 2003.9583,
+    "monthly average": 376.17,
+    "de-seasonalized": 376.93,
+    "#days": 27,
+    "st.dev of days": 0.4,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 2004,
+    "month": 1,
+    "decimal date": 2004.0417,
+    "monthly average": 377.17,
+    "de-seasonalized": 376.96,
+    "#days": 30,
+    "st.dev of days": 0.45,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 2004,
+    "month": 2,
+    "decimal date": 2004.125,
+    "monthly average": 378.05,
+    "de-seasonalized": 377.19,
+    "#days": 29,
+    "st.dev of days": 0.74,
+    "uncertainty of mon mean": 0.26
+  },
+  {
+    "year": 2004,
+    "month": 3,
+    "decimal date": 2004.2083,
+    "monthly average": 379.06,
+    "de-seasonalized": 377.4,
+    "#days": 27,
+    "st.dev of days": 0.84,
+    "uncertainty of mon mean": 0.31
+  },
+  {
+    "year": 2004,
+    "month": 4,
+    "decimal date": 2004.2917,
+    "monthly average": 380.54,
+    "de-seasonalized": 377.8,
+    "#days": 26,
+    "st.dev of days": 0.52,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 2004,
+    "month": 5,
+    "decimal date": 2004.375,
+    "monthly average": 380.8,
+    "de-seasonalized": 377.66,
+    "#days": 28,
+    "st.dev of days": 0.61,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 2004,
+    "month": 6,
+    "decimal date": 2004.4583,
+    "monthly average": 379.87,
+    "de-seasonalized": 377.57,
+    "#days": 21,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 2004,
+    "month": 7,
+    "decimal date": 2004.5417,
+    "monthly average": 377.65,
+    "de-seasonalized": 377.12,
+    "#days": 25,
+    "st.dev of days": 0.5,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 2004,
+    "month": 8,
+    "decimal date": 2004.625,
+    "monthly average": 376.17,
+    "de-seasonalized": 377.9,
+    "#days": 16,
+    "st.dev of days": 0.45,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 2004,
+    "month": 9,
+    "decimal date": 2004.7083,
+    "monthly average": 374.43,
+    "de-seasonalized": 377.8,
+    "#days": 15,
+    "st.dev of days": 0.56,
+    "uncertainty of mon mean": 0.28
+  },
+  {
+    "year": 2004,
+    "month": 10,
+    "decimal date": 2004.7917,
+    "monthly average": 374.63,
+    "de-seasonalized": 378,
+    "#days": 29,
+    "st.dev of days": 0.19,
+    "uncertainty of mon mean": 0.07
+  },
+  {
+    "year": 2004,
+    "month": 11,
+    "decimal date": 2004.875,
+    "monthly average": 376.33,
+    "de-seasonalized": 378.49,
+    "#days": 29,
+    "st.dev of days": 0.62,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 2004,
+    "month": 12,
+    "decimal date": 2004.9583,
+    "monthly average": 377.68,
+    "de-seasonalized": 378.48,
+    "#days": 30,
+    "st.dev of days": 0.29,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 2005,
+    "month": 1,
+    "decimal date": 2005.0417,
+    "monthly average": 378.63,
+    "de-seasonalized": 378.37,
+    "#days": 31,
+    "st.dev of days": 0.32,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 2005,
+    "month": 2,
+    "decimal date": 2005.125,
+    "monthly average": 379.91,
+    "de-seasonalized": 379.1,
+    "#days": 24,
+    "st.dev of days": 0.6,
+    "uncertainty of mon mean": 0.24
+  },
+  {
+    "year": 2005,
+    "month": 3,
+    "decimal date": 2005.2083,
+    "monthly average": 380.95,
+    "de-seasonalized": 379.45,
+    "#days": 26,
+    "st.dev of days": 1.16,
+    "uncertainty of mon mean": 0.44
+  },
+  {
+    "year": 2005,
+    "month": 4,
+    "decimal date": 2005.2917,
+    "monthly average": 382.48,
+    "de-seasonalized": 379.84,
+    "#days": 26,
+    "st.dev of days": 0.53,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 2005,
+    "month": 5,
+    "decimal date": 2005.375,
+    "monthly average": 382.64,
+    "de-seasonalized": 379.49,
+    "#days": 31,
+    "st.dev of days": 0.61,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 2005,
+    "month": 6,
+    "decimal date": 2005.4583,
+    "monthly average": 382.4,
+    "de-seasonalized": 380.07,
+    "#days": 28,
+    "st.dev of days": 0.21,
+    "uncertainty of mon mean": 0.08
+  },
+  {
+    "year": 2005,
+    "month": 7,
+    "decimal date": 2005.5417,
+    "monthly average": 380.93,
+    "de-seasonalized": 380.38,
+    "#days": 29,
+    "st.dev of days": 0.38,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 2005,
+    "month": 8,
+    "decimal date": 2005.625,
+    "monthly average": 378.93,
+    "de-seasonalized": 380.61,
+    "#days": 26,
+    "st.dev of days": 0.53,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 2005,
+    "month": 9,
+    "decimal date": 2005.7083,
+    "monthly average": 376.89,
+    "de-seasonalized": 380.2,
+    "#days": 27,
+    "st.dev of days": 0.51,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 2005,
+    "month": 10,
+    "decimal date": 2005.7917,
+    "monthly average": 377.18,
+    "de-seasonalized": 380.49,
+    "#days": 14,
+    "st.dev of days": 0.15,
+    "uncertainty of mon mean": 0.08
+  },
+  {
+    "year": 2005,
+    "month": 11,
+    "decimal date": 2005.875,
+    "monthly average": 378.54,
+    "de-seasonalized": 380.69,
+    "#days": 23,
+    "st.dev of days": 0.45,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 2005,
+    "month": 12,
+    "decimal date": 2005.9583,
+    "monthly average": 380.31,
+    "de-seasonalized": 381.09,
+    "#days": 26,
+    "st.dev of days": 0.39,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 2006,
+    "month": 1,
+    "decimal date": 2006.0417,
+    "monthly average": 381.58,
+    "de-seasonalized": 381.33,
+    "#days": 24,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 2006,
+    "month": 2,
+    "decimal date": 2006.125,
+    "monthly average": 382.4,
+    "de-seasonalized": 381.58,
+    "#days": 25,
+    "st.dev of days": 0.51,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 2006,
+    "month": 3,
+    "decimal date": 2006.2083,
+    "monthly average": 382.86,
+    "de-seasonalized": 381.32,
+    "#days": 29,
+    "st.dev of days": 0.55,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 2006,
+    "month": 4,
+    "decimal date": 2006.2917,
+    "monthly average": 384.8,
+    "de-seasonalized": 382.11,
+    "#days": 25,
+    "st.dev of days": 0.49,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 2006,
+    "month": 5,
+    "decimal date": 2006.375,
+    "monthly average": 385.22,
+    "de-seasonalized": 382.06,
+    "#days": 24,
+    "st.dev of days": 0.45,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 2006,
+    "month": 6,
+    "decimal date": 2006.4583,
+    "monthly average": 384.24,
+    "de-seasonalized": 381.93,
+    "#days": 28,
+    "st.dev of days": 0.43,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 2006,
+    "month": 7,
+    "decimal date": 2006.5417,
+    "monthly average": 382.65,
+    "de-seasonalized": 382.1,
+    "#days": 24,
+    "st.dev of days": 0.32,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 2006,
+    "month": 8,
+    "decimal date": 2006.625,
+    "monthly average": 380.6,
+    "de-seasonalized": 382.27,
+    "#days": 27,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 2006,
+    "month": 9,
+    "decimal date": 2006.7083,
+    "monthly average": 379.04,
+    "de-seasonalized": 382.35,
+    "#days": 25,
+    "st.dev of days": 0.42,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 2006,
+    "month": 10,
+    "decimal date": 2006.7917,
+    "monthly average": 379.33,
+    "de-seasonalized": 382.66,
+    "#days": 23,
+    "st.dev of days": 0.4,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 2006,
+    "month": 11,
+    "decimal date": 2006.875,
+    "monthly average": 380.35,
+    "de-seasonalized": 382.52,
+    "#days": 29,
+    "st.dev of days": 0.39,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 2006,
+    "month": 12,
+    "decimal date": 2006.9583,
+    "monthly average": 382.02,
+    "de-seasonalized": 382.84,
+    "#days": 27,
+    "st.dev of days": 0.38,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 2007,
+    "month": 1,
+    "decimal date": 2007.0417,
+    "monthly average": 383.1,
+    "de-seasonalized": 382.88,
+    "#days": 24,
+    "st.dev of days": 0.76,
+    "uncertainty of mon mean": 0.3
+  },
+  {
+    "year": 2007,
+    "month": 2,
+    "decimal date": 2007.125,
+    "monthly average": 384.12,
+    "de-seasonalized": 383.22,
+    "#days": 21,
+    "st.dev of days": 0.81,
+    "uncertainty of mon mean": 0.34
+  },
+  {
+    "year": 2007,
+    "month": 3,
+    "decimal date": 2007.2083,
+    "monthly average": 384.81,
+    "de-seasonalized": 383.17,
+    "#days": 27,
+    "st.dev of days": 0.63,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 2007,
+    "month": 4,
+    "decimal date": 2007.2917,
+    "monthly average": 386.73,
+    "de-seasonalized": 383.95,
+    "#days": 25,
+    "st.dev of days": 0.76,
+    "uncertainty of mon mean": 0.29
+  },
+  {
+    "year": 2007,
+    "month": 5,
+    "decimal date": 2007.375,
+    "monthly average": 386.78,
+    "de-seasonalized": 383.56,
+    "#days": 29,
+    "st.dev of days": 0.64,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 2007,
+    "month": 6,
+    "decimal date": 2007.4583,
+    "monthly average": 386.33,
+    "de-seasonalized": 384.06,
+    "#days": 26,
+    "st.dev of days": 0.42,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 2007,
+    "month": 7,
+    "decimal date": 2007.5417,
+    "monthly average": 384.73,
+    "de-seasonalized": 384.25,
+    "#days": 27,
+    "st.dev of days": 0.44,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 2007,
+    "month": 8,
+    "decimal date": 2007.625,
+    "monthly average": 382.24,
+    "de-seasonalized": 383.95,
+    "#days": 22,
+    "st.dev of days": 0.64,
+    "uncertainty of mon mean": 0.26
+  },
+  {
+    "year": 2007,
+    "month": 9,
+    "decimal date": 2007.7083,
+    "monthly average": 381.2,
+    "de-seasonalized": 384.56,
+    "#days": 21,
+    "st.dev of days": 0.45,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 2007,
+    "month": 10,
+    "decimal date": 2007.7917,
+    "monthly average": 381.37,
+    "de-seasonalized": 384.72,
+    "#days": 29,
+    "st.dev of days": 0.19,
+    "uncertainty of mon mean": 0.07
+  },
+  {
+    "year": 2007,
+    "month": 11,
+    "decimal date": 2007.875,
+    "monthly average": 382.7,
+    "de-seasonalized": 384.9,
+    "#days": 30,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 2007,
+    "month": 12,
+    "decimal date": 2007.9583,
+    "monthly average": 384.19,
+    "de-seasonalized": 385.07,
+    "#days": 22,
+    "st.dev of days": 0.34,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 2008,
+    "month": 1,
+    "decimal date": 2008.0417,
+    "monthly average": 385.78,
+    "de-seasonalized": 385.54,
+    "#days": 31,
+    "st.dev of days": 0.56,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 2008,
+    "month": 2,
+    "decimal date": 2008.125,
+    "monthly average": 386.06,
+    "de-seasonalized": 385.2,
+    "#days": 26,
+    "st.dev of days": 0.58,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 2008,
+    "month": 3,
+    "decimal date": 2008.2083,
+    "monthly average": 386.28,
+    "de-seasonalized": 384.72,
+    "#days": 30,
+    "st.dev of days": 0.6,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 2008,
+    "month": 4,
+    "decimal date": 2008.2917,
+    "monthly average": 387.33,
+    "de-seasonalized": 384.71,
+    "#days": 22,
+    "st.dev of days": 1.19,
+    "uncertainty of mon mean": 0.49
+  },
+  {
+    "year": 2008,
+    "month": 5,
+    "decimal date": 2008.375,
+    "monthly average": 388.78,
+    "de-seasonalized": 385.69,
+    "#days": 25,
+    "st.dev of days": 0.57,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 2008,
+    "month": 6,
+    "decimal date": 2008.4583,
+    "monthly average": 387.99,
+    "de-seasonalized": 385.68,
+    "#days": 23,
+    "st.dev of days": 0.49,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 2008,
+    "month": 7,
+    "decimal date": 2008.5417,
+    "monthly average": 386.61,
+    "de-seasonalized": 386.04,
+    "#days": 10,
+    "st.dev of days": 0.96,
+    "uncertainty of mon mean": 0.58
+  },
+  {
+    "year": 2008,
+    "month": 8,
+    "decimal date": 2008.625,
+    "monthly average": 384.32,
+    "de-seasonalized": 385.98,
+    "#days": 25,
+    "st.dev of days": 0.66,
+    "uncertainty of mon mean": 0.25
+  },
+  {
+    "year": 2008,
+    "month": 9,
+    "decimal date": 2008.7083,
+    "monthly average": 383.41,
+    "de-seasonalized": 386.68,
+    "#days": 27,
+    "st.dev of days": 0.34,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 2008,
+    "month": 10,
+    "decimal date": 2008.7917,
+    "monthly average": 383.21,
+    "de-seasonalized": 386.49,
+    "#days": 23,
+    "st.dev of days": 0.27,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 2008,
+    "month": 11,
+    "decimal date": 2008.875,
+    "monthly average": 384.41,
+    "de-seasonalized": 386.59,
+    "#days": 28,
+    "st.dev of days": 0.29,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 2008,
+    "month": 12,
+    "decimal date": 2008.9583,
+    "monthly average": 385.79,
+    "de-seasonalized": 386.64,
+    "#days": 29,
+    "st.dev of days": 0.27,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 2009,
+    "month": 1,
+    "decimal date": 2009.0417,
+    "monthly average": 387.17,
+    "de-seasonalized": 386.86,
+    "#days": 30,
+    "st.dev of days": 0.38,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 2009,
+    "month": 2,
+    "decimal date": 2009.125,
+    "monthly average": 387.7,
+    "de-seasonalized": 386.81,
+    "#days": 26,
+    "st.dev of days": 0.49,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 2009,
+    "month": 3,
+    "decimal date": 2009.2083,
+    "monthly average": 389.04,
+    "de-seasonalized": 387.54,
+    "#days": 28,
+    "st.dev of days": 0.68,
+    "uncertainty of mon mean": 0.25
+  },
+  {
+    "year": 2009,
+    "month": 4,
+    "decimal date": 2009.2917,
+    "monthly average": 389.76,
+    "de-seasonalized": 387.15,
+    "#days": 29,
+    "st.dev of days": 0.85,
+    "uncertainty of mon mean": 0.3
+  },
+  {
+    "year": 2009,
+    "month": 5,
+    "decimal date": 2009.375,
+    "monthly average": 390.36,
+    "de-seasonalized": 387.24,
+    "#days": 30,
+    "st.dev of days": 0.51,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 2009,
+    "month": 6,
+    "decimal date": 2009.4583,
+    "monthly average": 389.7,
+    "de-seasonalized": 387.46,
+    "#days": 29,
+    "st.dev of days": 0.6,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 2009,
+    "month": 7,
+    "decimal date": 2009.5417,
+    "monthly average": 388.24,
+    "de-seasonalized": 387.77,
+    "#days": 22,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 2009,
+    "month": 8,
+    "decimal date": 2009.625,
+    "monthly average": 386.29,
+    "de-seasonalized": 387.99,
+    "#days": 28,
+    "st.dev of days": 0.62,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 2009,
+    "month": 9,
+    "decimal date": 2009.7083,
+    "monthly average": 384.95,
+    "de-seasonalized": 388.22,
+    "#days": 28,
+    "st.dev of days": 0.56,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 2009,
+    "month": 10,
+    "decimal date": 2009.7917,
+    "monthly average": 384.64,
+    "de-seasonalized": 387.88,
+    "#days": 30,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 2009,
+    "month": 11,
+    "decimal date": 2009.875,
+    "monthly average": 386.23,
+    "de-seasonalized": 388.36,
+    "#days": 30,
+    "st.dev of days": 0.29,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 2009,
+    "month": 12,
+    "decimal date": 2009.9583,
+    "monthly average": 387.63,
+    "de-seasonalized": 388.44,
+    "#days": 20,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 2010,
+    "month": 1,
+    "decimal date": 2010.0417,
+    "monthly average": 388.91,
+    "de-seasonalized": 388.62,
+    "#days": 30,
+    "st.dev of days": 0.92,
+    "uncertainty of mon mean": 0.32
+  },
+  {
+    "year": 2010,
+    "month": 2,
+    "decimal date": 2010.125,
+    "monthly average": 390.41,
+    "de-seasonalized": 389.47,
+    "#days": 20,
+    "st.dev of days": 1.31,
+    "uncertainty of mon mean": 0.56
+  },
+  {
+    "year": 2010,
+    "month": 3,
+    "decimal date": 2010.2083,
+    "monthly average": 391.37,
+    "de-seasonalized": 389.85,
+    "#days": 25,
+    "st.dev of days": 1.05,
+    "uncertainty of mon mean": 0.4
+  },
+  {
+    "year": 2010,
+    "month": 4,
+    "decimal date": 2010.2917,
+    "monthly average": 392.67,
+    "de-seasonalized": 390.12,
+    "#days": 26,
+    "st.dev of days": 0.65,
+    "uncertainty of mon mean": 0.24
+  },
+  {
+    "year": 2010,
+    "month": 5,
+    "decimal date": 2010.375,
+    "monthly average": 393.21,
+    "de-seasonalized": 390.09,
+    "#days": 29,
+    "st.dev of days": 0.65,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 2010,
+    "month": 6,
+    "decimal date": 2010.4583,
+    "monthly average": 392.38,
+    "de-seasonalized": 390.1,
+    "#days": 28,
+    "st.dev of days": 0.42,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 2010,
+    "month": 7,
+    "decimal date": 2010.5417,
+    "monthly average": 390.41,
+    "de-seasonalized": 389.93,
+    "#days": 29,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 2010,
+    "month": 8,
+    "decimal date": 2010.625,
+    "monthly average": 388.54,
+    "de-seasonalized": 390.21,
+    "#days": 26,
+    "st.dev of days": 0.41,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 2010,
+    "month": 9,
+    "decimal date": 2010.7083,
+    "monthly average": 387.03,
+    "de-seasonalized": 390.32,
+    "#days": 29,
+    "st.dev of days": 0.55,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 2010,
+    "month": 10,
+    "decimal date": 2010.7917,
+    "monthly average": 387.43,
+    "de-seasonalized": 390.72,
+    "#days": 31,
+    "st.dev of days": 0.27,
+    "uncertainty of mon mean": 0.09
+  },
+  {
+    "year": 2010,
+    "month": 11,
+    "decimal date": 2010.875,
+    "monthly average": 388.87,
+    "de-seasonalized": 390.99,
+    "#days": 29,
+    "st.dev of days": 0.42,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 2010,
+    "month": 12,
+    "decimal date": 2010.9583,
+    "monthly average": 389.99,
+    "de-seasonalized": 390.8,
+    "#days": 29,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 2011,
+    "month": 1,
+    "decimal date": 2011.0417,
+    "monthly average": 391.5,
+    "de-seasonalized": 391.19,
+    "#days": 29,
+    "st.dev of days": 0.88,
+    "uncertainty of mon mean": 0.31
+  },
+  {
+    "year": 2011,
+    "month": 2,
+    "decimal date": 2011.125,
+    "monthly average": 392.05,
+    "de-seasonalized": 391.12,
+    "#days": 28,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 2011,
+    "month": 3,
+    "decimal date": 2011.2083,
+    "monthly average": 392.8,
+    "de-seasonalized": 391.27,
+    "#days": 29,
+    "st.dev of days": 0.97,
+    "uncertainty of mon mean": 0.35
+  },
+  {
+    "year": 2011,
+    "month": 4,
+    "decimal date": 2011.2917,
+    "monthly average": 393.44,
+    "de-seasonalized": 390.83,
+    "#days": 28,
+    "st.dev of days": 0.73,
+    "uncertainty of mon mean": 0.26
+  },
+  {
+    "year": 2011,
+    "month": 5,
+    "decimal date": 2011.375,
+    "monthly average": 394.41,
+    "de-seasonalized": 391.24,
+    "#days": 29,
+    "st.dev of days": 0.93,
+    "uncertainty of mon mean": 0.33
+  },
+  {
+    "year": 2011,
+    "month": 6,
+    "decimal date": 2011.4583,
+    "monthly average": 393.95,
+    "de-seasonalized": 391.64,
+    "#days": 28,
+    "st.dev of days": 0.45,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 2011,
+    "month": 7,
+    "decimal date": 2011.5417,
+    "monthly average": 392.72,
+    "de-seasonalized": 392.25,
+    "#days": 26,
+    "st.dev of days": 0.71,
+    "uncertainty of mon mean": 0.26
+  },
+  {
+    "year": 2011,
+    "month": 8,
+    "decimal date": 2011.625,
+    "monthly average": 390.33,
+    "de-seasonalized": 392.04,
+    "#days": 27,
+    "st.dev of days": 0.42,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 2011,
+    "month": 9,
+    "decimal date": 2011.7083,
+    "monthly average": 389.28,
+    "de-seasonalized": 392.6,
+    "#days": 26,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 2011,
+    "month": 10,
+    "decimal date": 2011.7917,
+    "monthly average": 389.19,
+    "de-seasonalized": 392.53,
+    "#days": 30,
+    "st.dev of days": 0.17,
+    "uncertainty of mon mean": 0.06
+  },
+  {
+    "year": 2011,
+    "month": 11,
+    "decimal date": 2011.875,
+    "monthly average": 390.48,
+    "de-seasonalized": 392.64,
+    "#days": 28,
+    "st.dev of days": 0.26,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 2011,
+    "month": 12,
+    "decimal date": 2011.9583,
+    "monthly average": 392.06,
+    "de-seasonalized": 392.86,
+    "#days": 26,
+    "st.dev of days": 0.37,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 2012,
+    "month": 1,
+    "decimal date": 2012.0417,
+    "monthly average": 393.31,
+    "de-seasonalized": 393.07,
+    "#days": 30,
+    "st.dev of days": 0.77,
+    "uncertainty of mon mean": 0.27
+  },
+  {
+    "year": 2012,
+    "month": 2,
+    "decimal date": 2012.125,
+    "monthly average": 394.04,
+    "de-seasonalized": 393.2,
+    "#days": 26,
+    "st.dev of days": 1.19,
+    "uncertainty of mon mean": 0.45
+  },
+  {
+    "year": 2012,
+    "month": 3,
+    "decimal date": 2012.2083,
+    "monthly average": 394.59,
+    "de-seasonalized": 392.99,
+    "#days": 30,
+    "st.dev of days": 0.63,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 2012,
+    "month": 4,
+    "decimal date": 2012.2917,
+    "monthly average": 396.38,
+    "de-seasonalized": 393.65,
+    "#days": 29,
+    "st.dev of days": 0.59,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 2012,
+    "month": 5,
+    "decimal date": 2012.375,
+    "monthly average": 396.93,
+    "de-seasonalized": 393.73,
+    "#days": 30,
+    "st.dev of days": 0.5,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 2012,
+    "month": 6,
+    "decimal date": 2012.4583,
+    "monthly average": 395.91,
+    "de-seasonalized": 393.63,
+    "#days": 28,
+    "st.dev of days": 0.59,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 2012,
+    "month": 7,
+    "decimal date": 2012.5417,
+    "monthly average": 394.56,
+    "de-seasonalized": 394.12,
+    "#days": 26,
+    "st.dev of days": 0.3,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 2012,
+    "month": 8,
+    "decimal date": 2012.625,
+    "monthly average": 392.59,
+    "de-seasonalized": 394.37,
+    "#days": 30,
+    "st.dev of days": 0.52,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 2012,
+    "month": 9,
+    "decimal date": 2012.7083,
+    "monthly average": 391.32,
+    "de-seasonalized": 394.74,
+    "#days": 26,
+    "st.dev of days": 0.42,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 2012,
+    "month": 10,
+    "decimal date": 2012.7917,
+    "monthly average": 391.27,
+    "de-seasonalized": 394.64,
+    "#days": 28,
+    "st.dev of days": 0.23,
+    "uncertainty of mon mean": 0.08
+  },
+  {
+    "year": 2012,
+    "month": 11,
+    "decimal date": 2012.875,
+    "monthly average": 393.2,
+    "de-seasonalized": 395.25,
+    "#days": 29,
+    "st.dev of days": 0.53,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 2012,
+    "month": 12,
+    "decimal date": 2012.9583,
+    "monthly average": 394.57,
+    "de-seasonalized": 395.27,
+    "#days": 29,
+    "st.dev of days": 0.44,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 2013,
+    "month": 1,
+    "decimal date": 2013.0417,
+    "monthly average": 395.78,
+    "de-seasonalized": 395.62,
+    "#days": 28,
+    "st.dev of days": 0.6,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 2013,
+    "month": 2,
+    "decimal date": 2013.125,
+    "monthly average": 397.03,
+    "de-seasonalized": 396.23,
+    "#days": 25,
+    "st.dev of days": 0.57,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 2013,
+    "month": 3,
+    "decimal date": 2013.2083,
+    "monthly average": 397.66,
+    "de-seasonalized": 396.07,
+    "#days": 30,
+    "st.dev of days": 0.71,
+    "uncertainty of mon mean": 0.25
+  },
+  {
+    "year": 2013,
+    "month": 4,
+    "decimal date": 2013.2917,
+    "monthly average": 398.64,
+    "de-seasonalized": 395.79,
+    "#days": 22,
+    "st.dev of days": 0.59,
+    "uncertainty of mon mean": 0.24
+  },
+  {
+    "year": 2013,
+    "month": 5,
+    "decimal date": 2013.375,
+    "monthly average": 400.02,
+    "de-seasonalized": 396.64,
+    "#days": 28,
+    "st.dev of days": 0.37,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 2013,
+    "month": 6,
+    "decimal date": 2013.4583,
+    "monthly average": 398.81,
+    "de-seasonalized": 396.48,
+    "#days": 26,
+    "st.dev of days": 0.43,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 2013,
+    "month": 7,
+    "decimal date": 2013.5417,
+    "monthly average": 397.51,
+    "de-seasonalized": 397.12,
+    "#days": 21,
+    "st.dev of days": 0.52,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 2013,
+    "month": 8,
+    "decimal date": 2013.625,
+    "monthly average": 395.39,
+    "de-seasonalized": 397.27,
+    "#days": 27,
+    "st.dev of days": 0.45,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 2013,
+    "month": 9,
+    "decimal date": 2013.7083,
+    "monthly average": 393.72,
+    "de-seasonalized": 397.24,
+    "#days": 26,
+    "st.dev of days": 0.35,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 2013,
+    "month": 10,
+    "decimal date": 2013.7917,
+    "monthly average": 393.9,
+    "de-seasonalized": 397.25,
+    "#days": 28,
+    "st.dev of days": 0.16,
+    "uncertainty of mon mean": 0.06
+  },
+  {
+    "year": 2013,
+    "month": 11,
+    "decimal date": 2013.875,
+    "monthly average": 395.36,
+    "de-seasonalized": 397.35,
+    "#days": 30,
+    "st.dev of days": 0.6,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 2013,
+    "month": 12,
+    "decimal date": 2013.9583,
+    "monthly average": 397.03,
+    "de-seasonalized": 397.78,
+    "#days": 30,
+    "st.dev of days": 0.48,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 2014,
+    "month": 1,
+    "decimal date": 2014.0417,
+    "monthly average": 398.04,
+    "de-seasonalized": 397.74,
+    "#days": 31,
+    "st.dev of days": 0.49,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 2014,
+    "month": 2,
+    "decimal date": 2014.125,
+    "monthly average": 398.27,
+    "de-seasonalized": 397.45,
+    "#days": 27,
+    "st.dev of days": 0.51,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 2014,
+    "month": 3,
+    "decimal date": 2014.2083,
+    "monthly average": 399.91,
+    "de-seasonalized": 398.37,
+    "#days": 22,
+    "st.dev of days": 0.84,
+    "uncertainty of mon mean": 0.34
+  },
+  {
+    "year": 2014,
+    "month": 4,
+    "decimal date": 2014.2917,
+    "monthly average": 401.51,
+    "de-seasonalized": 398.63,
+    "#days": 26,
+    "st.dev of days": 0.5,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 2014,
+    "month": 5,
+    "decimal date": 2014.375,
+    "monthly average": 401.96,
+    "de-seasonalized": 398.56,
+    "#days": 22,
+    "st.dev of days": 0.51,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 2014,
+    "month": 6,
+    "decimal date": 2014.4583,
+    "monthly average": 401.43,
+    "de-seasonalized": 399.1,
+    "#days": 28,
+    "st.dev of days": 0.36,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 2014,
+    "month": 7,
+    "decimal date": 2014.5417,
+    "monthly average": 399.27,
+    "de-seasonalized": 398.85,
+    "#days": 25,
+    "st.dev of days": 0.55,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 2014,
+    "month": 8,
+    "decimal date": 2014.625,
+    "monthly average": 397.18,
+    "de-seasonalized": 399.07,
+    "#days": 22,
+    "st.dev of days": 0.28,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 2014,
+    "month": 9,
+    "decimal date": 2014.7083,
+    "monthly average": 395.54,
+    "de-seasonalized": 399.11,
+    "#days": 21,
+    "st.dev of days": 0.54,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 2014,
+    "month": 10,
+    "decimal date": 2014.7917,
+    "monthly average": 396.16,
+    "de-seasonalized": 399.57,
+    "#days": 24,
+    "st.dev of days": 0.73,
+    "uncertainty of mon mean": 0.29
+  },
+  {
+    "year": 2014,
+    "month": 11,
+    "decimal date": 2014.875,
+    "monthly average": 397.4,
+    "de-seasonalized": 399.49,
+    "#days": 27,
+    "st.dev of days": 0.37,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 2014,
+    "month": 12,
+    "decimal date": 2014.9583,
+    "monthly average": 399.08,
+    "de-seasonalized": 399.81,
+    "#days": 29,
+    "st.dev of days": 0.6,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 2015,
+    "month": 1,
+    "decimal date": 2015.0417,
+    "monthly average": 400.18,
+    "de-seasonalized": 399.92,
+    "#days": 30,
+    "st.dev of days": 0.55,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 2015,
+    "month": 2,
+    "decimal date": 2015.125,
+    "monthly average": 400.55,
+    "de-seasonalized": 399.77,
+    "#days": 28,
+    "st.dev of days": 0.63,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 2015,
+    "month": 3,
+    "decimal date": 2015.2083,
+    "monthly average": 401.74,
+    "de-seasonalized": 400.22,
+    "#days": 24,
+    "st.dev of days": 1.02,
+    "uncertainty of mon mean": 0.4
+  },
+  {
+    "year": 2015,
+    "month": 4,
+    "decimal date": 2015.2917,
+    "monthly average": 403.35,
+    "de-seasonalized": 400.46,
+    "#days": 26,
+    "st.dev of days": 0.86,
+    "uncertainty of mon mean": 0.32
+  },
+  {
+    "year": 2015,
+    "month": 5,
+    "decimal date": 2015.375,
+    "monthly average": 404.15,
+    "de-seasonalized": 400.7,
+    "#days": 30,
+    "st.dev of days": 0.32,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 2015,
+    "month": 6,
+    "decimal date": 2015.4583,
+    "monthly average": 402.97,
+    "de-seasonalized": 400.65,
+    "#days": 29,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 2015,
+    "month": 7,
+    "decimal date": 2015.5417,
+    "monthly average": 401.46,
+    "de-seasonalized": 401.11,
+    "#days": 24,
+    "st.dev of days": 0.57,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 2015,
+    "month": 8,
+    "decimal date": 2015.625,
+    "monthly average": 399.11,
+    "de-seasonalized": 401.04,
+    "#days": 28,
+    "st.dev of days": 0.74,
+    "uncertainty of mon mean": 0.27
+  },
+  {
+    "year": 2015,
+    "month": 9,
+    "decimal date": 2015.7083,
+    "monthly average": 397.82,
+    "de-seasonalized": 401.43,
+    "#days": 25,
+    "st.dev of days": 0.32,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 2015,
+    "month": 10,
+    "decimal date": 2015.7917,
+    "monthly average": 398.49,
+    "de-seasonalized": 401.89,
+    "#days": 28,
+    "st.dev of days": 0.56,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 2015,
+    "month": 11,
+    "decimal date": 2015.875,
+    "monthly average": 400.27,
+    "de-seasonalized": 402.24,
+    "#days": 25,
+    "st.dev of days": 0.58,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 2015,
+    "month": 12,
+    "decimal date": 2015.9583,
+    "monthly average": 402.06,
+    "de-seasonalized": 402.72,
+    "#days": 30,
+    "st.dev of days": 0.67,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 2016,
+    "month": 1,
+    "decimal date": 2016.0417,
+    "monthly average": 402.73,
+    "de-seasonalized": 402.45,
+    "#days": 27,
+    "st.dev of days": 0.56,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 2016,
+    "month": 2,
+    "decimal date": 2016.125,
+    "monthly average": 404.25,
+    "de-seasonalized": 403.4,
+    "#days": 25,
+    "st.dev of days": 1.11,
+    "uncertainty of mon mean": 0.43
+  },
+  {
+    "year": 2016,
+    "month": 3,
+    "decimal date": 2016.2083,
+    "monthly average": 405.06,
+    "de-seasonalized": 403.54,
+    "#days": 28,
+    "st.dev of days": 0.81,
+    "uncertainty of mon mean": 0.29
+  },
+  {
+    "year": 2016,
+    "month": 4,
+    "decimal date": 2016.2917,
+    "monthly average": 407.6,
+    "de-seasonalized": 404.77,
+    "#days": 23,
+    "st.dev of days": 1.04,
+    "uncertainty of mon mean": 0.41
+  },
+  {
+    "year": 2016,
+    "month": 5,
+    "decimal date": 2016.375,
+    "monthly average": 407.9,
+    "de-seasonalized": 404.41,
+    "#days": 29,
+    "st.dev of days": 0.5,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 2016,
+    "month": 6,
+    "decimal date": 2016.4583,
+    "monthly average": 406.99,
+    "de-seasonalized": 404.59,
+    "#days": 26,
+    "st.dev of days": 0.6,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 2016,
+    "month": 7,
+    "decimal date": 2016.5417,
+    "monthly average": 404.59,
+    "de-seasonalized": 404.24,
+    "#days": 28,
+    "st.dev of days": 0.88,
+    "uncertainty of mon mean": 0.32
+  },
+  {
+    "year": 2016,
+    "month": 8,
+    "decimal date": 2016.625,
+    "monthly average": 402.45,
+    "de-seasonalized": 404.41,
+    "#days": 24,
+    "st.dev of days": 0.6,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 2016,
+    "month": 9,
+    "decimal date": 2016.7083,
+    "monthly average": 401.23,
+    "de-seasonalized": 404.85,
+    "#days": 25,
+    "st.dev of days": 0.44,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 2016,
+    "month": 10,
+    "decimal date": 2016.7917,
+    "monthly average": 401.79,
+    "de-seasonalized": 405.23,
+    "#days": 29,
+    "st.dev of days": 0.3,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 2016,
+    "month": 11,
+    "decimal date": 2016.875,
+    "monthly average": 403.72,
+    "de-seasonalized": 405.74,
+    "#days": 27,
+    "st.dev of days": 0.72,
+    "uncertainty of mon mean": 0.26
+  },
+  {
+    "year": 2016,
+    "month": 12,
+    "decimal date": 2016.9583,
+    "monthly average": 404.64,
+    "de-seasonalized": 405.33,
+    "#days": 29,
+    "st.dev of days": 0.44,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 2017,
+    "month": 1,
+    "decimal date": 2017.0417,
+    "monthly average": 406.36,
+    "de-seasonalized": 406.04,
+    "#days": 27,
+    "st.dev of days": 0.68,
+    "uncertainty of mon mean": 0.25
+  },
+  {
+    "year": 2017,
+    "month": 2,
+    "decimal date": 2017.125,
+    "monthly average": 406.66,
+    "de-seasonalized": 405.81,
+    "#days": 26,
+    "st.dev of days": 0.71,
+    "uncertainty of mon mean": 0.27
+  },
+  {
+    "year": 2017,
+    "month": 3,
+    "decimal date": 2017.2083,
+    "monthly average": 407.54,
+    "de-seasonalized": 406.05,
+    "#days": 24,
+    "st.dev of days": 1.03,
+    "uncertainty of mon mean": 0.4
+  },
+  {
+    "year": 2017,
+    "month": 4,
+    "decimal date": 2017.2917,
+    "monthly average": 409.22,
+    "de-seasonalized": 406.37,
+    "#days": 26,
+    "st.dev of days": 0.86,
+    "uncertainty of mon mean": 0.32
+  },
+  {
+    "year": 2017,
+    "month": 5,
+    "decimal date": 2017.375,
+    "monthly average": 409.89,
+    "de-seasonalized": 406.37,
+    "#days": 27,
+    "st.dev of days": 0.57,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 2017,
+    "month": 6,
+    "decimal date": 2017.4583,
+    "monthly average": 409.08,
+    "de-seasonalized": 406.68,
+    "#days": 26,
+    "st.dev of days": 0.54,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 2017,
+    "month": 7,
+    "decimal date": 2017.5417,
+    "monthly average": 407.33,
+    "de-seasonalized": 407.01,
+    "#days": 28,
+    "st.dev of days": 0.61,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 2017,
+    "month": 8,
+    "decimal date": 2017.625,
+    "monthly average": 405.32,
+    "de-seasonalized": 407.31,
+    "#days": 29,
+    "st.dev of days": 0.32,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 2017,
+    "month": 9,
+    "decimal date": 2017.7083,
+    "monthly average": 403.57,
+    "de-seasonalized": 407.17,
+    "#days": 26,
+    "st.dev of days": 0.37,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 2017,
+    "month": 10,
+    "decimal date": 2017.7917,
+    "monthly average": 403.82,
+    "de-seasonalized": 407.23,
+    "#days": 27,
+    "st.dev of days": 0.3,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 2017,
+    "month": 11,
+    "decimal date": 2017.875,
+    "monthly average": 405.31,
+    "de-seasonalized": 407.36,
+    "#days": 26,
+    "st.dev of days": 0.41,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 2017,
+    "month": 12,
+    "decimal date": 2017.9583,
+    "monthly average": 407,
+    "de-seasonalized": 407.71,
+    "#days": 31,
+    "st.dev of days": 0.57,
+    "uncertainty of mon mean": 0.2
+  },
+  {
+    "year": 2018,
+    "month": 1,
+    "decimal date": 2018.0417,
+    "monthly average": 408.15,
+    "de-seasonalized": 407.82,
+    "#days": 29,
+    "st.dev of days": 0.55,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 2018,
+    "month": 2,
+    "decimal date": 2018.125,
+    "monthly average": 408.52,
+    "de-seasonalized": 407.61,
+    "#days": 28,
+    "st.dev of days": 0.52,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 2018,
+    "month": 3,
+    "decimal date": 2018.2083,
+    "monthly average": 409.59,
+    "de-seasonalized": 408.06,
+    "#days": 29,
+    "st.dev of days": 0.65,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 2018,
+    "month": 4,
+    "decimal date": 2018.2917,
+    "monthly average": 410.45,
+    "de-seasonalized": 407.65,
+    "#days": 21,
+    "st.dev of days": 0.9,
+    "uncertainty of mon mean": 0.38
+  },
+  {
+    "year": 2018,
+    "month": 5,
+    "decimal date": 2018.375,
+    "monthly average": 411.44,
+    "de-seasonalized": 407.98,
+    "#days": 24,
+    "st.dev of days": 0.86,
+    "uncertainty of mon mean": 0.33
+  },
+  {
+    "year": 2018,
+    "month": 6,
+    "decimal date": 2018.4583,
+    "monthly average": 410.99,
+    "de-seasonalized": 408.6,
+    "#days": 29,
+    "st.dev of days": 0.61,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 2018,
+    "month": 7,
+    "decimal date": 2018.5417,
+    "monthly average": 408.9,
+    "de-seasonalized": 408.59,
+    "#days": 27,
+    "st.dev of days": 0.46,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 2018,
+    "month": 8,
+    "decimal date": 2018.625,
+    "monthly average": 407.16,
+    "de-seasonalized": 409.17,
+    "#days": 31,
+    "st.dev of days": 0.28,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 2018,
+    "month": 9,
+    "decimal date": 2018.7083,
+    "monthly average": 405.71,
+    "de-seasonalized": 409.31,
+    "#days": 29,
+    "st.dev of days": 0.45,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 2018,
+    "month": 10,
+    "decimal date": 2018.7917,
+    "monthly average": 406.19,
+    "de-seasonalized": 409.56,
+    "#days": 30,
+    "st.dev of days": 0.32,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 2018,
+    "month": 11,
+    "decimal date": 2018.875,
+    "monthly average": 408.21,
+    "de-seasonalized": 410.24,
+    "#days": 24,
+    "st.dev of days": 0.56,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 2018,
+    "month": 12,
+    "decimal date": 2018.9583,
+    "monthly average": 409.27,
+    "de-seasonalized": 409.99,
+    "#days": 30,
+    "st.dev of days": 0.5,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 2019,
+    "month": 1,
+    "decimal date": 2019.0417,
+    "monthly average": 411.03,
+    "de-seasonalized": 410.66,
+    "#days": 26,
+    "st.dev of days": 1.26,
+    "uncertainty of mon mean": 0.47
+  },
+  {
+    "year": 2019,
+    "month": 2,
+    "decimal date": 2019.125,
+    "monthly average": 411.96,
+    "de-seasonalized": 411,
+    "#days": 27,
+    "st.dev of days": 1.14,
+    "uncertainty of mon mean": 0.42
+  },
+  {
+    "year": 2019,
+    "month": 3,
+    "decimal date": 2019.2083,
+    "monthly average": 412.18,
+    "de-seasonalized": 410.7,
+    "#days": 28,
+    "st.dev of days": 1.12,
+    "uncertainty of mon mean": 0.4
+  },
+  {
+    "year": 2019,
+    "month": 4,
+    "decimal date": 2019.2917,
+    "monthly average": 413.54,
+    "de-seasonalized": 410.86,
+    "#days": 27,
+    "st.dev of days": 0.6,
+    "uncertainty of mon mean": 0.22
+  },
+  {
+    "year": 2019,
+    "month": 5,
+    "decimal date": 2019.375,
+    "monthly average": 414.86,
+    "de-seasonalized": 411.47,
+    "#days": 28,
+    "st.dev of days": 0.5,
+    "uncertainty of mon mean": 0.18
+  },
+  {
+    "year": 2019,
+    "month": 6,
+    "decimal date": 2019.4583,
+    "monthly average": 414.16,
+    "de-seasonalized": 411.78,
+    "#days": 27,
+    "st.dev of days": 0.36,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 2019,
+    "month": 7,
+    "decimal date": 2019.5417,
+    "monthly average": 411.97,
+    "de-seasonalized": 411.66,
+    "#days": 25,
+    "st.dev of days": 0.82,
+    "uncertainty of mon mean": 0.31
+  },
+  {
+    "year": 2019,
+    "month": 8,
+    "decimal date": 2019.625,
+    "monthly average": 410.18,
+    "de-seasonalized": 412.15,
+    "#days": 29,
+    "st.dev of days": 0.33,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 2019,
+    "month": 9,
+    "decimal date": 2019.7083,
+    "monthly average": 408.76,
+    "de-seasonalized": 412.29,
+    "#days": 30,
+    "st.dev of days": 0.38,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 2019,
+    "month": 10,
+    "decimal date": 2019.7917,
+    "monthly average": 408.75,
+    "de-seasonalized": 412.09,
+    "#days": 29,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 2019,
+    "month": 11,
+    "decimal date": 2019.875,
+    "monthly average": 410.48,
+    "de-seasonalized": 412.5,
+    "#days": 26,
+    "st.dev of days": 0.4,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 2019,
+    "month": 12,
+    "decimal date": 2019.9583,
+    "monthly average": 411.98,
+    "de-seasonalized": 412.69,
+    "#days": 31,
+    "st.dev of days": 0.4,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 2020,
+    "month": 1,
+    "decimal date": 2020.0417,
+    "monthly average": 413.61,
+    "de-seasonalized": 413.23,
+    "#days": 29,
+    "st.dev of days": 0.73,
+    "uncertainty of mon mean": 0.26
+  },
+  {
+    "year": 2020,
+    "month": 2,
+    "decimal date": 2020.125,
+    "monthly average": 414.34,
+    "de-seasonalized": 413.38,
+    "#days": 28,
+    "st.dev of days": 0.69,
+    "uncertainty of mon mean": 0.25
+  },
+  {
+    "year": 2020,
+    "month": 3,
+    "decimal date": 2020.2083,
+    "monthly average": 414.74,
+    "de-seasonalized": 413.26,
+    "#days": 26,
+    "st.dev of days": 0.33,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 2020,
+    "month": 4,
+    "decimal date": 2020.2917,
+    "monthly average": 416.45,
+    "de-seasonalized": 413.77,
+    "#days": 28,
+    "st.dev of days": 0.66,
+    "uncertainty of mon mean": 0.24
+  },
+  {
+    "year": 2020,
+    "month": 5,
+    "decimal date": 2020.375,
+    "monthly average": 417.31,
+    "de-seasonalized": 413.92,
+    "#days": 27,
+    "st.dev of days": 0.61,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 2020,
+    "month": 6,
+    "decimal date": 2020.4583,
+    "monthly average": 416.6,
+    "de-seasonalized": 414.22,
+    "#days": 27,
+    "st.dev of days": 0.44,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 2020,
+    "month": 7,
+    "decimal date": 2020.5417,
+    "monthly average": 414.62,
+    "de-seasonalized": 414.3,
+    "#days": 30,
+    "st.dev of days": 0.55,
+    "uncertainty of mon mean": 0.19
+  },
+  {
+    "year": 2020,
+    "month": 8,
+    "decimal date": 2020.625,
+    "monthly average": 412.78,
+    "de-seasonalized": 414.75,
+    "#days": 25,
+    "st.dev of days": 0.25,
+    "uncertainty of mon mean": 0.1
+  },
+  {
+    "year": 2020,
+    "month": 9,
+    "decimal date": 2020.7083,
+    "monthly average": 411.52,
+    "de-seasonalized": 415.05,
+    "#days": 29,
+    "st.dev of days": 0.31,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 2020,
+    "month": 10,
+    "decimal date": 2020.7917,
+    "monthly average": 411.51,
+    "de-seasonalized": 414.85,
+    "#days": 30,
+    "st.dev of days": 0.22,
+    "uncertainty of mon mean": 0.08
+  },
+  {
+    "year": 2020,
+    "month": 11,
+    "decimal date": 2020.875,
+    "monthly average": 413.12,
+    "de-seasonalized": 415.15,
+    "#days": 27,
+    "st.dev of days": 0.81,
+    "uncertainty of mon mean": 0.3
+  },
+  {
+    "year": 2020,
+    "month": 12,
+    "decimal date": 2020.9583,
+    "monthly average": 414.26,
+    "de-seasonalized": 414.97,
+    "#days": 30,
+    "st.dev of days": 0.47,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 2021,
+    "month": 1,
+    "decimal date": 2021.0417,
+    "monthly average": 415.52,
+    "de-seasonalized": 415.14,
+    "#days": 29,
+    "st.dev of days": 0.44,
+    "uncertainty of mon mean": 0.16
+  },
+  {
+    "year": 2021,
+    "month": 2,
+    "decimal date": 2021.125,
+    "monthly average": 416.75,
+    "de-seasonalized": 415.79,
+    "#days": 28,
+    "st.dev of days": 1.02,
+    "uncertainty of mon mean": 0.37
+  },
+  {
+    "year": 2021,
+    "month": 3,
+    "decimal date": 2021.2083,
+    "monthly average": 417.64,
+    "de-seasonalized": 416.16,
+    "#days": 28,
+    "st.dev of days": 0.86,
+    "uncertainty of mon mean": 0.31
+  },
+  {
+    "year": 2021,
+    "month": 4,
+    "decimal date": 2021.2917,
+    "monthly average": 419.05,
+    "de-seasonalized": 416.37,
+    "#days": 24,
+    "st.dev of days": 1.12,
+    "uncertainty of mon mean": 0.44
+  },
+  {
+    "year": 2021,
+    "month": 5,
+    "decimal date": 2021.375,
+    "monthly average": 419.13,
+    "de-seasonalized": 415.73,
+    "#days": 28,
+    "st.dev of days": 0.9,
+    "uncertainty of mon mean": 0.33
+  },
+  {
+    "year": 2021,
+    "month": 6,
+    "decimal date": 2021.4583,
+    "monthly average": 418.94,
+    "de-seasonalized": 416.56,
+    "#days": 28,
+    "st.dev of days": 0.65,
+    "uncertainty of mon mean": 0.23
+  },
+  {
+    "year": 2021,
+    "month": 7,
+    "decimal date": 2021.5417,
+    "monthly average": 416.96,
+    "de-seasonalized": 416.65,
+    "#days": 30,
+    "st.dev of days": 0.71,
+    "uncertainty of mon mean": 0.25
+  },
+  {
+    "year": 2021,
+    "month": 8,
+    "decimal date": 2021.625,
+    "monthly average": 414.47,
+    "de-seasonalized": 416.44,
+    "#days": 26,
+    "st.dev of days": 0.72,
+    "uncertainty of mon mean": 0.27
+  },
+  {
+    "year": 2021,
+    "month": 9,
+    "decimal date": 2021.7083,
+    "monthly average": 413.3,
+    "de-seasonalized": 416.83,
+    "#days": 27,
+    "st.dev of days": 0.29,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 2021,
+    "month": 10,
+    "decimal date": 2021.7917,
+    "monthly average": 413.93,
+    "de-seasonalized": 417.27,
+    "#days": 29,
+    "st.dev of days": 0.35,
+    "uncertainty of mon mean": 0.12
+  },
+  {
+    "year": 2021,
+    "month": 11,
+    "decimal date": 2021.875,
+    "monthly average": 415.01,
+    "de-seasonalized": 417.04,
+    "#days": 30,
+    "st.dev of days": 0.36,
+    "uncertainty of mon mean": 0.13
+  },
+  {
+    "year": 2021,
+    "month": 12,
+    "decimal date": 2021.9583,
+    "monthly average": 416.71,
+    "de-seasonalized": 417.42,
+    "#days": 28,
+    "st.dev of days": 0.48,
+    "uncertainty of mon mean": 0.17
+  },
+  {
+    "year": 2022,
+    "month": 1,
+    "decimal date": 2022.0417,
+    "monthly average": 418.19,
+    "de-seasonalized": 417.81,
+    "#days": 29,
+    "st.dev of days": 0.73,
+    "uncertainty of mon mean": 0.26
+  },
+  {
+    "year": 2022,
+    "month": 2,
+    "decimal date": 2022.125,
+    "monthly average": 419.28,
+    "de-seasonalized": 418.31,
+    "#days": 27,
+    "st.dev of days": 0.92,
+    "uncertainty of mon mean": 0.34
+  },
+  {
+    "year": 2022,
+    "month": 3,
+    "decimal date": 2022.2083,
+    "monthly average": 418.81,
+    "de-seasonalized": 417.33,
+    "#days": 30,
+    "st.dev of days": 0.78,
+    "uncertainty of mon mean": 0.27
+  },
+  {
+    "year": 2022,
+    "month": 4,
+    "decimal date": 2022.2917,
+    "monthly average": 420.23,
+    "de-seasonalized": 417.55,
+    "#days": 28,
+    "st.dev of days": 0.85,
+    "uncertainty of mon mean": 0.31
+  },
+  {
+    "year": 2022,
+    "month": 5,
+    "decimal date": 2022.375,
+    "monthly average": 420.99,
+    "de-seasonalized": 417.6,
+    "#days": 30,
+    "st.dev of days": 0.76,
+    "uncertainty of mon mean": 0.27
+  },
+  {
+    "year": 2022,
+    "month": 6,
+    "decimal date": 2022.4583,
+    "monthly average": 420.99,
+    "de-seasonalized": 418.61,
+    "#days": 28,
+    "st.dev of days": 0.3,
+    "uncertainty of mon mean": 0.11
+  },
+  {
+    "year": 2022,
+    "month": 7,
+    "decimal date": 2022.5417,
+    "monthly average": 418.9,
+    "de-seasonalized": 418.58,
+    "#days": 27,
+    "st.dev of days": 0.57,
+    "uncertainty of mon mean": 0.21
+  },
+  {
+    "year": 2022,
+    "month": 8,
+    "decimal date": 2022.625,
+    "monthly average": 417.19,
+    "de-seasonalized": 419.16,
+    "#days": 27,
+    "st.dev of days": 0.37,
+    "uncertainty of mon mean": 0.14
+  },
+  {
+    "year": 2022,
+    "month": 9,
+    "decimal date": 2022.7083,
+    "monthly average": 415.95,
+    "de-seasonalized": 419.49,
+    "#days": 28,
+    "st.dev of days": 0.41,
+    "uncertainty of mon mean": 0.15
+  },
+  {
+    "year": 2022,
+    "month": 10,
+    "decimal date": 2022.7917,
+    "monthly average": 415.78,
+    "de-seasonalized": 419.12,
+    "#days": 30,
+    "st.dev of days": 0.27,
+    "uncertainty of mon mean": 0.09
+  }
+]
