@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import { Scatter } from 'react-chartjs-2'
-import DATA from '../../data/vis1/vis1.json'
-import zoomPlugin from 'chartjs-plugin-zoom'
+import { Line } from 'react-chartjs-2'
+import DATA1 from '../../data/vis1/vis1.json'
+import DATA2 from '../../data/vis2.json'
+import 'chartjs-adapter-luxon'
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -20,11 +21,9 @@ ChartJS.register(
   LineElement,
   Title,
   Tooltip,
-  Legend,
-  zoomPlugin
+  Legend
 )
 export const options = {
-  type: 'line',
   responsive: true,
   parsing: {
     xAxisKey: 'Time',
@@ -53,19 +52,24 @@ export const options = {
 }
 
 function Vis1() {
-  const [data, setData] = useState([])
+  const [data, setData] = useState({ vis1: [], vis2: [] })
   const [datasets, setDatasets] = useState([])
 
   useEffect(() => {
-    setData(DATA)
-    setDatasets(generateAnnualData(data))
+    let processedVis2 = DATA2.map((item) => ({
+      Time: String(item.Year).padStart(4, '0'),
+      'Anomaly (deg C)': item.T,
+    }))
+    setData({ vis1: DATA1, vis2: processedVis2 })
+    generateDatasets()
+    console.log('useEffect')
   }, [data])
 
   function generateAnnualData(data) {
     const tempDatasets = [
       {
         label: 'Northern Hemisphere Temperature',
-        data: data.filter(
+        data: data.vis1.filter(
           (item) =>
             item['Hemisphere'] === 'Northen' && item['Annual'] === 'TRUE'
         ),
@@ -75,12 +79,28 @@ function Vis1() {
       },
       {
         label: 'Southern Hemisphere Temperature',
-        data: data.filter(
+        data: data.vis1.filter(
           (item) =>
             item['Hemisphere'] === 'Southern' && item['Annual'] === 'TRUE'
         ),
         showLine: true,
         borderColor: 'rgb(99, 255, 132)',
+        backgroundColor: 'rgba(255, 99, 132, 0.5)',
+      },
+      {
+        label: 'Global Temperature',
+        data: data.vis1.filter(
+          (item) => item['Hemisphere'] === 'Global' && item['Annual'] === annual
+        ),
+        showLine: true,
+        borderColor: 'rgb(99, 99, 255)',
+        backgroundColor: 'rgba(255, 99, 132, 0.5)',
+      },
+      {
+        label: 'Northern Hemisphere 2,000-year temperature reconstruction',
+        data: data.vis2,
+        showLine: true,
+        borderColor: 'rgb(225, 225, 255)',
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
       },
     ]
@@ -90,9 +110,12 @@ function Vis1() {
 
   return (
     <>
-      <div>Vis1</div>
-      <div>Data length: {data.length}</div>
-      <Scatter data={{ datasets: datasets }} options={options} />
+      <h2>Vis1</h2>
+      <div>data length: {data.vis1.length + data.vis2.length}</div>
+      <button onClick={() => toggleAnnual()}>
+        {annual ? 'Annual' : 'Monthly'}
+      </button>
+      <Line data={{ datasets: datasets }} options={options} />
     </>
   )
 }
