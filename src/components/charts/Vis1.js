@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Line } from 'react-chartjs-2'
-import DATA1 from '../../data/vis1/vis1.json'
-import DATA2 from '../../data/vis2.json'
 import 'chartjs-adapter-luxon'
+import axios from 'axios'
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -25,10 +24,6 @@ ChartJS.register(
 )
 export const options = {
   responsive: true,
-  parsing: {
-    xAxisKey: 'Time',
-    yAxisKey: 'Anomaly (deg C)',
-  },
   plugins: {
     legend: {
       position: 'top',
@@ -51,27 +46,37 @@ export const options = {
   },
 }
 
+const URL = 'http://localhost:3000/api/visualization1'
+
 function Vis1() {
   const [data, setData] = useState({ vis1: [], vis2: [] })
   const [datasets, setDatasets] = useState([])
+  const [annual, setAnnual] = useState(true)
 
   useEffect(() => {
-    let processedVis2 = DATA2.map((item) => ({
-      Time: String(item.Year).padStart(4, '0'),
-      'Anomaly (deg C)': item.T,
-    }))
-    setData({ vis1: DATA1, vis2: processedVis2 })
-    generateDatasets()
-    console.log('useEffect')
-  }, [data])
+    axios
+      .get(URL)
+      .then((response) => {
+        let data = response.data || []
+        setData({ vis1: data, vis2: [] })
+        generateDatasets()
+      })
+      .catch((e) => {
+        alert(e)
+      })
+  }, [])
 
-  function generateAnnualData(data) {
+  function toggleAnnual() {
+    setAnnual(!annual)
+    generateDatasets()
+  }
+
+  function generateDatasets() {
     const tempDatasets = [
       {
         label: 'Northern Hemisphere Temperature',
         data: data.vis1.filter(
-          (item) =>
-            item['Hemisphere'] === 'Northen' && item['Annual'] === 'TRUE'
+          (item) => item['hemisphere'] === 1 && item['annual'] === annual
         ),
         showLine: true,
         borderColor: 'rgb(255, 99, 132)',
@@ -80,8 +85,7 @@ function Vis1() {
       {
         label: 'Southern Hemisphere Temperature',
         data: data.vis1.filter(
-          (item) =>
-            item['Hemisphere'] === 'Southern' && item['Annual'] === 'TRUE'
+          (item) => item['hemisphere'] === 2 && item['annual'] === annual
         ),
         showLine: true,
         borderColor: 'rgb(99, 255, 132)',
@@ -90,7 +94,7 @@ function Vis1() {
       {
         label: 'Global Temperature',
         data: data.vis1.filter(
-          (item) => item['Hemisphere'] === 'Global' && item['Annual'] === annual
+          (item) => item['hemisphere'] === 0 && item['annual'] === annual
         ),
         showLine: true,
         borderColor: 'rgb(99, 99, 255)',
@@ -105,13 +109,14 @@ function Vis1() {
       },
     ]
     // console.log(tempDatasets[0].data.length)
-    return tempDatasets
+    setDatasets(tempDatasets)
   }
 
   return (
     <>
       <h2>Vis1</h2>
-      <div>data length: {data.vis1.length + data.vis2.length}</div>
+      <h3>Datalength {data.vis1.length}</h3>
+      <h3>Datasetlength {datasets.length ? datasets[0].length : 0}</h3>
       <button onClick={() => toggleAnnual()}>
         {annual ? 'Annual' : 'Monthly'}
       </button>
