@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Scatter } from 'react-chartjs-2'
-import DATA from './vis5.json'
 import zoomPlugin from 'chartjs-plugin-zoom'
+import axios from 'axios'
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -26,11 +26,21 @@ ChartJS.register(
 
 export const options = {
   type: 'line',
-  responsive: true,
-  parsing: {
-    xAxisKey: 'Mean age of the air (yr BP)',
-    yAxisKey: 'CO2 concentration',
+  scales: {
+    x: {
+      title: {
+        display: true,
+        text: 'Mean age of the air (yr BP)',
+      },
+    },
+    y: {
+      title: {
+        display: true,
+        text: 'CO2 concentration',
+      },
+    },
   },
+  responsive: true,
   plugins: {
     legend: {
       position: 'top',
@@ -57,12 +67,24 @@ export const options = {
   },
 }
 
+const URL = 'http://localhost:3000/api/visualization5'
 function Vis5() {
   const [data, setData] = useState([])
   const [datasets, setDatasets] = useState([])
 
   useEffect(() => {
-    setData(DATA)
+    axios
+      .get(URL)
+      .then((response) => {
+        let data = response.data.data
+        setData(data)
+      })
+      .catch((e) => {
+        alert(e)
+      })
+  }, [])
+
+  useEffect(() => {
     setDatasets(generateCo2Data(data))
   }, [data])
 
@@ -70,7 +92,7 @@ function Vis5() {
     const cO2Datasets = [
       {
         label: 'Vostok Ice Core CO2 measurements',
-        data: data.filter((item) => item['CO2 concentration']),
+        data: data,
         showLine: true,
         borderColor: 'rgb(255, 99, 132)',
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
