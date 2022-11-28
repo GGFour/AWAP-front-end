@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Scatter } from 'react-chartjs-2'
-import DATA from './annualMeanCO2.json'
-import DATA2 from './monthlyMeanCO2.json'
 import zoomPlugin from 'chartjs-plugin-zoom'
+import axios from 'axios'
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -25,24 +24,32 @@ ChartJS.register(
   zoomPlugin
 )
 
+const URL = 'http://localhost:3000/api/visualization3'
 function Vis3() {
   const [show, setShow] = useState(true)
   const [data, setData] = useState([])
   const [datasets, setDatasets] = useState([])
 
   useEffect(() => {
-    {
-      generateAnnualData()
-    }
-  }, [data])
-
+    axios
+      .get(URL)
+      .then((response) => {
+        let data = response.data.data
+        setData(data)
+      })
+      .catch((e) => {
+        alert(e)
+      })
+  }, [])
   function toggleData() {
+    generateMunaData()
     setShow(!show)
-    generateAnnualData()
-    setData(show ? DATA : DATA2)
   }
+  useEffect(() => {
+    generateMunaData()
+  }, [data, show])
 
-  function generateAnnualData() {
+  function generateMunaData() {
     const datasets = [
       {
         label: `${
@@ -50,7 +57,8 @@ function Vis3() {
             ? 'Mauna Loa CO2 annual mean data'
             : 'Mauna Loa CO2 monthly mean data'
         }`,
-        data: data,
+        // data: data,
+        data: data.filter((item) => item['annual'] === show),
         showLine: true,
         borderColor: `${show ? 'rgb(99, 255, 132)' : 'rgb(255, 99, 132)'}`,
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
@@ -62,17 +70,15 @@ function Vis3() {
   const options = {
     type: 'line',
     responsive: true,
-
-    parsing: {
-      xAxisKey: `${show ? 'decimal date' : 'year'}`,
-      yAxisKey: `${show ? 'monthly average' : 'mean'}`,
-    },
-
     scales: {
       x: {
+        type: 'time',
+        time: {
+          tooltipFormat: 'DD T',
+        },
         title: {
           display: true,
-          text: `${show ? 'decimal date' : 'year'}`,
+          text: 'date',
         },
       },
       y: {
@@ -118,7 +124,7 @@ function Vis3() {
       <div>Data length: {data.length}</div>
       <button onClick={() => toggleData()}>
         {' '}
-        {show ? 'Show Monthly Data' : 'Show Annual Data'}
+        {show ? 'Show Annual Data' : 'Show Monthly Data'}
       </button>
       <Scatter
         data={{ datasets: datasets }}
