@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Scatter } from 'react-chartjs-2'
-import TEMPDATA from './temperature.json'
-import CO2DATA from './vis6.json'
 import zoomPlugin from 'chartjs-plugin-zoom'
+import axios from 'axios'
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -81,24 +80,30 @@ export const options = {
   },
 }
 
+const URL1 = 'http://localhost:3000/api/visualization6'
+const URL2 = 'http://localhost:3000/api/visualization7'
 function Vis7() {
   const [data, setData] = useState({ tempData: [], co2Data: [] })
   const [datasets, setDatasets] = useState([])
 
   useEffect(() => {
-    let newCo2Data = CO2DATA.map((item) => {
-      let newItem = {}
-      newItem['x'] = item['Age, gas, calendar years before present (y)']
-      newItem['y'] = item['CO2 concentration (ppm)']
-      return newItem
-    })
-    let newTempData = TEMPDATA.map((item) => {
-      let newItem = {}
-      newItem['x'] = item['Time (kyr BP)'] * 1000
-      newItem['y'] = item['50%']
-      return newItem
-    })
-    setData({ tempData: newTempData, co2Data: newCo2Data })
+    const req1 = axios.get(URL1)
+    const req2 = axios.get(URL2)
+    axios
+      .all([req1, req2])
+      .then(
+        axios.spread((...response) => {
+          let data1 = response[0].data.data
+          let data2 = response[1].data.data
+          setData({ tempData: data1, co2Data: data2 })
+        })
+      )
+      .catch((e) => {
+        alert(e)
+      })
+  }, [])
+
+  useEffect(() => {
     generateAnnualData()
   }, [data])
 
