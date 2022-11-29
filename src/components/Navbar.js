@@ -6,7 +6,11 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   const [signupStatus, setSignupStatus] = useState(false)
   const [loginStatus, setLoginStatus] = useState(false)
+  const [togglehome, setToggleHome] = useState(false)
 
+  const backHome = () => {
+    setToggleHome(!togglehome)
+  }
   const openSignup = () => {
     setSignupStatus(!signupStatus)
   }
@@ -20,7 +24,9 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className=" navbar-left">
-        <Link to="/visualizations">Visualizations</Link>
+        <Link to={togglehome ? '/visualizations' : '/'} onClick={backHome}>
+          {togglehome ? 'Visualizations' : 'Home'}
+        </Link>
       </div>
       <div className="hidden"></div>
       <div></div>

@@ -31,7 +31,7 @@ function getOptions(title, scales) {
     showLine: true,
     plugins: {
       legend: {
-        position: 'bottom',
+        position: 'top',
       },
       title: {
         display: true,
@@ -147,9 +147,8 @@ function Vis1() {
 
   return (
     <>
-      <h2>Vis1</h2>
-      <h3>Datalength {vis2Data.data.length}</h3>
-      <h3>Datasetlength {datasets.length ? datasets[0].length : 0}</h3>
+      <div>Vis1</div>
+      <div>Datalength {vis2Data.data.length}</div>
       <button onClick={() => toggleAnnual()}>
         {annual ? 'Annual' : 'Monthly'}
       </button>
