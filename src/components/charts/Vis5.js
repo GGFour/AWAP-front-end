@@ -67,7 +67,7 @@ export const options = {
   },
 }
 
-const URL = 'http://localhost:3000/api/visualization5'
+const URL = 'http://localhost:3000/api/visualization?id=5'
 function Vis5() {
   const [data, setData] = useState([])
   const [datasets, setDatasets] = useState([])

@@ -80,8 +80,8 @@ export const options = {
   },
 }
 
-const URL1 = 'http://localhost:3000/api/visualization6'
-const URL2 = 'http://localhost:3000/api/visualization7'
+const URL1 = 'http://localhost:3000/api/visualization?id=6'
+const URL2 = 'http://localhost:3000/api/visualization?id=7'
 function Vis7() {
   const [data, setData] = useState({ tempData: [], co2Data: [] })
   const [datasets, setDatasets] = useState([])
