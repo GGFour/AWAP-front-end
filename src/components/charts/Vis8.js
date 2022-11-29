@@ -64,7 +64,7 @@ const scales = {
   },
 }
 
-const URL = 'http://localhost:3000/api/visualization8'
+const URL = 'http://localhost:3000/api/visualization?id=8'
 const STD = { data: [] }
 
 function Vis8() {

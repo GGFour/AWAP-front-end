@@ -52,7 +52,7 @@ const options = {
   },
 }
 
-const URL = 'http://localhost:3000/api/visualization9'
+const URL = 'http://localhost:3000/api/visualization?id=9'
 
 function Vis9() {
   const [rawData, setRawData] = useState([])

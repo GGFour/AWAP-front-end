@@ -24,7 +24,7 @@ ChartJS.register(
   zoomPlugin
 )
 
-const URL = 'http://localhost:3000/api/visualization3'
+const URL = 'http://localhost:3000/api/visualization?id=3'
 function Vis3() {
   const [show, setShow] = useState(true)
   const [data, setData] = useState([])
