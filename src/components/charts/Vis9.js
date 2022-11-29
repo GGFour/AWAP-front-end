@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Pie } from 'react-chartjs-2'
-import ChartDataLabels from 'chartjs-plugin-datalabels'
-import ChartDataLabelsDv from 'chart.js-plugin-labels-dv'
+// import ChartDataLabels from 'chartjs-plugin-datalabels'
+// import ChartDataLabelsDv from 'chart.js-plugin-labels-dv'
 import axios from 'axios'
 
 import {
@@ -24,30 +24,30 @@ ChartJS.register(
   LineElement,
   Title,
   Tooltip,
-  Legend,
-  ChartDataLabels,
-  ChartDataLabelsDv
+  Legend
+  // ChartDataLabels,
+  // ChartDataLabelsDv
 )
 
 const options = {
   responsive: true,
   plugins: {
-    datalabels: {
-      color: 'white',
-      font: {
-        weight: 'bold',
-      },
-      formatter: (num) => num.toFixed(2),
-    },
+    // datalabels: {
+    //   color: 'white',
+    //   font: {
+    //     weight: 'bold',
+    //   },
+    //   formatter: (num) => num.toFixed(2),
+    // },
     legend: {
       position: 'top',
     },
     title: {
       display: true,
       text: 'Global greenhouse gas emissions by sector',
-      font: {
-        size: 50,
-      },
+      // font: {
+      //   size: 50,
+      // },
     },
   },
 }
@@ -64,10 +64,10 @@ function Vis9() {
       .then((response) => {
         let data = response.data.data
         data.sort((a, b) => {
-          if (a.Sector > b.Sector) {
+          if (a.sector > b.sector) {
             return 1
           }
-          if (a.Sector < b.Sector) {
+          if (a.sector < b.sector) {
             return -1
           }
           return 0
@@ -167,7 +167,13 @@ function Vis9() {
     setData(data)
   }
 
-  return <Pie options={options} data={data} />
+  return (
+    <>
+      <div>Vis9</div>
+      <div>Data length: {rawData.length}</div>
+      <Pie options={options} data={data} />
+    </>
+  )
 }
 
 export default Vis9
