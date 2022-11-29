@@ -28,7 +28,7 @@ function getOptions(title, scales) {
     showLine: true,
     plugins: {
       legend: {
-        position: 'bottom',
+        position: 'top',
       },
       title: {
         display: true,
@@ -113,7 +113,7 @@ function Vis8() {
 
   return (
     <>
-      <div>Vis6</div>
+      <div>Vis8</div>
       <div>Data length: {data.length}</div>
       <div>Datasets length: {datasets.length}</div>
       <Scatter
