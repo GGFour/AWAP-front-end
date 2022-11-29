@@ -1,8 +1,9 @@
-import DATA from '../../data/vis9.json'
 import React, { useEffect, useState } from 'react'
 import { Pie } from 'react-chartjs-2'
 import ChartDataLabels from 'chartjs-plugin-datalabels'
 import ChartDataLabelsDv from 'chart.js-plugin-labels-dv'
+import axios from 'axios'
+
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -51,65 +52,66 @@ const options = {
   },
 }
 
+const URL = 'http://localhost:3000/api/visualization9'
+
 function Vis9() {
   const [rawData, setRawData] = useState([])
   const [data, setData] = useState({ labels: [], datasets: [] })
 
   useEffect(() => {
-    console.log(DATA.length)
-    setRawData(
-      DATA.sort((a, b) => {
-        if (a.Sector > b.Sector) {
-          return 1
-        }
-        if (a.Sector < b.Sector) {
-          return -1
-        }
-        return 0
+    axios
+      .get(URL)
+      .then((response) => {
+        let data = response.data.data
+        data.sort((a, b) => {
+          if (a.Sector > b.Sector) {
+            return 1
+          }
+          if (a.Sector < b.Sector) {
+            return -1
+          }
+          return 0
+        })
+        setRawData(data)
       })
-    )
+      .catch((e) => {
+        alert(e)
+      })
+  }, [])
+
+  useEffect(() => {
     generateDatasets()
   }, [rawData])
 
   function getSectorData(data) {
     let res = Object.values(
-      data.reduce((prev, curr, idx) => {
-        if (curr.Sector in prev) {
-          prev[curr.Sector] +=
-            curr['Share of global greenhouse gas emissions (%)']
+      data.reduce((prev, curr) => {
+        if (curr.sector in prev) {
+          prev[curr.sector] += curr['val']
         } else {
-          prev[curr.Sector] =
-            curr['Share of global greenhouse gas emissions (%)']
+          prev[curr.sector] = curr['val']
         }
         return prev
       }, {})
     )
 
-    console.log('sector data:', res)
     return res
   }
 
   function generateDatasets() {
     const labels = rawData
-      .map((e) => e.Sector)
+      .map((e) => e.sector)
       .filter((value, index, self) => {
         return self.indexOf(value) === index
       })
-    const sublabels = rawData.map((e) => e['Sub-sub-sector'])
-    console.log('labels:', labels)
+    const sublabels = rawData.map((e) => e['subsector'])
 
     const data = {
       labels: labels.concat(sublabels),
       datasets: [
         {
           label: 'Sub-sectors',
-          data: labels
-            .map((e) => 0)
-            .concat(
-              rawData.map(
-                (e) => e['Share of global greenhouse gas emissions (%)']
-              )
-            ),
+          data: labels.map(() => 0).concat(rawData.map((e) => e['val'])),
           backgroundColor: [
             // Agriculture
             'rgba(71, 106, 31, 0.8)',
