@@ -24,69 +24,72 @@ ChartJS.register(
   zoomPlugin
 )
 
-export const options = {
-  type: 'line',
-  parsing: false,
-  responsive: true,
+function getOptions(title, scales) {
+  return {
+    responsive: true,
+    scales: scales,
+    plugins: {
+      legend: {
+        position: 'top',
+      },
+      title: {
+        display: true,
+        text: title,
+      },
+      zoom: {
+        pan: {
+          enabled: true,
+          mode: 'x',
+        },
+        zoom: {
+          wheel: {
+            enabled: true,
+          },
+          pinch: {
+            enabled: true,
+          },
+          mode: 'x',
+        },
+      },
+    },
+  }
+}
 
-  scales: {
-    x: {
-      type: 'linear',
-      reverse: true,
-      title: {
-        display: true,
-        text: 'Year BP',
-      },
-    },
-    y: {
-      type: 'linear',
-      position: 'left',
-      title: {
-        display: true,
-        text: 'Co2 ppm',
-      },
-    },
-    y2: {
-      type: 'linear',
-      position: 'right',
-      title: {
-        display: true,
-        text: 'Surface Temperature Change',
-      },
-    },
-  },
-  plugins: {
-    legend: {
-      position: 'top',
-    },
+const scales = {
+  x: {
+    type: 'linear',
+    reverse: true,
     title: {
       display: true,
-      text: 'Evolution of global temperature over the past two',
+      text: 'Thousands of years BP',
     },
-    zoom: {
-      zoom: {
-        wheel: {
-          enabled: true,
-        },
-        pinch: {
-          enabled: true,
-        },
-        mode: 'x',
-      },
+  },
+  y: {
+    type: 'linear',
+    position: 'left',
+    title: {
+      display: true,
+      text: 'CO2 Mixing Ratio (ppm)',
     },
-    pan: {
-      enabled: true,
-      mode: 'x',
+  },
+  y2: {
+    type: 'linear',
+    position: 'right',
+    title: {
+      display: true,
+      text: 'Surface Temperature Change ℃',
     },
   },
 }
 
 const URL1 = 'http://localhost:3000/api/visualization?id=6'
 const URL2 = 'http://localhost:3000/api/visualization?id=7'
+const STD = { data: [] }
 
 function Vis7() {
-  const [data, setData] = useState({ tempData: [], co2Data: [] })
   const [datasets, setDatasets] = useState([])
+  const [temperatureData, setTemperatureData] = useState(STD)
+  const [co2Data, setCo2Data] = useState(STD)
 
   useEffect(() => {
     const req1 = axios.get(URL1)
@@ -95,12 +98,15 @@ function Vis7() {
       .all([req1, req2])
       .then(
         axios.spread((...response) => {
-          let data1 = response[0].data.data
-          let data2 = response[1].data.data.map((item) => {
-            item['x'] *= 1000
+          let data1 = response[0].data
+          data1.data = data1.data.map((item) => {
+            item['x'] /= 1000
             return item
           })
-          setData({ co2Data: data1, tempData: data2 })
+          setCo2Data(data1)
+
+          let data2 = response[1].data
+          setTemperatureData(data2)
         })
       )
       .catch((e) => {
@@ -110,14 +116,14 @@ function Vis7() {
 
   useEffect(() => {
     generateAnnualData()
-  }, [data])
+  }, [temperatureData, co2Data])
 
   function generateAnnualData() {
     const datasets = [
       {
         yAxisID: 'y',
         label: 'co2 ppm',
-        data: data.co2Data,
+        data: co2Data.data,
         showLine: true,
         borderColor: ' rgb(0, 0, 255) ',
         backgroundColor: 'rgb(255,0,0)',
@@ -126,7 +132,7 @@ function Vis7() {
       {
         yAxisID: 'y2',
         label: 'surface temperature change',
-        data: data.tempData,
+        data: temperatureData.data,
         showLine: true,
         borderColor: 'rgb(255, 99, 132)',
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
@@ -138,10 +144,17 @@ function Vis7() {
 
   return (
     <>
-      <div>Vis7</div>
-      <div>Data2 length: {data.tempData.length}</div>
-      <div>Data3 length: {data.co2Data.length}</div>
-      <Scatter data={{ datasets: datasets }} options={options} />
+      <h2>{temperatureData.name}</h2>
+      <Scatter
+        data={{ datasets: datasets }}
+        options={getOptions(temperatureData.name, scales)}
+      />
+      <h3>Description</h3>
+      <text>{temperatureData.description}</text>
+      <h3>Sources:</h3>
+      <a href={temperatureData.source}>{temperatureData.name}</a>
+      <br />
+      <br />
     </>
   )
 }

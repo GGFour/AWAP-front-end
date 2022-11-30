@@ -113,13 +113,17 @@ function Vis8() {
 
   return (
     <>
-      <div>Vis8</div>
-      <div>Data length: {data.length}</div>
-      <div>Datasets length: {datasets.length}</div>
+      <h2>{data.name}</h2>
       <Scatter
         data={{ datasets: datasets }}
         options={getOptions(data.name, scales)}
       />
+      <h3>Description</h3>
+      <text>{data.description}</text>
+      <h3>Sources:</h3>
+      <a href={data.source}>{data.name}</a>
+      <br />
+      <br />
     </>
   )
 }

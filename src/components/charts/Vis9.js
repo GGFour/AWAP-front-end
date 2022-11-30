@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { Pie } from 'react-chartjs-2'
-// import ChartDataLabels from 'chartjs-plugin-datalabels'
-// import ChartDataLabelsDv from 'chart.js-plugin-labels-dv'
 import axios from 'axios'
 
 import {
@@ -25,29 +23,17 @@ ChartJS.register(
   Title,
   Tooltip,
   Legend
-  // ChartDataLabels,
-  // ChartDataLabelsDv
 )
 
 const options = {
   responsive: true,
   plugins: {
-    // datalabels: {
-    //   color: 'white',
-    //   font: {
-    //     weight: 'bold',
-    //   },
-    //   formatter: (num) => num.toFixed(2),
-    // },
     legend: {
       position: 'top',
     },
     title: {
       display: true,
       text: 'Global greenhouse gas emissions by sector',
-      // font: {
-      //   size: 50,
-      // },
     },
   },
 }
@@ -55,15 +41,15 @@ const options = {
 const URL = 'http://localhost:3000/api/visualization?id=9'
 
 function Vis9() {
-  const [rawData, setRawData] = useState([])
+  const [rawData, setRawData] = useState({ data: [] })
   const [data, setData] = useState({ labels: [], datasets: [] })
 
   useEffect(() => {
     axios
       .get(URL)
       .then((response) => {
-        let data = response.data.data
-        data.sort((a, b) => {
+        let data = response.data
+        data.data = data.data.sort((a, b) => {
           if (a.sector > b.sector) {
             return 1
           }
@@ -99,19 +85,19 @@ function Vis9() {
   }
 
   function generateDatasets() {
-    const labels = rawData
+    const labels = rawData.data
       .map((e) => e.sector)
       .filter((value, index, self) => {
         return self.indexOf(value) === index
       })
-    const sublabels = rawData.map((e) => e['subsector'])
+    const sublabels = rawData.data.map((e) => e['subsector'])
 
     const data = {
       labels: labels.concat(sublabels),
       datasets: [
         {
           label: 'Sub-sectors',
-          data: labels.map(() => 0).concat(rawData.map((e) => e['val'])),
+          data: labels.map(() => 0).concat(rawData.data.map((e) => e['val'])),
           backgroundColor: [
             // Agriculture
             'rgba(71, 106, 31, 0.8)',
@@ -154,7 +140,7 @@ function Vis9() {
         },
         {
           label: 'Sectors',
-          data: getSectorData(rawData),
+          data: getSectorData(rawData.data),
           backgroundColor: [
             'rgba(71, 176, 31, 0.8)',
             'rgba(255, 0, 0, 0.8)',
@@ -169,9 +155,14 @@ function Vis9() {
 
   return (
     <>
-      <div>Vis9</div>
-      <div>Data length: {rawData.length}</div>
+      <h2>{rawData.name}</h2>
       <Pie options={options} data={data} />
+      <h3>Description</h3>
+      <text>{rawData.description}</text>
+      <h3>Sources:</h3>
+      <a href={rawData.source}>{rawData.name}</a>
+      <br />
+      <br />
     </>
   )
 }
