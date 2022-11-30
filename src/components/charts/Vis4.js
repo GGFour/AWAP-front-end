@@ -32,6 +32,9 @@ export const options = {
   scales: {
     x: {
       type: 'time',
+      time: {
+        tooltipFormat: 'DD T',
+      },
       title: {
         display: true,
         text: 'Years',
@@ -74,6 +77,7 @@ const URL2 = 'http://localhost:3000/api/visualization?id=3'
 function Vis4() {
   const [data, setData] = useState({ iceData: [], co2Data: [] })
   const [datasets, setDatasets] = useState([])
+
   useEffect(() => {
     const req1 = axios.get(URL1)
     const req2 = axios.get(URL2)
@@ -82,15 +86,18 @@ function Vis4() {
       .then(
         axios.spread((...response) => {
           let data1 = response[0].data.data
-          data1.filter((item) => item['annual'] === true)
           let data2 = response[1].data.data
-          setData({ iceData: data1, co2Data: data2 })
+          setData({
+            iceData: data1,
+            co2Data: data2.filter((item) => item['annual'] === true),
+          })
         })
       )
       .catch((e) => {
         alert(e)
       })
   }, [])
+
   useEffect(() => {
     generateDatasets()
   }, [data])
@@ -102,32 +109,24 @@ function Vis4() {
         data: data.iceData.filter((item) => item['sample_id'] === 'DE08'),
         showLine: true,
         borderColor: 'rgb(255, 99, 132)',
-        backgroundColor: 'rgba(255, 99, 132, 0.5)',
-        parsing: {
-          xAxisKey: 'airAgeAD',
-          yAxisKey: 'CO2MixingRatioPpm',
-        },
       },
       {
         label: 'DE08-2 Ice Core',
         data: data.iceData.filter((item) => item['sample_id'] === 'DE08-2'),
         showLine: true,
         borderColor: 'rgb(99, 255, 132)',
-        backgroundColor: 'rgba(255, 99, 132, 0.5)',
       },
       {
         label: 'DSS Ice Core',
         data: data.iceData.filter((item) => item['sample_id'] === 'DSS'),
         showLine: true,
         borderColor: 'rgb(99, 99, 255)',
-        backgroundColor: 'rgba(255, 99, 132, 0.5)',
       },
       {
         label: 'Mauna Loa measurements',
         data: data.co2Data,
         showLine: true,
-        borderColor: 'rgb(99, 99, 255)',
-        backgroundColor: 'rgba(255, 99, 132, 0.5)',
+        borderColor: 'rgb(255, 99, 255)',
       },
     ]
     setDatasets(tempDatasets)

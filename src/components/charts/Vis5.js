@@ -28,6 +28,7 @@ export const options = {
   type: 'line',
   scales: {
     x: {
+      reverse: true,
       title: {
         display: true,
         text: 'Mean age of the air (yr BP)',

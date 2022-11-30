@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   const [signupStatus, setSignupStatus] = useState(false)
   const [loginStatus, setLoginStatus] = useState(false)
-  const [togglehome, setToggleHome] = useState(false)
+  const [togglehome, setToggleHome] = useState(true)
 
   const backHome = () => {
     setToggleHome(!togglehome)

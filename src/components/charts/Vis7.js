@@ -32,9 +32,10 @@ export const options = {
   scales: {
     x: {
       type: 'linear',
+      reverse: true,
       title: {
         display: true,
-        text: 'Year',
+        text: 'Year BP',
       },
     },
     y: {
@@ -82,6 +83,7 @@ export const options = {
 
 const URL1 = 'http://localhost:3000/api/visualization?id=6'
 const URL2 = 'http://localhost:3000/api/visualization?id=7'
+
 function Vis7() {
   const [data, setData] = useState({ tempData: [], co2Data: [] })
   const [datasets, setDatasets] = useState([])
@@ -94,8 +96,11 @@ function Vis7() {
       .then(
         axios.spread((...response) => {
           let data1 = response[0].data.data
-          let data2 = response[1].data.data
-          setData({ tempData: data1, co2Data: data2 })
+          let data2 = response[1].data.data.map((item) => {
+            item['x'] *= 1000
+            return item
+          })
+          setData({ co2Data: data1, tempData: data2 })
         })
       )
       .catch((e) => {
@@ -112,7 +117,7 @@ function Vis7() {
       {
         yAxisID: 'y',
         label: 'co2 ppm',
-        data: data.tempData,
+        data: data.co2Data,
         showLine: true,
         borderColor: ' rgb(0, 0, 255) ',
         backgroundColor: 'rgb(255,0,0)',
@@ -121,7 +126,7 @@ function Vis7() {
       {
         yAxisID: 'y2',
         label: 'surface temperature change',
-        data: data.co2Data,
+        data: data.tempData,
         showLine: true,
         borderColor: 'rgb(255, 99, 132)',
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
