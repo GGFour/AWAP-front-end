@@ -147,15 +147,22 @@ function Vis1() {
 
   return (
     <>
-      <div>Vis1</div>
-      <div>Datalength {vis2Data.data.length}</div>
+      <h2>{vis1Data.name}</h2>
       <button onClick={() => toggleAnnual()}>
         {annual ? 'Annual' : 'Monthly'}
       </button>
       <Line
         data={{ datasets: datasets }}
-        options={getOptions(vis1Data.name + ' and ' + vis2Data.name, scales)}
+        options={getOptions(`${vis1Data.name} and ${vis2Data.name}`, scales)}
       />
+      <h3>Description</h3>
+      <text>{vis1Data.description}</text>
+      <text>{vis2Data.description}</text>
+      <h3>Sources:</h3>
+      <a href={vis1Data.source}>{vis1Data.name}</a>
+      <a href={vis2Data.source}>{vis2Data.name}</a>
+      <br />
+      <br />
     </>
   )
 }

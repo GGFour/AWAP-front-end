@@ -24,60 +24,65 @@ ChartJS.register(
   zoomPlugin
 )
 
-export const options = {
-  type: 'line',
-  scales: {
-    x: {
-      reverse: true,
+function getOptions(title, scales) {
+  return {
+    responsive: true,
+    scales: scales,
+    plugins: {
+      legend: {
+        position: 'top',
+      },
       title: {
         display: true,
-        text: 'Mean age of the air (yr BP)',
+        text: title,
+      },
+      zoom: {
+        pan: {
+          enabled: true,
+          mode: 'x',
+        },
+        zoom: {
+          wheel: {
+            enabled: true,
+          },
+          pinch: {
+            enabled: true,
+          },
+          mode: 'x',
+        },
       },
     },
-    y: {
-      title: {
-        display: true,
-        text: 'CO2 concentration',
-      },
-    },
-  },
-  responsive: true,
-  plugins: {
-    legend: {
-      position: 'top',
-    },
+  }
+}
+
+const scales = {
+  x: {
+    reverse: true,
     title: {
       display: true,
-      text: 'Vostok Ice Core CO2 measurements, 417160 - 2342 years',
+      text: 'Mean age of the air, yr BP',
     },
-    zoom: {
-      zoom: {
-        wheel: {
-          enabled: true,
-        },
-        pinch: {
-          enabled: true,
-        },
-        mode: 'x',
-      },
-    },
-    pan: {
-      enabled: true,
-      mode: 'x',
+  },
+  y: {
+    title: {
+      display: true,
+      text: 'CO2 Mixing Ratio (ppm)',
     },
   },
 }
 
 const URL = 'http://localhost:3000/api/visualization?id=5'
+const STD = { data: [] }
+
 function Vis5() {
-  const [data, setData] = useState([])
+  const [data, setData] = useState(STD)
   const [datasets, setDatasets] = useState([])
 
   useEffect(() => {
     axios
       .get(URL)
       .then((response) => {
-        let data = response.data.data
+        let data = response.data
         setData(data)
       })
       .catch((e) => {
@@ -93,7 +98,7 @@ function Vis5() {
     const cO2Datasets = [
       {
         label: 'Vostok Ice Core CO2 measurements',
-        data: data,
+        data: data.data,
         showLine: true,
         borderColor: 'rgb(255, 99, 132)',
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
@@ -104,9 +109,17 @@ function Vis5() {
 
   return (
     <>
-      <div>Vis5</div>
-      <div>Data length: {data.length}</div>
-      <Scatter data={{ datasets: datasets }} options={options} />
+      <h2>{data.name}</h2>
+      <Scatter
+        data={{ datasets: datasets }}
+        options={getOptions(data.name, scales)}
+      />
+      <h3>Description</h3>
+      <text>{data.description}</text>
+      <h3>Sources:</h3>
+      <a href={data.source}>{data.name}</a>
+      <br />
+      <br />
     </>
   )
 }

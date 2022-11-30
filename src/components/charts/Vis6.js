@@ -24,60 +24,65 @@ ChartJS.register(
   zoomPlugin
 )
 
-export const options = {
-  type: 'line',
-  responsive: true,
-  scales: {
-    x: {
-      reverse: true,
+function getOptions(title, scales) {
+  return {
+    responsive: true,
+    scales: scales,
+    plugins: {
+      legend: {
+        position: 'top',
+      },
       title: {
         display: true,
-        text: 'Age, gas, calendar years before present (y)',
+        text: title,
+      },
+      zoom: {
+        pan: {
+          enabled: true,
+          mode: 'x',
+        },
+        zoom: {
+          wheel: {
+            enabled: true,
+          },
+          pinch: {
+            enabled: true,
+          },
+          mode: 'x',
+        },
       },
     },
-    y: {
-      title: {
-        display: true,
-        text: 'CO2 Mixing Ratio PpmCO2 concentration (ppm)',
-      },
-    },
-  },
-  plugins: {
-    legend: {
-      position: 'top',
-    },
+  }
+}
+
+const scales = {
+  x: {
+    reverse: true,
     title: {
       display: true,
-      text: 'Vostok Ice Core CO2 measurements, 417160 - 2342 years',
+      text: 'Age, gas, calendar years before present (y)',
     },
-
-    zoom: {
-      zoom: {
-        wheel: {
-          enabled: true,
-        },
-        pinch: {
-          enabled: true,
-        },
-        mode: 'x',
-      },
-    },
-    pan: {
-      enabled: true,
-      mode: 'x',
+  },
+  y: {
+    title: {
+      display: true,
+      text: 'CO2 Mixing Ratio (ppm)',
     },
   },
 }
+
 const URL = 'http://localhost:3000/api/visualization?id=6'
+const STD = { data: [] }
+
 function Vis6() {
-  const [data, setData] = useState([])
+  const [data, setData] = useState(STD)
   const [datasets, setDatasets] = useState([])
 
   useEffect(() => {
     axios
       .get(URL)
       .then((response) => {
-        let data = response.data.data
+        let data = response.data
         setData(data)
       })
       .catch((e) => {
@@ -93,7 +98,7 @@ function Vis6() {
     const iceCoreDatasets = [
       {
         label: 'Ice core 800k year composite study CO2 measurements',
-        data: data,
+        data: data.data,
         showLine: true,
         borderColor: 'rgb(255, 99, 132)',
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
@@ -104,9 +109,14 @@ function Vis6() {
 
   return (
     <>
-      <div>Vis6</div>
-      <div>Data length: {data.length}</div>
-      <Scatter data={{ datasets: datasets }} options={options} />
+      <h2>{data.name}</h2>
+      <Scatter data={{ datasets: datasets }} options={getOptions('', scales)} />
+      <h3>Description</h3>
+      <text>{data.description}</text>
+      <h3>Sources:</h3>
+      <a href={data.source}>{data.name}</a>
+      <br />
+      <br />
     </>
   )
 }
