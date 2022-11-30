@@ -29,6 +29,7 @@ export const options = {
   responsive: true,
   scales: {
     x: {
+      reverse: true,
       title: {
         display: true,
         text: 'Age, gas, calendar years before present (y)',
