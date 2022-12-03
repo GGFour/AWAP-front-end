@@ -144,14 +144,12 @@ DESGIN
   display: none;
 }
 
-input:invalid[focused='true'] {
+.has-error input:invalid {
   border: 1px solid red;
 }
-
-input:invalid[focused='true'] ~ .errorMes {
+.has-error input:invalid ~ .errorMes {
   display: block;
 }
-
 button {
   background-color: #7a76ff;
   border-radius: 1rem;
@@ -259,13 +257,7 @@ DESGIN
   color: red;
   display: none;
 }
-input:invalid[focused='true'] {
-  border: 1px solid red;
-}
 
-input:invalid[focused='true'] ~ .errorMes {
-  display: block;
-}
 .button-div button {
   background-color: #7a76ff;
   border-radius: 1rem;

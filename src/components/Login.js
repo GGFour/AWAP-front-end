@@ -1,9 +1,23 @@
 import React from 'react'
 import Form from './Form'
+import axios from 'axios'
+
+const URL = '/auth/login'
 
 function Login() {
-  const handleSubmit = (e) => {
-    e.preventDefault()
+  async function handleSubmit(e, username, password) {
+    try {
+      await axios
+        .post(`http://localhost:3000${URL}`, {
+          username: username.toLowerCase(),
+          password: password,
+        })
+        .then(() => {
+          alert(JSON.stringify('Successfully logged in!', null, 2))
+        })
+    } catch (err) {
+      alert(JSON.stringify(err.response.data, null, 2))
+    }
   }
   return (
     <>
