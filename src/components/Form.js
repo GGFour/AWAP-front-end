@@ -9,7 +9,7 @@ const STD = {
   confirmPassword: '',
 }
 
-function Form({ handleSubmit, signUp, authorized }) {
+function Form({ handleSubmit, signUp, authorized, success }) {
   const [values, setValues] = useState(STD)
   const [focused, setFocused] = useState('')
 
@@ -17,6 +17,7 @@ function Form({ handleSubmit, signUp, authorized }) {
     handleSubmit: PropTypes.func,
     signUp: PropTypes.bool,
     authorized: PropTypes.bool,
+    success: PropTypes.bool,
   }
 
   function onChange(e, name) {
@@ -65,9 +66,13 @@ function Form({ handleSubmit, signUp, authorized }) {
                   )
                 })}
               </div>
-              <div className="button-div">
-                <button>Submit</button>
-              </div>
+              {success ? (
+                ''
+              ) : (
+                <div className="button-div">
+                  <button>Submit</button>
+                </div>
+              )}
             </>
           )}
         </form>
