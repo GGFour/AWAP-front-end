@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Form from './Form'
 import axios from 'axios'
+import { UserAuthContext } from './Contexts'
 
 const URL = '/auth/login'
 
 function Login() {
+  const UserAuthContextValue = useContext(UserAuthContext)
   async function handleSubmit(e, username, password) {
     try {
       await axios
@@ -12,8 +14,10 @@ function Login() {
           username: username.toLowerCase(),
           password: password,
         })
-        .then(() => {
-          alert(JSON.stringify('Successfully logged in!', null, 2))
+        .then((response) => {
+          UserAuthContextValue.login(response.data.token)
+          // alert(JSON.stringify('Successfully logged in!', null, 2))
+          window.location.reload()
         })
     } catch (err) {
       alert(JSON.stringify(err.response.data, null, 2))
