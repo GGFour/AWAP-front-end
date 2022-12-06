@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
+import { UserAuthContext } from '../components/Contexts'
 import PropTypes from 'prop-types'
 import Vis1 from '../components/charts/Vis1.js'
 import Vis3 from '../components/charts/Vis3.js'
@@ -10,16 +11,18 @@ import Vis8 from '../components/charts/Vis8.js'
 import Vis9 from '../components/charts/Vis9.js'
 import ChartWrapper from '../components/ChartWrapper.js'
 
+import axios from 'axios'
+
 const VISUALIZATIONS = [Vis1, Vis3, Vis4, Vis5, Vis6, Vis7, Vis8, Vis9]
 const STD = VISUALIZATIONS.map(() => ({
-  data: '',
   hidden: false,
 }))
+const URL = '/api/diy'
 
 function DIYVisualizations({ configuration }) {
+  const userAuthContextValue = useContext(UserAuthContext)
   const [config, setConfig] = useState(configuration || STD)
   const [viewAsGuest, setViewAsGuest] = useState(false)
-  const authorized = true // have state, or get from props or check if it in cookies
 
   DIYVisualizations.propTypes = {
     configuration: PropTypes.object,
@@ -39,7 +42,19 @@ function DIYVisualizations({ configuration }) {
 
   function saveCustom() {
     // send config to server
-    alert(JSON.stringify(config, null, 2))
+    axios
+      .post(
+        `http://localhost:3000${URL}`,
+        { configuration: config },
+        {
+          headers: { Authorization: 'Bearer ' + userAuthContextValue.jwt },
+        }
+      )
+      .then((result) => {
+        alert(`Successfully saved with id ${result.data.id}`)
+        // redirect the guy to custom visualization view page (the same page, but with other url)
+      })
+      .catch((err) => alert(err))
   }
 
   return (
@@ -56,7 +71,7 @@ function DIYVisualizations({ configuration }) {
           {VISUALIZATIONS.map((Vis, idx) => (
             <ChartWrapper
               key={idx}
-              authorized={authorized && !viewAsGuest}
+              authorized={userAuthContextValue.jwt != null && !viewAsGuest}
               hide={config[idx].hidden}
               hiddenCallback={() => setHidden(idx)}
               data={config[idx].data}
