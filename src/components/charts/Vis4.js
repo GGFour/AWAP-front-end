@@ -29,7 +29,8 @@ ChartJS.register(
 
 function getOptions(title, scales) {
   return {
-    responsive: true,
+    maintainAspectRatio: false,
+    // responsive: true,
     scales: scales,
     plugins: {
       legend: {
@@ -142,10 +143,12 @@ function Vis4() {
   return (
     <>
       <h2>{iceData.name}</h2>
-      <Line
-        data={{ datasets: datasets }}
-        options={getOptions(iceData.name, scales)}
-      />
+      <div className="chart">
+        <Line
+          data={{ datasets: datasets }}
+          options={getOptions(iceData.name, scales)}
+        />
+      </div>
       <h3>Description</h3>
       <text>{iceData.description}</text>
       <h3>Sources:</h3>

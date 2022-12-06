@@ -26,7 +26,8 @@ ChartJS.register(
 
 function getOptions(title, scales) {
   return {
-    responsive: true,
+    maintainAspectRatio: false,
+    // responsive: true,
     scales: scales,
     plugins: {
       legend: {
@@ -110,10 +111,12 @@ function Vis5() {
   return (
     <>
       <h2>{data.name}</h2>
-      <Scatter
-        data={{ datasets: datasets }}
-        options={getOptions(data.name, scales)}
-      />
+      <div className="chart">
+        <Scatter
+          data={{ datasets: datasets }}
+          options={getOptions(data.name, scales)}
+        />
+      </div>
       <h3>Description</h3>
       <text>{data.description}</text>
       <h3>Sources:</h3>
