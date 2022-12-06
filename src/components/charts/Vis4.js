@@ -141,7 +141,7 @@ function Vis4() {
   }
 
   return (
-    <>
+    <div className="container">
       <h2>{iceData.name}</h2>
       <div className="chart">
         <Line
@@ -155,7 +155,7 @@ function Vis4() {
       <a href={iceData.source}>{iceData.name}</a>
       <br />
       <br />
-    </>
+    </div>
   )
 }
 

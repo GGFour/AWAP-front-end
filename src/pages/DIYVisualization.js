@@ -23,6 +23,7 @@ function DIYVisualizations({ configuration }) {
   const userAuthContextValue = useContext(UserAuthContext)
   const [config, setConfig] = useState(configuration || STD)
   const [viewAsGuest, setViewAsGuest] = useState(false)
+  const [splitViews, setSplitViews] = useState(false)
 
   DIYVisualizations.propTypes = {
     configuration: PropTypes.object,
@@ -67,19 +68,70 @@ function DIYVisualizations({ configuration }) {
         <button type="button" onClick={() => setViewAsGuest(!viewAsGuest)}>
           {viewAsGuest ? 'To edit mode' : 'View as a guest'}
         </button>
-        <div className="vis-container">
-          {VISUALIZATIONS.map((Vis, idx) => (
-            <ChartWrapper
-              key={idx}
-              authorized={userAuthContextValue.jwt != null && !viewAsGuest}
-              hide={config[idx].hidden}
-              hiddenCallback={() => setHidden(idx)}
-              data={config[idx].data}
-              dataCallback={(data) => saveText(data, idx)}
-            >
-              <Vis />
-            </ChartWrapper>
-          ))}
+
+        <button type="button" onClick={() => setSplitViews(!splitViews)}>
+          {splitViews ? 'Unsplit views' : 'Split views by 2 columns  '}
+        </button>
+
+        <div className="container">
+          {VISUALIZATIONS.reduce(function (
+            accumulator,
+            currentValue,
+            currentIndex,
+            array
+          ) {
+            let divider = splitViews ? 2 : 1
+
+            if (currentIndex % divider === 0) {
+              accumulator.push(
+                array.slice(currentIndex, currentIndex + divider)
+              )
+            }
+
+            return accumulator
+          },
+          []).map((visPair, index) => {
+            const VisFromPair1 = visPair[0]
+            const confIndex1 = index * visPair.length
+            const confIndex2 = confIndex1 + 1
+            const VisFromPair2 = visPair[1]
+            return (
+              <>
+                <div className="row align-items-top">
+                  <div className="col">
+                    <ChartWrapper
+                      key={confIndex1}
+                      authorized={
+                        userAuthContextValue.jwt != null && !viewAsGuest
+                      }
+                      hide={config[confIndex1].hidden}
+                      hiddenCallback={() => setHidden(confIndex1)}
+                      data={config[confIndex1].data}
+                      dataCallback={(data) => saveText(data, confIndex1)}
+                    >
+                      <VisFromPair1 />
+                    </ChartWrapper>
+                  </div>
+                  {visPair.length === 2 ? (
+                    <div className="col">
+                      <ChartWrapper
+                        key={confIndex2}
+                        authorized={
+                          userAuthContextValue.jwt != null && !viewAsGuest
+                        }
+                        hide={config[confIndex2].hidden}
+                        hiddenCallback={() => setHidden(confIndex2)}
+                        data={config[confIndex2].data}
+                        dataCallback={(data) => saveText(data, confIndex2)}
+                      >
+                        <VisFromPair2 />
+                      </ChartWrapper>
+                    </div>
+                  ) : null}
+                </div>
+              </>
+            )
+          })}
         </div>
       </div>
     </>

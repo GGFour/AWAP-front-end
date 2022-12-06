@@ -109,7 +109,7 @@ function Vis5() {
   }
 
   return (
-    <>
+    <div className="container">
       <h2>{data.name}</h2>
       <div className="chart">
         <Scatter
@@ -123,7 +123,7 @@ function Vis5() {
       <a href={data.source}>{data.name}</a>
       <br />
       <br />
-    </>
+    </div>
   )
 }
 

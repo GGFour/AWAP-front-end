@@ -125,7 +125,7 @@ function Vis3() {
   }
 
   return (
-    <>
+    <div className="container">
       <h2>{data.name}</h2>
       <button onClick={() => toggleShow()}>
         {show ? 'Show Monthly Data' : 'Show Annual Data'}
@@ -142,7 +142,7 @@ function Vis3() {
       <a href={data.source}>{data.name}</a>
       <br />
       <br />
-    </>
+    </div>
   )
 }
 
