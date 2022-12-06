@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Form from './Form'
 import axios from 'axios'
-import { useState } from 'react'
+import PropTypes from 'prop-types'
 
 const URL = '/auth/signup'
 
-function Signup() {
+function Signup({ closePopup, openAnother }) {
   const [success, setSuccess] = useState(false)
+
+  Signup.propTypes = {
+    closePopup: PropTypes.func,
+    openAnother: PropTypes.func,
+  }
+
   async function handleSubmit(e, username, password) {
     try {
       await axios
@@ -15,8 +21,9 @@ function Signup() {
           password: password,
         })
         .then(() => {
-          alert(JSON.stringify('registeration is successful!', null, 2))
+          alert('Successfully created!')
           setSuccess(true)
+          closePopup()
         })
     } catch (err) {
       alert(JSON.stringify(err.response.data, null, 2))
@@ -25,7 +32,9 @@ function Signup() {
   return (
     <>
       {success ? (
-        <h1>You are signed up successfully</h1>
+        <>
+          <h1>You are signed up successfully</h1>
+        </>
       ) : (
         <>
           <div className="signup-header">
@@ -38,7 +47,10 @@ function Signup() {
           ></Form>
           <div className="button-div">
             <p>
-              Already have an account? <a href="#">Login</a>
+              Already have an account?{' '}
+              <a href="#" onClick={() => openAnother()}>
+                Login
+              </a>
             </p>
           </div>
         </>

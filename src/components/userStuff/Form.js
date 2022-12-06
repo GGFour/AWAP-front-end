@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { useState } from 'react'
-import { inputs } from './Inputs'
+import { inputs } from './inputs'
 
 const STD = {
   username: '',
@@ -30,6 +30,7 @@ function Form({ handleSubmit, signUp, authorized, success }) {
 
   async function localHandleSubmit(e) {
     e.preventDefault()
+    setFocused('')
     handleSubmit(e, values['username'], values['password'])
     setValues(STD)
   }
@@ -61,14 +62,10 @@ function Form({ handleSubmit, signUp, authorized, success }) {
                       />
                       {<span className="errorMes">{input.errorMessage}</span>}
                     </div>
-                  ) : (
-                    <></>
-                  )
+                  ) : null
                 })}
               </div>
-              {success ? (
-                ''
-              ) : (
+              {success ? null : (
                 <div className="button-div">
                   <button>Submit</button>
                 </div>

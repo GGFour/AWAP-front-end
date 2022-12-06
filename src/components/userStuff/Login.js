@@ -1,12 +1,19 @@
 import React, { useContext } from 'react'
 import Form from './Form'
 import axios from 'axios'
-import { UserAuthContext } from './Contexts'
+import { UserAuthContext } from '../Contexts'
+import PropTypes from 'prop-types'
 
 const URL = '/auth/login'
 
-function Login() {
+function Login({ closePopup, openAnother }) {
   const UserAuthContextValue = useContext(UserAuthContext)
+
+  Login.propTypes = {
+    closePopup: PropTypes.func,
+    openAnother: PropTypes.func,
+  }
+
   async function handleSubmit(e, username, password) {
     try {
       await axios
@@ -15,8 +22,8 @@ function Login() {
           password: password,
         })
         .then((response) => {
-          UserAuthContextValue.login(response.data.token)
-          window.location.reload()
+          closePopup()
+          UserAuthContextValue.setJwt(response.data.token)
         })
     } catch (err) {
       alert(JSON.stringify(err.response.data, null, 2))
@@ -30,7 +37,10 @@ function Login() {
       <Form handleSubmit={handleSubmit}></Form>
       <div className="button-div">
         <p>
-          Don&apos;t have an account? <a href="#">Signup</a>
+          Don&apos;t have an account?{' '}
+          <a href="#" onClick={() => openAnother()}>
+            Signup
+          </a>
         </p>
       </div>
     </>

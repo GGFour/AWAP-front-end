@@ -1,6 +1,7 @@
 import React from 'react'
 import { useContext } from 'react'
-import { UserAuthContext } from './Contexts'
+import { UserAuthContext } from '../Contexts'
+import { Link } from 'react-router-dom'
 import axios from 'axios'
 
 const URL = '/auth/user'
@@ -9,18 +10,19 @@ function UserProfile() {
   const headers = {
     Authorization: 'Bearer ' + userAuthContextValue.jwt,
   }
-  const logOut = () => {
-    userAuthContextValue.logout()
-    window.location.reload()
+
+  function logOut() {
+    userAuthContextValue.setJwt(null)
   }
-  const deleteUser = async () => {
+  async function deleteUser() {
     try {
       await axios
         .delete(`http://localhost:3000${URL}`, {
           headers,
         })
         .then(() => {
-          alert(JSON.stringify('deleted!', null, 2))
+          alert('Successfully deleted!')
+          logOut()
         })
     } catch (err) {
       alert(JSON.stringify(err.response.data, null, 2))
@@ -34,9 +36,10 @@ function UserProfile() {
         <p>Username</p>
         <p>...</p>
       </div>
+      <Link to="/diy">Make My Vis</Link>
       <div className="user-btns">
-        <button onClick={logOut}>Logout</button>
-        <button onClick={deleteUser}>Delete User</button>
+        <button onClick={() => logOut()}>Logout</button>
+        <button onClick={() => deleteUser()}>Delete User</button>
       </div>
     </div>
   )
