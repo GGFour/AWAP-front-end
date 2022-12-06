@@ -149,7 +149,7 @@ function Vis1() {
   }
 
   return (
-    <>
+    <div className="container">
       <h2>{vis1Data.name}</h2>
       <button onClick={() => toggleAnnual()}>
         {annual ? 'Annual' : 'Monthly'}
@@ -168,7 +168,7 @@ function Vis1() {
       <a href={vis2Data.source}>{vis2Data.name}</a>
       <br />
       <br />
-    </>
+    </div>
   )
 }
 
