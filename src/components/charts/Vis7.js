@@ -26,7 +26,8 @@ ChartJS.register(
 
 function getOptions(title, scales) {
   return {
-    responsive: true,
+    maintainAspectRatio: false,
+    // responsive: true,
     scales: scales,
     plugins: {
       legend: {
@@ -128,6 +129,7 @@ function Vis7() {
         borderColor: ' rgb(0, 0, 255) ',
         backgroundColor: 'rgb(255,0,0)',
         parsing: false,
+        fill: false,
       },
       {
         yAxisID: 'y2',
@@ -137,6 +139,7 @@ function Vis7() {
         borderColor: 'rgb(255, 99, 132)',
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
         parsing: false,
+        fill: false,
       },
     ]
     setDatasets(datasets)
@@ -145,10 +148,12 @@ function Vis7() {
   return (
     <>
       <h2>{temperatureData.name}</h2>
-      <Scatter
-        data={{ datasets: datasets }}
-        options={getOptions(temperatureData.name, scales)}
-      />
+      <div className="chart">
+        <Scatter
+          data={{ datasets: datasets }}
+          options={getOptions(temperatureData.name, scales)}
+        />
+      </div>
       <h3>Description</h3>
       <text>{temperatureData.description}</text>
       <h3>Sources:</h3>

@@ -24,7 +24,8 @@ ChartJS.register(
 
 function getOptions(title, scales) {
   const options = {
-    responsive: true,
+    maintainAspectRatio: false,
+    // responsive: true,
     showLine: true,
     plugins: {
       legend: {
@@ -114,10 +115,12 @@ function Vis8() {
   return (
     <>
       <h2>{data.name}</h2>
-      <Scatter
-        data={{ datasets: datasets }}
-        options={getOptions(data.name, scales)}
-      />
+      <div className="chart">
+        <Scatter
+          data={{ datasets: datasets }}
+          options={getOptions(data.name, scales)}
+        />
+      </div>
       <h3>Description</h3>
       <text>{data.description}</text>
       <h3>Sources:</h3>

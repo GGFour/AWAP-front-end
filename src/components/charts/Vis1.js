@@ -27,7 +27,8 @@ ChartJS.register(
 
 function getOptions(title, scales) {
   const options = {
-    responsive: true,
+    // responsive: true,
+    maintainAspectRatio: false,
     showLine: true,
     plugins: {
       legend: {
@@ -134,12 +135,14 @@ function Vis1() {
         ),
         borderColor: 'rgb(99, 99, 255)',
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
+        fill: false,
       },
       {
         label: 'Northern Hemisphere 2,000-year temperature reconstruction',
         data: vis2Data.data,
         borderColor: 'rgb(225, 225, 255)',
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
+        fill: false,
       },
     ]
     setDatasets(tempDatasets)
@@ -151,10 +154,12 @@ function Vis1() {
       <button onClick={() => toggleAnnual()}>
         {annual ? 'Annual' : 'Monthly'}
       </button>
-      <Line
-        data={{ datasets: datasets }}
-        options={getOptions(`${vis1Data.name} and ${vis2Data.name}`, scales)}
-      />
+      <div className="chart">
+        <Line
+          data={{ datasets: datasets }}
+          options={getOptions(`${vis1Data.name} and ${vis2Data.name}`, scales)}
+        />
+      </div>
       <h3>Description</h3>
       <text>{vis1Data.description}</text>
       <text>{vis2Data.description}</text>

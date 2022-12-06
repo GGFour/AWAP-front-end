@@ -4,7 +4,6 @@ import axios from 'axios'
 import { UserAuthContext } from './Contexts'
 
 const URL = '/auth/login'
-// const navigate = useNavigate()
 
 function Login() {
   const UserAuthContextValue = useContext(UserAuthContext)
@@ -17,7 +16,6 @@ function Login() {
         })
         .then((response) => {
           UserAuthContextValue.login(response.data.token)
-          // alert(JSON.stringify('Successfully logged in!', null, 2))
           window.location.reload()
         })
     } catch (err) {

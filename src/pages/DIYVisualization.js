@@ -52,7 +52,7 @@ function DIYVisualizations({ configuration }) {
         <button type="button" onClick={() => setViewAsGuest(!viewAsGuest)}>
           {viewAsGuest ? 'To edit mode' : 'View as a guest'}
         </button>
-        <div className="vis-contianer">
+        <div className="vis-container">
           {VISUALIZATIONS.map((Vis, idx) => (
             <ChartWrapper
               key={idx}

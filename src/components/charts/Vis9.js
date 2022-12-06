@@ -26,7 +26,8 @@ ChartJS.register(
 )
 
 const options = {
-  responsive: true,
+  maintainAspectRatio: false,
+  // responsive: true,
   plugins: {
     legend: {
       position: 'top',
@@ -156,7 +157,9 @@ function Vis9() {
   return (
     <>
       <h2>{rawData.name}</h2>
-      <Pie options={options} data={data} />
+      <div className="chart">
+        <Pie options={options} data={data} />
+      </div>
       <h3>Description</h3>
       <text>{rawData.description}</text>
       <h3>Sources:</h3>

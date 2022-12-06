@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Signup from './Signup'
 import Login from './Login'
+import UserProfile from './UserProfile'
 import { Link, useLocation } from 'react-router-dom'
 import { useContext } from 'react'
 import { UserAuthContext } from './Contexts'
@@ -9,6 +10,7 @@ function Navbar() {
   const userAuthContextValue = useContext(UserAuthContext)
   const [signupStatus, setSignupStatus] = useState(false)
   const [loginStatus, setLoginStatus] = useState(false)
+  const [userProfileStatus, setUserProfileStatus] = useState(false)
   const [togglehome, setToggleHome] = useState(useLocation().pathname == '/')
   const [authorized, setAuthorized] = useState(false) // may be to have it as a props, or check cookies for token
 
@@ -24,10 +26,10 @@ function Navbar() {
   const closeModal = () => {
     setSignupStatus(false)
     setLoginStatus(false)
+    setUserProfileStatus(false)
   }
-  const logOut = () => {
-    userAuthContextValue.logout()
-    window.location.reload()
+  const openUserProfile = () => {
+    setUserProfileStatus(true)
   }
   return (
     <>
@@ -49,9 +51,23 @@ function Navbar() {
         ) : (
           <div className="navbar-right">
             {userAuthContextValue.jwt != null ? (
-              <Link to="#" onClick={logOut}>
-                Logout
-              </Link>
+              <>
+                <Link to="#" onClick={openUserProfile}>
+                  User Profile
+                </Link>
+                {userProfileStatus ? (
+                  <div className="main">
+                    <div className="popup">
+                      <div onClick={closeModal} className="closing-btn">
+                        x
+                      </div>
+                      <UserProfile />
+                    </div>
+                  </div>
+                ) : (
+                  ''
+                )}
+              </>
             ) : (
               <>
                 <Link to="#" onClick={openLogin}>
@@ -79,7 +95,6 @@ function Navbar() {
           </div>
         )}
       </div>
-      {/* <Home></Home> */}
     </>
   )
 }
