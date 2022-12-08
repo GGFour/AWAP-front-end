@@ -33,6 +33,10 @@ function App() {
             <Route path="/" element={<Home />}></Route>
             <Route path="/visualizations" element={<Visualizations />}></Route>
             <Route path="/diy" element={<DIYVisualizations />}></Route>
+            <Route
+              path="/custom/:customId"
+              element={<DIYVisualizations custom={true} />}
+            ></Route>
             <Route path="/n1view" element={<N1View />}></Route>
             <Route path="/n2view" element={<N2View />}></Route>
           </Routes>

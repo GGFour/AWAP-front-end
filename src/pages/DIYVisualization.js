@@ -1,6 +1,8 @@
-import React, { useState, useContext } from 'react'
-import { UserAuthContext } from '../components/Contexts'
+import React, { useState, useContext, useEffect } from 'react'
 import PropTypes from 'prop-types'
+import { useParams } from 'react-router-dom'
+import axios from 'axios'
+
 import Vis1 from '../components/charts/Vis1.js'
 import Vis3 from '../components/charts/Vis3.js'
 import Vis4 from '../components/charts/Vis4.js'
@@ -10,23 +12,49 @@ import Vis7 from '../components/charts/Vis7.js'
 import Vis8 from '../components/charts/Vis8.js'
 import Vis9 from '../components/charts/Vis9.js'
 import ChartWrapper from '../components/ChartWrapper.js'
-
-import axios from 'axios'
+import { UserAuthContext } from '../components/Contexts'
 
 const VISUALIZATIONS = [Vis1, Vis3, Vis4, Vis5, Vis6, Vis7, Vis8, Vis9]
 const STD = VISUALIZATIONS.map(() => ({
   hidden: false,
 }))
-const URL = '/api/diy'
+const URL = '/custom/diy'
 
-function DIYVisualizations({ configuration }) {
+function DIYVisualizations({ isCustom }) {
   const userAuthContextValue = useContext(UserAuthContext)
-  const [config, setConfig] = useState(configuration || STD)
+  const [config, setConfig] = useState(STD)
+  const [owner, setOwner] = useState(true)
   const [viewAsGuest, setViewAsGuest] = useState(false)
   const [splitViews, setSplitViews] = useState(false)
 
   DIYVisualizations.propTypes = {
-    configuration: PropTypes.object,
+    isCustom: PropTypes.bool,
+  }
+
+  useEffect(() => {
+    if (isCustom) {
+      let id = useParams().customId
+      axios
+        .get(`http://localhost:3000/${URL}?id=${id}`)
+        .then((response) => {
+          setConfig(response.data.configuration)
+          if (
+            userAuthContextValue.jwt != null &&
+            getUsernameFromJwt(userAuthContextValue) == response.data.username
+          ) {
+            setOwner(true)
+          } else {
+            setOwner(false)
+          }
+        })
+        .catch((err) => {
+          alert(err.message)
+        })
+    }
+  }, [])
+
+  function getUsernameFromJwt(jwt) {
+    return JSON.parse(atob(jwt.split('.')[0])).username
   }
 
   function saveText(data, idx) {
