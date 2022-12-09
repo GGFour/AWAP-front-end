@@ -1,4 +1,3 @@
-//import './App.css'
 import React, { useEffect, useState } from 'react'
 import Home from './pages/Home'
 import { Routes, Route } from 'react-router-dom'
@@ -16,6 +15,8 @@ function App() {
   useEffect(() => {
     if (jwt) {
       window.localStorage.setItem('appAuthData', jwt)
+    } else {
+      window.localStorage.removeItem('appAuthData')
     }
   }, [jwt])
 
@@ -35,7 +36,7 @@ function App() {
             <Route path="/diy" element={<DIYVisualizations />}></Route>
             <Route
               path="/custom/:customId"
-              element={<DIYVisualizations custom={true} />}
+              element={<DIYVisualizations isCustom={true} />}
             ></Route>
             <Route path="/n1view" element={<N1View />}></Route>
             <Route path="/n2view" element={<N2View />}></Route>
