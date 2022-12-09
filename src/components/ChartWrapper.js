@@ -14,7 +14,7 @@ function ChartWrapper({
   dataCallback,
 }) {
   const [edit, setEdit] = useState(false)
-  const [text, setText] = useState(data)
+  const [text, setText] = useState(data ? data : '')
   const [hidden, setHidden] = useState(hide || false)
 
   ChartWrapper.propTypes = {
@@ -61,12 +61,18 @@ function ChartWrapper({
         {children}
         {!edit ? (
           <>
-            <h3>{text + (authorized && !text ? 'Change mee. . .' : '')}</h3>
+            <h3>
+              {text.length == 0
+                ? authorized
+                  ? 'Change mee. . .'
+                  : data
+                : text}
+            </h3>
             {authorized ? (
               <button type="button" onClick={() => toggleEdit()}>
                 Edit
               </button>
-            ) : null}{' '}
+            ) : null}
           </>
         ) : null}
         {edit && authorized ? (
