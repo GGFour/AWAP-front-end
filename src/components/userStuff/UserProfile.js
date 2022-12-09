@@ -37,6 +37,7 @@ function UserProfile() {
         <p>...</p>
       </div>
       <Link to="/diy">Make My Vis</Link>
+      <Link to="/customvisualizations">View My Vis</Link>
       <div className="user-btns">
         <button onClick={() => logOut()}>Logout</button>
         <button onClick={() => deleteUser()}>Delete User</button>

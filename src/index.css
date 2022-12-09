@@ -15,11 +15,6 @@ body {
   color: white;
 }
 
-/* .container {
-  display: grid;
-  grid-template-rows: 8rem 1fr;
-} */
-
 /*
  ----
  NAVBAR
@@ -51,123 +46,6 @@ body {
   color: white;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-}
-
-/*
--------
-LOGIN & SIGNUP POPUP 
-DESGIN
--------
-*/
-
-.main {
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 100%;
-  width: 100%;
-  top: 0;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  transform: translate(-50%, -50%);
-  transform: scale(1.1);
-  backdrop-filter: blur(2px);
-}
-
-.popup {
-  display: flex;
-  flex-direction: column;
-  height: 35rem;
-  width: 20rem;
-  position: absolute;
-  top: 25%;
-  right: 40%;
-  background-color: #212529;
-  padding: 0.5rem;
-  color: white;
-  /* align-self: center; */
-  font-size: 8px;
-  border-radius: 1rem;
-}
-
-.form-container form,
-.form-container {
-  height: auto;
-}
-
-.form-container form,
-.form-container form div {
-  display: flex;
-  flex-direction: column;
-}
-
-.form-container form div {
-  gap: 0.3rem;
-  padding: 0.5rem;
-}
-
-.closing-btn {
-  align-self: flex-end;
-  font-size: 30px;
-  cursor: pointer;
-}
-
-.signup-header,
-.login-header {
-  padding-bottom: 1rem;
-  align-self: center;
-}
-
-.popup form input {
-  border: none;
-  border: 1px solid #7a76ff;
-  border-radius: 1rem;
-  outline: none;
-  height: 2rem;
-  background-color: #ddd;
-  padding-left: 1rem;
-}
-
-.popup label {
-  font-size: 15px;
-  letter-spacing: 2px;
-}
-
-.button-div {
-  margin-top: 1rem;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.errorMes {
-  font-size: 12px;
-  padding: 3px;
-  color: red;
-  display: none;
-}
-
-.has-error input:invalid {
-  border: 1px solid red;
-}
-.has-error input:invalid ~ .errorMes {
-  display: block;
-}
-button {
-  background-color: #7a76ff;
-  border-radius: 1rem;
-  color: black;
-  padding: 14px 20px;
-  border: none;
-  cursor: pointer;
-  width: 10rem;
-  opacity: 0.9;
-}
-
-.popup a {
-  font-size: 10px;
-  font-weight: bold;
-  color: #7a76ff;
 }
 
 /*
@@ -275,6 +153,23 @@ DESGIN
   justify-content: space-between;
 }
 
+button {
+  background-color: #7a76ff;
+  border-radius: 1rem;
+  color: black;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 10rem;
+  opacity: 0.9;
+}
+
+.popup a {
+  font-size: 10px;
+  font-weight: bold;
+  color: #7a76ff;
+}
+
 .errorMes {
   font-size: 12px;
   padding: 3px;
@@ -282,22 +177,11 @@ DESGIN
   display: none;
 }
 
-.button-div button {
-  background-color: #7a76ff;
-  border-radius: 1rem;
-  color: black;
-  padding: 14px 20px;
-  border: none;
-  cursor: pointer;
-  width: 40%;
-  opacity: 0.9;
-  align-self: center;
+.has-error input:invalid {
+  border: 1px solid red;
 }
-
-.popup a {
-  font-size: 10px;
-  font-weight: bold;
-  color: #7a76ff;
+.has-error input:invalid ~ .errorMes {
+  display: block;
 }
 
 /*
@@ -378,5 +262,13 @@ VISUALIZATION DESIGN
 
   .body-text p {
     font-size: 2vw;
+  }
+  .popup {
+    height: 25rem;
+    width: 50%;
+    right: 25%;
+  }
+  button {
+    width: 40%;
   }
 }
