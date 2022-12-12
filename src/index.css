@@ -73,7 +73,7 @@ DESGIN
 .popup {
   display: flex;
   flex-direction: column;
-  height: 30rem;
+  height: 35rem;
   width: 20rem;
   position: absolute;
   top: 25%;
@@ -258,6 +258,9 @@ VISUALIZATION DESIGN
   letter-spacing: 2px;
   margin-top: 5rem;
 }
+.visPage-body h2 {
+  font-size: 2vw;
+}
 
 .vis-container {
   width: 80%;
@@ -314,17 +317,55 @@ VISUALIZATION DESIGN
  ----
 */
 @media (max-width: 650px) {
-  .navbar-right {
+  .navbar-left a,
+  .navbar-right a {
     font-size: 2.3vw;
   }
 
+  .body-text h1 {
+    font-size: 7vw;
+  }
   .body-text p {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
   .popup {
-    height: 25rem;
+    height: calc(50% + 5rem);
+    max-height: 24rem;
     width: 50%;
     right: 25%;
+  }
+  .popup form input {
+    width: 45vw;
+    height: 1.6rem;
+  }
+  .form-container form div {
+    gap: 0.5rem;
+    padding: 0;
+  }
+  .popup form label {
+    font-size: 2.5vw;
+  }
+  .signup-header h1,
+  .login-header h1 {
+    font-size: 5vw;
+    margin: 0;
+  }
+  .button-text {
+    height: fit-content;
+  }
+  .form-container form,
+  .form-container {
+    height: 100%;
+  }
+  .button-text a,
+  .button-text p {
+    font-size: 5px;
+    margin: 0;
+    text-align: center;
+  }
+  .button-div {
+    height: 100%;
+    justify-content: center;
   }
   .user-todo {
     font-size: 1.7vw;
@@ -339,8 +380,16 @@ VISUALIZATION DESIGN
     font-size: 0.7rem;
   }
   button {
-    width: 60%;
-    padding: 8px 12px;
+    width: 50%;
+    padding: 0.4rem 0;
+    font-size: 0.6rem;
+  }
+  .signup-header,
+  .login-header {
+    padding-bottom: 0.5rem;
+  }
+  .closing-btn {
+    font-size: 15px;
   }
 
   .vis-div h2 {
@@ -349,5 +398,11 @@ VISUALIZATION DESIGN
   .user-inventory div {
     font-size: 0.9rem;
     letter-spacing: 2px;
+  }
+  .visPage-body h2 {
+    font-size: 4vw;
+  }
+  .vis-container {
+    gap: 4rem;
   }
 }

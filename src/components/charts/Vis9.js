@@ -155,7 +155,7 @@ function Vis9() {
   }
 
   return (
-    <>
+    <div className="vis-div">
       <h2>{rawData.name}</h2>
       <div className="chart">
         <Pie options={options} data={data} />
@@ -166,7 +166,7 @@ function Vis9() {
       <a href={rawData.source}>{rawData.name}</a>
       <br />
       <br />
-    </>
+    </div>
   )
 }
 

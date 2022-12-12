@@ -42,17 +42,17 @@ function ChartWrapper({
 
   if (hidden) {
     return (
-      <>
+      <div>
         {authorized ? (
           <button type="button" onClick={toggleHidden}>
             Show
           </button>
         ) : null}
-      </>
+      </div>
     )
   } else {
     return (
-      <>
+      <div>
         {authorized ? (
           <button type="button" onClick={toggleHidden}>
             Hide
@@ -83,7 +83,7 @@ function ChartWrapper({
             </button>
           </>
         ) : null}
-      </>
+      </div>
     )
   }
 }

@@ -45,10 +45,10 @@ function Signup({ closePopup, openAnother }) {
             handleSubmit={handleSubmit}
             success={success}
           ></Form>
-          <div className="button-div">
+          <div className="button-text">
             <p>
               Already have an account?{' '}
-              <a href="#" onClick={() => openAnother()}>
+              <a href="#" onClick={() => openAnother()} className="form-a">
                 Login
               </a>
             </p>

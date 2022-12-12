@@ -146,7 +146,7 @@ function Vis7() {
   }
 
   return (
-    <>
+    <div className="vis-div">
       <h2>{temperatureData.name}</h2>
       <div className="chart">
         <Scatter
@@ -160,7 +160,7 @@ function Vis7() {
       <a href={temperatureData.source}>{temperatureData.name}</a>
       <br />
       <br />
-    </>
+    </div>
   )
 }
 
