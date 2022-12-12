@@ -129,7 +129,7 @@ function DIYVisualizations({ isCustom }) {
     // alert(JSON.stringify(config, null, 2))
     axios
       .post(
-        `http://localhost:3000${URL}`,
+        process.env.REACT_APP_API_ADDRESS + URL,
         { configuration: config },
         {
           headers: { Authorization: 'Bearer ' + userAuthContextValue.jwt },

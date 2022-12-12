@@ -39,7 +39,7 @@ const options = {
   },
 }
 
-const URL = 'http://localhost:3000/api/visualization?id=9'
+const URL = process.env.REACT_APP_API_ADDRESS + '/api/visualization?id=9'
 
 function Vis9() {
   const [rawData, setRawData] = useState({ data: [] })
