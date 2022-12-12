@@ -17,7 +17,7 @@ function UserProfile() {
   async function deleteUser() {
     try {
       await axios
-        .delete(`http://localhost:3000${URL}`, {
+        .delete(process.env.REACT_APP_API_ADDRESS + URL, {
           headers,
         })
         .then(() => {

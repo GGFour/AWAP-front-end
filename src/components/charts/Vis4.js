@@ -78,8 +78,8 @@ const scales = {
   },
 }
 
-const URL1 = 'http://localhost:3000/api/visualization?id=4'
-const URL2 = 'http://localhost:3000/api/visualization?id=3'
+const URL1 = process.env.REACT_APP_API_ADDRESS + '/api/visualization?id=4'
+const URL2 = process.env.REACT_APP_API_ADDRESS + '/api/visualization?id=3'
 const STD = { data: [] }
 
 function Vis4() {
