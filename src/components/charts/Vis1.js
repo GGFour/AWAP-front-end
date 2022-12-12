@@ -149,7 +149,7 @@ function Vis1() {
   }
 
   return (
-    <div className="container">
+    <div className="vis-div">
       <h2>{vis1Data.name}</h2>
       <button onClick={() => toggleAnnual()}>
         {annual ? 'Annual' : 'Monthly'}
@@ -157,7 +157,7 @@ function Vis1() {
       <div className="chart">
         <Line
           data={{ datasets: datasets }}
-          options={getOptions(`${vis1Data.name} and ${vis2Data.name}`, scales)}
+          options={getOptions(`${vis1Data.name}`, scales)}
         />
       </div>
       <h3>Description</h3>

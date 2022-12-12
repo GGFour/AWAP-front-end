@@ -35,10 +35,10 @@ function Login({ closePopup, openAnother }) {
         <h1>Login</h1>
       </div>
       <Form handleSubmit={handleSubmit}></Form>
-      <div className="button-div">
+      <div className="button-text">
         <p>
           Don&apos;t have an account?{' '}
-          <a href="#" onClick={() => openAnother()}>
+          <a href="#" onClick={() => openAnother()} className="form-a">
             Signup
           </a>
         </p>
