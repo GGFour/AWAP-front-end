@@ -4,37 +4,59 @@ import { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { UserAuthContext } from '../components/Contexts'
 
-const URL = '/api/listcustom'
+const URL1 = '/api/listcustom'
+const URL2 = '/api/custom'
 function UserInventory() {
-  const [id, setId] = useState([])
+  const [customVis, setCustomVis] = useState([])
   const userAuthContextValue = useContext(UserAuthContext)
   const headers = {
     Authorization: 'Bearer ' + userAuthContextValue.jwt,
   }
   useEffect(() => {
     axios
-      .get(`http://localhost:3000${URL}`, { headers })
+      .get(`http://localhost:3000${URL1}`, { headers })
       .then((response) => {
-        setId(response.data)
+        setCustomVis(response.data)
       })
       .catch((e) => {
         alert(e)
       })
   }, [])
 
+  const deleteCustomVis = (index, urlId) => {
+    axios
+      .delete(`http://localhost:3000${URL2}?id=${urlId}`, {
+        headers,
+      })
+      .then(() => {
+        let newCostumVis = [...customVis]
+        newCostumVis.splice(index, 1) //remove the the item at the specific index
+        setCustomVis(newCostumVis)
+      })
+      .catch((e) => {
+        alert(e)
+      })
+  }
+
   return (
-    <>
+    <div className="user-inventory">
       <div>My Custom Visualizations</div>
       <ul>
-        {id.map((row, idx) => (
+        {customVis.map((row, idx) => (
           <>
-            <li>
-              <Link to={`/custom/${row.id}`}>My vis {idx}</Link>
+            <li className="custom-list" key={idx}>
+              <Link to={`/custom/${row.id}`}>My vis No. {idx}</Link>
+              <button
+                className="delete-btn"
+                onClick={() => deleteCustomVis(idx, row.id)}
+              >
+                delete
+              </button>
             </li>
           </>
         ))}
       </ul>
-    </>
+    </div>
   )
 }
 
