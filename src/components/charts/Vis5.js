@@ -109,7 +109,7 @@ function Vis5() {
   }
 
   return (
-    <div className="container">
+    <div className="vis-div">
       <h2>{data.name}</h2>
       <div className="chart">
         <Scatter

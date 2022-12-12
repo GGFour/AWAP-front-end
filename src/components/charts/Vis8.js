@@ -113,7 +113,7 @@ function Vis8() {
   }
 
   return (
-    <>
+    <div className="vis-div">
       <h2>{data.name}</h2>
       <div className="chart">
         <Scatter
@@ -127,7 +127,7 @@ function Vis8() {
       <a href={data.source}>{data.name}</a>
       <br />
       <br />
-    </>
+    </div>
   )
 }
 

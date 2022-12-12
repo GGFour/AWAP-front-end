@@ -29,24 +29,24 @@ function App() {
           setJwt: setJwt,
         }}
       >
-        <div className="container">
-          <Navbar></Navbar>
-          <Routes>
-            <Route path="/" element={<Home />}></Route>
-            <Route path="/visualizations" element={<Visualizations />}></Route>
-            <Route path="/diy" element={<DIYVisualizations />}></Route>
-            <Route
-              path="/custom/:customId"
-              element={<DIYVisualizations isCustom={true} />}
-            ></Route>
-            <Route
-              path="/customvisualizations"
-              element={<UserInventory />}
-            ></Route>
-            <Route path="/n1view" element={<N1View />}></Route>
-            <Route path="/n2view" element={<N2View />}></Route>
-          </Routes>
-        </div>
+        {/* <div className="container"> */}
+        <Navbar></Navbar>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/visualizations" element={<Visualizations />}></Route>
+          <Route path="/diy" element={<DIYVisualizations />}></Route>
+          <Route
+            path="/custom/:customId"
+            element={<DIYVisualizations isCustom={true} />}
+          ></Route>
+          <Route
+            path="/customvisualizations"
+            element={<UserInventory />}
+          ></Route>
+          <Route path="/n1view" element={<N1View />}></Route>
+          <Route path="/n2view" element={<N2View />}></Route>
+        </Routes>
+        {/* </div> */}
       </UserAuthContext.Provider>
     </>
   )
