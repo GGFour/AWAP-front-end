@@ -34,10 +34,15 @@ function UserProfile() {
       <h1>User Profile</h1>
       <div className="user-info">
         <p>Username</p>
-        <p>...</p>
       </div>
-      <Link to="/diy">Make My Vis</Link>
-      <Link to="/customvisualizations">View My Vis</Link>
+      <div className="user-list">
+        <Link to="/diy" className="user-todo">
+          Make My Vis
+        </Link>
+        <Link to="/customvisualizations" className="user-todo">
+          View My Vis
+        </Link>
+      </div>
       <div className="user-btns">
         <button onClick={() => logOut()}>Logout</button>
         <button onClick={() => deleteUser()}>Delete User</button>

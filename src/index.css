@@ -25,9 +25,11 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  margin-top: 1.5rem;
 }
 
-.navbar a {
+.navbar-left a,
+.navbar-right a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -36,7 +38,8 @@ body {
 }
 
 .navbar-right {
-  width: 12.5rem;
+  gap: 2rem;
+  width: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -90,6 +93,24 @@ DESGIN
 .profile h1 {
   align-self: center;
 }
+.user-todo {
+  border: 1px solid blue;
+  font-size: 0.6rem;
+  text-decoration: none;
+  border-radius: 1rem;
+  color: white;
+  padding: 1vw 0.7vw;
+  cursor: pointer;
+}
+.user-todo:hover {
+  background-color: #7a76ff;
+  color: black;
+}
+.user-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .user-btns {
   display: flex;
   flex-direction: column;
@@ -101,7 +122,8 @@ DESGIN
 .user-info {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  font-size: 0.8rem;
 }
 
 .form-container form,
@@ -113,6 +135,9 @@ DESGIN
 .form-container form div {
   display: flex;
   flex-direction: column;
+}
+.form-container form button {
+  align-self: center;
 }
 .form-container form div {
   gap: 0.3rem;
@@ -145,12 +170,12 @@ DESGIN
   letter-spacing: 2px;
 }
 
-.button-div {
-  margin-top: 1rem;
+.button-text {
+  justify-content: flex-end;
+  align-items: center;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 button {
@@ -162,9 +187,10 @@ button {
   cursor: pointer;
   width: 10rem;
   opacity: 0.9;
+  font-size: 0.8rem;
 }
 
-.popup a {
+.form-a:hover {
   font-size: 10px;
   font-weight: bold;
   color: #7a76ff;
@@ -213,7 +239,8 @@ p {
 }
 
 .body-text h1 {
-  font-size: 4.8rem;
+  font-size: 5vw;
+  font-weight: bold;
 }
 
 .body-text p {
@@ -229,18 +256,57 @@ VISUALIZATION DESIGN
   flex-direction: column;
   align-items: center;
   letter-spacing: 2px;
+  margin-top: 5rem;
 }
 
 .vis-container {
   width: 80%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  gap: 8rem;
+}
+.vis-div {
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
 }
+.vis-div h2 {
+  font-size: 1.5rem;
+
+  align-self: center;
+  text-align: center;
+  width: 80%;
+}
+.vis-div button {
+  align-self: center;
+}
+
 .chart {
   height: 100vh;
   width: 100%;
+}
+.user-inventory {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.user-inventory div {
+  align-self: center;
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+}
+.custom-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.delete-btn {
+  width: 8rem;
+  margin-bottom: 1rem;
+}
+.vis-div text {
+  word-wrap: break-word;
 }
 /*
  ----
@@ -248,16 +314,8 @@ VISUALIZATION DESIGN
  ----
 */
 @media (max-width: 650px) {
-  .navbar-left a {
-    display: none;
-  }
-
   .navbar-right {
     font-size: 2.3vw;
-  }
-
-  .body-text h1 {
-    font-size: 2.4rem;
   }
 
   .body-text p {
@@ -268,7 +326,28 @@ VISUALIZATION DESIGN
     width: 50%;
     right: 25%;
   }
+  .user-todo {
+    font-size: 1.7vw;
+    text-align: center;
+  }
+  .profile h1 {
+    font-size: 3vw;
+  }
+  .vis-div text,
+  h3,
+  a {
+    font-size: 0.7rem;
+  }
   button {
-    width: 40%;
+    width: 60%;
+    padding: 8px 12px;
+  }
+
+  .vis-div h2 {
+    font-size: 1rem;
+  }
+  .user-inventory div {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
   }
 }
