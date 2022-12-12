@@ -155,7 +155,8 @@ DESGIN
   align-self: center;
 }
 
-.popup form input {
+.popup form input,
+.edit-input {
   border: none;
   border: 1px solid #7a76ff;
   border-radius: 1rem;
@@ -263,6 +264,7 @@ VISUALIZATION DESIGN
 }
 
 .vis-container {
+  padding-top: 5rem;
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -310,6 +312,41 @@ VISUALIZATION DESIGN
 }
 .vis-div text {
   word-wrap: break-word;
+}
+/**
+------
+CUSTOM VIEW DESIGN
+-------
+*/
+.custom-btns {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.chart-warpper {
+  border: 1px solid #7a76ff;
+  border-radius: 1rem;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.edit-input {
+  width: 50%;
+}
+.custom-p {
+  font-size: 2vw;
+  letter-spacing: 4px;
+}
+.column {
+  width: 100%;
+  flex: 50%;
+  min-width: 0;
+}
+.column-div {
+  display: flex;
+  gap: 5rem;
 }
 /*
  ----
@@ -391,7 +428,6 @@ VISUALIZATION DESIGN
   .closing-btn {
     font-size: 15px;
   }
-
   .vis-div h2 {
     font-size: 1rem;
   }
@@ -404,5 +440,18 @@ VISUALIZATION DESIGN
   }
   .vis-container {
     gap: 4rem;
+    padding-top: 3rem;
+  }
+  .chart-warpper {
+    padding-left: 0.5rem;
+  }
+  .custom-btns {
+    gap: 0.5rem;
+  }
+  .edit-input {
+    width: 70%;
+  }
+  .custom-p {
+    font-size: 3.2vw;
   }
 }
