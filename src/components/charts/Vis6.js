@@ -72,7 +72,7 @@ const scales = {
   },
 }
 
-const URL = 'http://localhost:3000/api/visualization?id=6'
+const URL = process.env.REACT_APP_API_ADDRESS + '/api/visualization?id=6'
 const STD = { data: [] }
 
 function Vis6() {

@@ -17,7 +17,7 @@ function Login({ closePopup, openAnother }) {
   async function handleSubmit(e, username, password) {
     try {
       await axios
-        .post(`http://localhost:3000${URL}`, {
+        .post(process.env.REACT_APP_API_ADDRESS + URL, {
           username: username.toLowerCase(),
           password: password,
         })
