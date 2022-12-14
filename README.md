@@ -1,78 +1,46 @@
-<<<<<<< HEAD
+# OAMK 2nd year Adanced Web Application Project
 
-# Getting Started with Create React App
+## FRONT-END:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### DIN21SP Group 9
 
-## Available Scripts
+On October 31, 2022, we began a new course. We were to choose our team members to work with. We chose our group with the conditions that the members are willing to work in the campus together during weekdays, approximately from 8-16 as much as possible. Our team mutually agreed as well to aim for the highest grade possible (5).
 
-In the project directory, you can run:
+The task was to design and implement a data visualization application for visualizing climate change data such as temperature and co2. The tools required for this were given that the frontend must use React- frameworks and the backend written with either Java or JavaScript. We chose the latter. To generate the visualization charts, we used the JavaScript library for HTML charts: ChartJS. For website design we sketched the look of the website first on Figma.
 
-### `npm start`
+### Kick-Off – The UI Plan
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+We wanted to create a very minimalistic UI design to keep the focus of the page in the graphs. For inspiration, we looked up other websites for different visualizations and we ended up with ‘lights off’ colors. We believed that darker image provides more emphasize to the page and is easier for the eyes. Very quickly then, we began sketching the page using Figma to visualize the static outlook of the page.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+During our meetings we decomposed the project for every week into phases of progression. At first, we sketched a roadmap, how we want to aim progression every week. In addition, by the end of every week, we would setup a team meeting where we would discuss in detail of our current progress and what tasks to distribute.
 
-### `npm test`
+We kicked off with all of us learning ChartJS and its properties using various guides on YouTube and StackOverflow before starting to implement the data.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+For this project, all of us have participated and contributed to designing, programming, implementing, and leading of this project. This has made the project very engaging for everyone. Last project where we had designated jobs, but this task requires for us all to contribute as equally as possible. Especially when aiming for the grade we wanted to.
 
-### `npm run build`
+### Implementation – The Architecture of the application
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Our application is built in a NodeJS runtime environment and follows the following architecture:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Front end
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Front-end is the face of our application. When a user visits our website, it is the first element they see. It is built within ReactJS frameworks which handles the different imported user interface components which communicate the back end to render the web page.
+Axios handles the pages HTTP requests to the back end and posts result back to the user such as sign-up and login and fetching the visualization data and ChartJS of course to render that given data.
 
-### `npm run eject`
+#### Back end
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Our back end is connected to PostgreSQL-Database which then is running on a container with Docker. Through it, we compile the necessary data such as the JSON-data of the visualizations and which the server communicates with to run and render the web site. The server also collects cookies (JW-Tokens) to authorize and authenticate real users and to store their customized views.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### How to run Front-end:
+You need to install required modules:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`npm install`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Then you would be able to run fron-end with:
 
-## Learn More
+`npm start`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### The Last Stretch
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-# This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# AWAP-front-end
-
-UI for OAMK 2nd year Adanced Web Application Project
-
-> > > > > > > 71eb8efacb7d73db68b53a70876409d31ee482d1
+The following weeks all the members have worked significant effort to push all the 9 different visualizations. The last weeks we have been pushing the user functionalities, final changes on CSS, and getting ready to deploy our application.
+This project has been for us a challenging and rewarding experience, where we have learned new tools and techniques in programming. The use of group working tools like Github and Teams have played an intricate part. Every member had the opportunity to gain experience on how to lead a project and to follow one.
