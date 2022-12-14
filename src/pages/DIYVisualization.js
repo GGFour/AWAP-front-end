@@ -63,7 +63,7 @@ function DIYVisualizations({ isCustom }) {
     if (isCustom) {
       let id = urlParams.customId
       axios
-        .get(`http://localhost:3000${URL}?id=${id}`)
+        .get(process.env.REACT_APP_API_ADDRESS + `${URL}?id=${id}`)
         .then((response) => {
           // alert(JSON.stringify(response.data, null, 2))
           let tmpConf = {
