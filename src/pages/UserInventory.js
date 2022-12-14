@@ -14,7 +14,7 @@ function UserInventory() {
   }
   useEffect(() => {
     axios
-      .get(`http://localhost:3000${URL1}`, { headers })
+      .get(process.env.REACT_APP_API_ADDRESS + URL1, { headers })
       .then((response) => {
         setCustomVis(response.data)
       })
@@ -25,7 +25,7 @@ function UserInventory() {
 
   const deleteCustomVis = (index, urlId) => {
     axios
-      .delete(`http://localhost:3000${URL2}?id=${urlId}`, {
+      .delete(process.env.REACT_APP_API_ADDRESS + URL2 + `?id=${urlId}`, {
         headers,
       })
       .then(() => {

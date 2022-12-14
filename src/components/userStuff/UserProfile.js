@@ -32,9 +32,9 @@ function UserProfile() {
   return (
     <div className="profile">
       <h1>User Profile</h1>
-      <div className="user-info">
+      {/* <div className="user-info">
         <p>Username</p>
-      </div>
+      </div> */}
       <div className="user-list">
         <Link to="/diy" className="user-todo">
           Make My Vis
