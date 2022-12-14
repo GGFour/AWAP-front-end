@@ -287,7 +287,7 @@ VISUALIZATION DESIGN
 }
 
 .chart {
-  height: 100vh;
+  height: 50vh;
   width: 100%;
 }
 .user-inventory {
@@ -325,7 +325,6 @@ CUSTOM VIEW DESIGN
   justify-content: space-around;
 }
 .chart-warpper {
-  border: 1px solid #7a76ff;
   border-radius: 1rem;
   word-wrap: break-word;
   display: flex;

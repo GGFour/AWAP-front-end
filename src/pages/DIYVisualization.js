@@ -163,7 +163,7 @@ function DIYVisualizations({ isCustom }) {
       }
       return accumulator
     },
-    [])
+      [])
   }
   function generateVisualizations(visualizations, configuration) {
     const filtered = filterVisByConfig(visualizations, configuration.visconf)
@@ -180,14 +180,15 @@ function DIYVisualizations({ isCustom }) {
               return (
                 <>
                   <div className="column">
-                    <Vis />
                     <ChartWrapper
                       authorized={!viewAsGuest && isOwner}
                       hide={configuration.visconf[vis.idx].hidden}
                       hiddenCallback={() => setHidden(vis.idx)}
                       data={configuration.visconf[vis.idx].data}
                       dataCallback={(data) => saveText(data, vis.idx)}
-                    ></ChartWrapper>
+                    >
+                      <Vis />
+                    </ChartWrapper>
                   </div>
                 </>
               )

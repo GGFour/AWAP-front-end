@@ -42,7 +42,7 @@ function ChartWrapper({
 
   if (hidden) {
     return (
-      <div>
+      <div className="chart-warpper">
         {authorized ? (
           <button type="button" onClick={toggleHidden}>
             Show
@@ -53,7 +53,7 @@ function ChartWrapper({
   } else {
     return (
       <div className="chart-warpper">
-        <p1 className="custom-p">Customize your own chart</p1>
+        <p1 className="custom-p">{authorized ? 'Customize your own chart' : null}</p1>
         {authorized ? (
           <button type="button" onClick={toggleHidden}>
             Hide
@@ -62,7 +62,8 @@ function ChartWrapper({
         {children}
         {!edit ? (
           <>
-            <h3>{text.length == 0 ? (authorized ? '' : data) : text}</h3>
+            {authorized ? (<h2>Add Comment:</h2>) : (data ? <h2>Comment from author:</h2> : null)}
+            <h3>{text.length == 0 ? (authorized ? 'Your text here' : data) : text}</h3>
             {authorized ? (
               <button type="button" onClick={() => toggleEdit()}>
                 Edit
