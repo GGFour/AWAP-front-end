@@ -174,21 +174,20 @@ function DIYVisualizations({ isCustom }) {
     return splited.map((visPair) => {
       return (
         <>
-          <div className="row align-items-top">
+          <div className="column-div">
             {visPair.map((vis) => {
               const Vis = vis.vis
               return (
                 <>
-                  <div className="col">
+                  <div className="column">
+                    <Vis />
                     <ChartWrapper
                       authorized={!viewAsGuest && isOwner}
                       hide={configuration.visconf[vis.idx].hidden}
                       hiddenCallback={() => setHidden(vis.idx)}
                       data={configuration.visconf[vis.idx].data}
                       dataCallback={(data) => saveText(data, vis.idx)}
-                    >
-                      <Vis />
-                    </ChartWrapper>
+                    ></ChartWrapper>
                   </div>
                 </>
               )
@@ -204,7 +203,7 @@ function DIYVisualizations({ isCustom }) {
       <div className="visPage-body">
         <h2>Visualizations</h2>
         {isOwner ? (
-          <>
+          <div className="custom-btns">
             <button type="button" onClick={saveCustom}>
               Save My Visualization
             </button>
@@ -221,12 +220,12 @@ function DIYVisualizations({ isCustom }) {
             <button type="button" onClick={split}>
               {splitViews ? 'Unsplit views' : 'Split views by 2 columns  '}
             </button>
-          </>
+          </div>
         ) : (
           <h1>Created by {owner}</h1>
         )}
 
-        <div className="container">
+        <div className="vis-container">
           {generateVisualizations(VISUALIZATIONS, config)}
         </div>
       </div>

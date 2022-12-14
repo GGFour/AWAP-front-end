@@ -52,7 +52,8 @@ function ChartWrapper({
     )
   } else {
     return (
-      <div>
+      <div className="chart-warpper">
+        <p1 className="custom-p">Customize your own chart</p1>
         {authorized ? (
           <button type="button" onClick={toggleHidden}>
             Hide
@@ -61,13 +62,7 @@ function ChartWrapper({
         {children}
         {!edit ? (
           <>
-            <h3>
-              {text.length == 0
-                ? authorized
-                  ? 'Change mee. . .'
-                  : data
-                : text}
-            </h3>
+            <h3>{text.length == 0 ? (authorized ? '' : data) : text}</h3>
             {authorized ? (
               <button type="button" onClick={() => toggleEdit()}>
                 Edit
@@ -77,7 +72,11 @@ function ChartWrapper({
         ) : null}
         {edit && authorized ? (
           <>
-            <input value={text} onChange={(e) => setText(e.target.value)} />
+            <input
+              value={text}
+              onChange={(e) => setText(e.target.value)}
+              className="edit-input"
+            />
             <button type="button" onClick={() => saveText()}>
               Save
             </button>
